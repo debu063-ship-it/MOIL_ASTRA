@@ -486,6 +486,7 @@ export const CesiumMap: React.FC = () => {
             lon - HALF, lat + HALF
           ]),
           // Terrain-clamped extrusion: base follows World Terrain automatically
+          height: 0,
           heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
           extrudedHeight: blockH,
           material: Cesium.Color.fromCssColorString(color).withAlpha(0.85),
@@ -529,14 +530,22 @@ export const CesiumMap: React.FC = () => {
     if (!viewerRef.current) return;
     const globe = viewerRef.current.scene.globe;
     const isTranslucent = layers.terrainTransparent || layers.undergroundMode;
-    // Softer X-ray: imagery stays readable behind the subsurface instead of
-    // ghosting to black space (hard 0.25 alpha made the whole view go dark).
-    globe.translucency.frontFaceAlpha = layers.undergroundMode ? 0.55 : (isTranslucent ? 0.35 : 1.0);
-    globe.translucency.backFaceAlpha = layers.undergroundMode ? 0.65 : (isTranslucent ? 0.45 : 1.0);
+    // Underground X-ray: dial the surface way down so the fully-opaque ore
+    // blocks read bright through it (0.55 left them muddy; 0.25 read as black).
+    globe.translucency.frontFaceAlpha = layers.undergroundMode ? 0.4 : (isTranslucent ? 0.35 : 1.0);
+    globe.translucency.backFaceAlpha = layers.undergroundMode ? 0.5 : (isTranslucent ? 0.45 : 1.0);
     globe.depthTestAgainstTerrain = !isTranslucent;
-    // In underground mode the voxel field hides so the subsurface reads clearly
+    // In underground mode the voxel field hides so the subsurface reads clearly,
+    // and surface vector paints (zone fills, boundary outlines) hide so their
+    // colors don't bleed through the X-ray and drown the ore blocks.
     if (voxelDataSourceRef.current) {
       voxelDataSourceRef.current.show = !layers.undergroundMode;
+    }
+    if (zonesDataSourceRef.current) {
+      zonesDataSourceRef.current.show = !layers.undergroundMode;
+    }
+    if (boundaryDataSourceRef.current) {
+      boundaryDataSourceRef.current.show = !layers.undergroundMode;
     }
   }, [layers.terrainTransparent, layers.undergroundMode]);
 
@@ -617,8 +626,10 @@ export const CesiumMap: React.FC = () => {
             flatDegrees.push(pt[0], pt[1]);
           });
 
+          // Zone-prefix the id: backend numbers blocks OB-01.. per zone, and
+          // UKWA + GUDMA load together in underground mode.
           ds.entities.add({
-            id: `block-${block.id}${ghost ? '-ghost' : ''}`,
+            id: `block-${zoneId}-${block.id}${ghost ? '-ghost' : ''}`,
             polygon: {
               hierarchy: Cesium.Cartesian3.fromDegreesArray(flatDegrees),
               height: block.bottomAltitude,
@@ -633,22 +644,51 @@ export const CesiumMap: React.FC = () => {
             }
           });
         });
-      }).catch(err => console.error(`Error rendering 3D ore volume (${zoneId}):`, err));
+      }).catch(err => console.error(`Error rendering 3D ore volume (${zoneId}):`, err?.message || err, err?.stack?.split('\n')[1] || ''));
 
     if (underground) {
-      // Underground mapping: every GSI resource block for both explored deposits,
-      // then auto-fit the camera to the blocks — they span ~1.8 km across two
-      // clusters, so a fixed camera position leaves them off-screen (black view).
+      // Underground mapping: every GSI resource block for both explored deposits.
+      // Real seam thickness is 4-6 m — invisible at mine scale — so blocks are
+      // rendered with ×12 vertical exaggeration, sunk just below local terrain
+      // (standard mining-visualization practice; tonnage/grade stay real).
       Promise.all([loadZone('UKWA', false), loadZone('GUDMA', false)]).then(() => {
         const viewer = viewerRef.current;
-        if (!viewer || viewer.isDestroyed() || !undergroundFlyDoneRef.current) return;
+        if (!viewer || viewer.isDestroyed()) return;
+
+        const exaggerate = (attempt = 0) => {
+          if (viewer.isDestroyed()) return;
+          let terrainReady = true;
+          ds.entities.values.forEach((e) => {
+            if (!e.id?.startsWith('block-') || !e.polygon || !e.properties) return;
+            // Skip the Gudma cluster's blocks only if terrain hasn't loaded there;
+            // the exaggerate pass handles every loaded block uniformly.
+            const b = e.properties.getValue(Cesium.JulianDate.now())?.blockData;
+            if (!b?.center) return;
+            const carto = Cesium.Cartographic.fromDegrees(b.center[0], b.center[1]);
+            const g = viewer.scene.globe.getHeight(carto);
+            if (g === undefined || !Number.isFinite(g)) { terrainReady = false; return; }
+            const realThick = Math.max(4, b.topAltitude - b.bottomAltitude);
+            const thick = Math.max(30, realThick * 12);
+            const top = Math.min(b.topAltitude, g - 4);
+            e.polygon.height = new Cesium.ConstantProperty(top - thick);
+            e.polygon.extrudedHeight = new Cesium.ConstantProperty(top);
+            e.polygon.material = new Cesium.ColorMaterialProperty(
+              Cesium.Color.fromCssColorString(b.color).withAlpha(1.0));
+            e.polygon.outlineColor = new Cesium.ConstantProperty(
+              Cesium.Color.WHITE.withAlpha(0.7));
+            e.polygon.outlineWidth = new Cesium.ConstantProperty(2);
+          });
+          if (!terrainReady && attempt < 8) setTimeout(() => exaggerate(attempt + 1), 600);
+        };
+        exaggerate();
+
         undergroundFlyDoneRef.current = false;
         viewer.flyTo(ds.entities.values, {
           duration: 2.2,
           offset: new Cesium.HeadingPitchRange(
             Cesium.Math.toRadians(0),
             Cesium.Math.toRadians(-35),
-            2400
+            1900
           )
         });
       }).catch(() => { /* blocks already render; fly is cosmetic */ });
@@ -878,7 +918,7 @@ export const CesiumMap: React.FC = () => {
         <div className="fixed top-14 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-3.5 py-2 bg-[#0f172a]/90 backdrop-blur-md rounded-xl border border-sky-400/50 shadow-2xl pointer-events-none">
           <Box className="w-4 h-4 text-sky-400" />
           <span className="text-xs font-bold text-sky-200 tracking-wide">UNDERGROUND MAPPING</span>
-          <span className="text-[10px] font-mono text-slate-400">GSI blocks · real borehole depth</span>
+          <span className="text-[10px] font-mono text-slate-400">GSI blocks (×12 vert. exaggeration) · real borehole depth</span>
         </div>
       )}
 
