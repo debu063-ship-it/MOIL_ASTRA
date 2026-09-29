@@ -7,11 +7,13 @@ import {
   Layers as LayersIcon, 
   Compass, 
   RotateCw,
-  Globe
+  Globe,
+  Box
 } from 'lucide-react';
 
 export const LeftToolbar: React.FC = () => {
-  const { backToOverview, layers, setLayerVisibility } = useStore();
+  const { backToOverview, layers, setLayerVisibility, toggleUnderground } = useStore();
+  const underground = layers.undergroundMode;
 
   const handleZoomIn = () => {
     const viewer = (window as any).cesiumViewer;
@@ -78,6 +80,21 @@ export const LeftToolbar: React.FC = () => {
             className="w-8 h-8 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-white/10 transition-colors"
           >
             <Compass className="w-4 h-4" />
+          </button>
+
+          <div className="h-[1px] bg-white/10 w-full" />
+
+          <button
+            onClick={toggleUnderground}
+            title="Underground mapping — X-ray surface, real ore blocks & borehole depths"
+            aria-pressed={underground}
+            className={`w-8 h-8 rounded-lg flex items-center justify-center transition-colors ${
+              underground
+                ? 'bg-sky-500/25 text-sky-300 ring-1 ring-sky-400/60'
+                : 'text-slate-300 hover:text-white hover:bg-white/10'
+            }`}
+          >
+            <Box className={`w-4 h-4 ${underground ? 'drop-shadow-[0_0_4px_rgba(56,189,248,0.8)]' : ''}`} />
           </button>
         </div>
       </aside>

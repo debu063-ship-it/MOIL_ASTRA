@@ -8,13 +8,14 @@ import {
   fetchGeology, 
   fetchOreVolume, 
   fetchClimateGrid,
-  fetchKnownOccurrences
+  fetchKnownOccurrences,
+  fetchGridScores
 } from '@/lib/api';
 import { TIMELINE_MARKS } from '@/lib/layers';
 import { calculatePolygonAreaHectares } from '@/lib/geo';
 import { baselineSimulation } from '@/lib/simulate';
 import { SourceBadge } from '@/components/ui/Badge';
-import { Sparkles, Eye, Navigation, AlertTriangle } from 'lucide-react';
+import { Sparkles, Eye, Navigation, AlertTriangle, Box } from 'lucide-react';
 
 // 1. Read token from import.meta.env.VITE_CESIUM_ION_TOKEN (not NEXT_PUBLIC_...)
 const ionToken = import.meta.env.VITE_CESIUM_ION_TOKEN;
@@ -27,12 +28,12 @@ const isTokenConfigured = Boolean(
 // Center Coordinates: Ukwa/Gudma Mn blocks, Balaghat district (NGDR toposheet 64C/05)
 const CENTER_LNG = 80.45;
 const CENTER_LAT = 21.97;
-const OVERVIEW_HEIGHT = 3400;
+const OVERVIEW_HEIGHT = 6500;
 // Helper to update entity material and outline alpha in real time for vector data sources
 const updateDataSourceOpacity = (
   ds: Cesium.CustomDataSource | null,
   opacity: number,
-  layerType: 'geology' | 'boundary' | 'occurrences' | 'infra' | 'dem' | 'thickness'
+  layerType: 'geology' | 'boundary' | 'occurrences' | 'infra' | 'dem' | 'thickness' | 'voxels'
 ) => {
   if (!ds) return;
   const entities = ds.entities.values;
@@ -41,7 +42,11 @@ const updateDataSourceOpacity = (
     const baseColor = (entity as any)._baseColor || '#38bdf8';
     const c = Cesium.Color.fromCssColorString(baseColor);
 
-    if (layerType === 'boundary') {
+    if (layerType === 'voxels') {
+      if (entity.polygon) {
+        entity.polygon.material = new Cesium.ColorMaterialProperty(c.withAlpha(0.85 * opacity));
+      }
+    } else if (layerType === 'boundary') {
       if (entity.polygon) {
         entity.polygon.material = new Cesium.ColorMaterialProperty(c.withAlpha(0.12 * opacity));
         entity.polygon.outlineColor = new Cesium.ConstantProperty(c.withAlpha(opacity));
@@ -106,12 +111,15 @@ export const CesiumMap: React.FC = () => {
   const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number } | null>(null);
 
   // Cache data sources
+  const voxelDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
+  const gridScoresRef = useRef<any>(null);
   const zonesDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
   const oreVolumeDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
   const boreholesDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
   const boundaryDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
   const geologyDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
   const climateDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
+  const undergroundFlyDoneRef = useRef(false);
   const occurrencesDataSourceRef = useRef<Cesium.CustomDataSource | null>(null);
 
   // Raw data storage
@@ -150,9 +158,10 @@ export const CesiumMap: React.FC = () => {
           })
         : undefined,
       baseLayer: new Cesium.ImageryLayer(
-        new Cesium.OpenStreetMapImageryProvider({
-          url: 'https://tile.openstreetmap.org/',
-          credit: '© OpenStreetMap contributors',
+        new Cesium.UrlTemplateImageryProvider({
+          url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+          credit: 'Imagery © Esri, Maxar, Earthstar Geographics',
+          maximumLevel: 18,
         })
       ),
     });
@@ -171,7 +180,9 @@ export const CesiumMap: React.FC = () => {
 
     // Enable 3D depth test against terrain so 3D relief is visible
     globe.depthTestAgainstTerrain = true;
-    globe.enableLighting = true;
+    // Keep the scene fully lit regardless of real sun position (demo may run at
+    // any hour — day/night shading would black out the satellite imagery).
+    globe.enableLighting = false;
 
     // Enable Underground Ore Volume Visibility via Globe Translucency
     globe.translucency.enabled = true;
@@ -179,16 +190,19 @@ export const CesiumMap: React.FC = () => {
     globe.translucency.backFaceAlpha = 1.0;
 
     // Initial Overview Camera - tilted to display 3D terrain relief
+    // Tilted hero view: camera sits south of the Ukwa cluster and looks north
+    // onto the high-probability voxel field (ground center ≈ CENTER_LAT).
     viewer.camera.setView({
-      destination: Cesium.Cartesian3.fromDegrees(CENTER_LNG, CENTER_LAT - 0.025, OVERVIEW_HEIGHT),
+      destination: Cesium.Cartesian3.fromDegrees(CENTER_LNG, CENTER_LAT - 0.045, OVERVIEW_HEIGHT),
       orientation: {
         heading: Cesium.Math.toRadians(0),
-        pitch: Cesium.Math.toRadians(-35),
+        pitch: Cesium.Math.toRadians(-55),
         roll: 0.0
       }
     });
 
     // Create Custom Data Sources for fast dynamic rendering
+    const vDS = new Cesium.CustomDataSource('voxels');
     const zDS = new Cesium.CustomDataSource('zones');
     const oDS = new Cesium.CustomDataSource('oreVolume');
     const bDS = new Cesium.CustomDataSource('boreholes');
@@ -197,6 +211,7 @@ export const CesiumMap: React.FC = () => {
     const cDS = new Cesium.CustomDataSource('climate');
     const occDS = new Cesium.CustomDataSource('occurrences');
 
+    viewer.dataSources.add(vDS);
     viewer.dataSources.add(zDS);
     viewer.dataSources.add(oDS);
     viewer.dataSources.add(bDS);
@@ -205,6 +220,7 @@ export const CesiumMap: React.FC = () => {
     viewer.dataSources.add(cDS);
     viewer.dataSources.add(occDS);
 
+    voxelDataSourceRef.current = vDS;
     zonesDataSourceRef.current = zDS;
     oreVolumeDataSourceRef.current = oDS;
     boreholesDataSourceRef.current = bDS;
@@ -218,10 +234,12 @@ export const CesiumMap: React.FC = () => {
       fetchZones(),
       fetchBoreholes(),
       fetchGeology(),
-      fetchKnownOccurrences()
-    ]).then(([zonesRes, boreholesRes, geologyRes, occRes]) => {
+      fetchKnownOccurrences(),
+      fetchGridScores({ minLat: 21.55, minLon: 80.0, maxLat: 22.06, maxLon: 80.5 })
+    ]).then(([zonesRes, boreholesRes, geologyRes, occRes, gridRes]) => {
       zonesDataRef.current = zonesRes;
       boreholesDataRef.current = boreholesRes;
+      gridScoresRef.current = gridRes;
 
       // 1. Geology outlines (blue boundary rendering of the real mapped polygons)
       geologyRes.features.forEach((feat: any, bgi: number) => {
@@ -326,6 +344,9 @@ export const CesiumMap: React.FC = () => {
       updateDataSourceOpacity(lDS, curLayers.geology?.opacity ?? 0.5, 'boundary');
       updateDataSourceOpacity(gDS, curLayers.geology?.opacity ?? 0.5, 'geology');
       updateDataSourceOpacity(occDS, curLayers.known_occurrences?.opacity ?? 1.0, 'occurrences');
+
+      // Force re-render of voxel + borehole effects now that raw data is ready
+      setMapDataReady(true);
     }).catch(err => {
       console.error('Error loading initial map data:', err);
       setLoadingMap(false);
@@ -334,13 +355,35 @@ export const CesiumMap: React.FC = () => {
     // Setup Screen Space Event Handler for Mouse Interactions
     const handler = new Cesium.ScreenSpaceEventHandler(scene.canvas);
 
+    // Resolve a grid-cell pseudo-zone to the nearest named zone (Z-xxx) so the
+    // 5-step analysis panel opens with real zone data on voxel click/hover.
+    const resolveZoneForCell = (cellData: any) => {
+      const feats = zonesDataRef.current?.features || [];
+      let best: any = null;
+      let bestD = Infinity;
+      feats.forEach((f: any) => {
+        const ring = f.geometry.coordinates[0];
+        let sx = 0, sy = 0;
+        ring.forEach((p: number[]) => { sx += p[0]; sy += p[1]; });
+        const cx = sx / ring.length, cy = sy / ring.length;
+        const d = (cx - cellData.gridRef.lon) ** 2 + (cy - cellData.gridRef.lat) ** 2;
+        if (d < bestD) { bestD = d; best = f; }
+      });
+      if (!best) return cellData;
+      return {
+        ...best.properties,
+        areaHectares: calculatePolygonAreaHectares(best.geometry.coordinates),
+      };
+    };
+
     // Mouse Move: Hover Detection
     handler.setInputAction((movement: any) => {
       const pickedObject = scene.pick(movement.endPosition);
       if (Cesium.defined(pickedObject) && pickedObject.id && pickedObject.id.properties) {
         const props = pickedObject.id.properties;
         if (props.hasProperty('zoneData')) {
-          const zoneData = props.getValue(Cesium.JulianDate.now()).zoneData;
+          const raw = props.getValue(Cesium.JulianDate.now()).zoneData;
+          const zoneData = raw?.id?.startsWith('CELL-') ? resolveZoneForCell(raw) : raw;
           setHoveredZone(zoneData);
           setTooltipPos({ x: movement.endPosition.x, y: movement.endPosition.y });
           setClimateTooltip(null);
@@ -381,9 +424,10 @@ export const CesiumMap: React.FC = () => {
       if (Cesium.defined(pickedObject) && pickedObject.id && pickedObject.id.properties) {
         const props = pickedObject.id.properties;
 
-        // Clicked a Zone
+        // Clicked a Zone (or a voxel cell — resolved to its nearest named zone)
         if (props.hasProperty('zoneData')) {
-          const zoneData = props.getValue(Cesium.JulianDate.now()).zoneData;
+          const raw = props.getValue(Cesium.JulianDate.now()).zoneData;
+          const zoneData = raw?.id?.startsWith('CELL-') ? resolveZoneForCell(raw) : raw;
           selectZone(zoneData.id, zoneData);
           return;
         }
@@ -402,17 +446,99 @@ export const CesiumMap: React.FC = () => {
       handler.destroy();
       viewer.destroy();
       viewerRef.current = null;
+      undergroundFlyDoneRef.current = false;
     };
   }, []);
 
-  // 2. Sync Terrain Translucency
+  // 1b. 3D Voxel Prospectivity Terrain — stepped probability blocks draped on satellite imagery
+  useEffect(() => {
+    const ds = voxelDataSourceRef.current;
+    if (!ds) return;
+
+    ds.entities.removeAll();
+    const visible = layers.layers.prospectivity?.visible ?? true;
+    if (!visible || !gridScoresRef.current) return;
+
+    const PROB_COLORS: [number, string][] = [
+      [0.8, '#ef4444'], [0.6, '#f97316'], [0.4, '#eab308'], [0.0, '#3b82f6']
+    ];
+    const probColor = (p: number) =>
+      PROB_COLORS.find(([t]) => p >= t)?.[1] ?? '#3b82f6';
+
+    const feats = gridScoresRef.current.features || [];
+    // Voxel footprint ~ half the cell spacing (~0.005° ≈ 550 m → ~270 m squares)
+    const HALF = 0.0025;
+    feats.forEach((feat: any, vi: number) => {
+      const lon = feat.geometry.coordinates[0];
+      const lat = feat.geometry.coordinates[1];
+      const prob = feat.properties.prob_v3;
+      const color = probColor(prob);
+      // Exaggerated relief: probability drives block height (50–450 m)
+      const blockH = 50 + prob * 400;
+
+      const ent = ds.entities.add({
+        id: `voxel-${vi}`,
+        polygon: {
+          hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            lon - HALF, lat - HALF,
+            lon + HALF, lat - HALF,
+            lon + HALF, lat + HALF,
+            lon - HALF, lat + HALF
+          ]),
+          // Terrain-clamped extrusion: base follows World Terrain automatically
+          heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+          extrudedHeight: blockH,
+          material: Cesium.Color.fromCssColorString(color).withAlpha(0.85),
+          outline: true,
+          outlineColor: Cesium.Color.fromCssColorString(color).withAlpha(0.35),
+          outlineWidth: 1
+        },
+        properties: {
+          zoneData: {
+            id: `CELL-${vi}`,
+            name: `Grid cell ${feat.properties.risk_category_v3} risk`,
+            probability: prob,
+            riskCategory: feat.properties.risk_category_v3,
+            color,
+            source: 'MODELED',
+            avgGrade: '—',
+            estimatedReserveTons: 0,
+            gridRef: { lat, lon }
+          }
+        }
+      });
+      (ent as any)._baseColor = color;
+    });
+
+    const curOpacity = useStore.getState().layers.layers.prospectivity?.opacity ?? 0.85;
+    updateDataSourceOpacity(ds, curOpacity, 'voxels');
+  }, [mapDataReady, layers.layers.prospectivity?.visible]);
+
+  // 1c. Voxel opacity follows the prospectivity layer slider
+  useEffect(() => {
+    if (!voxelDataSourceRef.current) return;
+    updateDataSourceOpacity(
+      voxelDataSourceRef.current,
+      layers.layers.prospectivity?.opacity ?? 0.85,
+      'voxels'
+    );
+  }, [layers.layers.prospectivity?.opacity, mapDataReady]);
+
+  // 2. Sync Terrain Translucency + underground X-ray mode
   useEffect(() => {
     if (!viewerRef.current) return;
     const globe = viewerRef.current.scene.globe;
-    const isTranslucent = layers.terrainTransparent;
-    globe.translucency.frontFaceAlpha = isTranslucent ? 0.35 : 1.0;
+    const isTranslucent = layers.terrainTransparent || layers.undergroundMode;
+    // Softer X-ray: imagery stays readable behind the subsurface instead of
+    // ghosting to black space (hard 0.25 alpha made the whole view go dark).
+    globe.translucency.frontFaceAlpha = layers.undergroundMode ? 0.55 : (isTranslucent ? 0.35 : 1.0);
+    globe.translucency.backFaceAlpha = layers.undergroundMode ? 0.65 : (isTranslucent ? 0.45 : 1.0);
     globe.depthTestAgainstTerrain = !isTranslucent;
-  }, [layers.terrainTransparent]);
+    // In underground mode the voxel field hides so the subsurface reads clearly
+    if (voxelDataSourceRef.current) {
+      voxelDataSourceRef.current.show = !layers.undergroundMode;
+    }
+  }, [layers.terrainTransparent, layers.undergroundMode]);
 
   // 3. Render / Update Zones
   useEffect(() => {
@@ -470,7 +596,7 @@ export const CesiumMap: React.FC = () => {
     });
   }, [mapDataReady, layers.layers.prospectivity, flow.stage, flow.selectedZoneId, whatIf]);
 
-  // 4. Render 3D Extruded Ore Volume in Zoomed/Step State
+  // 4. Render 3D Extruded Ore Volume — all GSI blocks in underground mode, zone blocks in zoomed mode
   useEffect(() => {
     const ds = oreVolumeDataSourceRef.current;
     if (!ds) return;
@@ -478,38 +604,58 @@ export const CesiumMap: React.FC = () => {
     ds.entities.removeAll();
 
     const isZoomed = flow.stage === 'zoomed' || flow.stage === 'step';
-    const zoneId = flow.selectedZoneId || 'UKWA';
+    const underground = layers.undergroundMode;
+    if (underground) undergroundFlyDoneRef.current = true;
+    if (!isZoomed && !underground) return;
 
-    if (!isZoomed) return;
+    const loadZone = (zoneId: string, ghost: boolean) =>
+      fetchOreVolume(zoneId).then((volData) => {
+        volData.blocks.forEach((block) => {
+          const coords = block.coordinates;
+          const flatDegrees: number[] = [];
+          coords.forEach((pt) => {
+            flatDegrees.push(pt[0], pt[1]);
+          });
 
-    fetchOreVolume(zoneId).then((volData) => {
-      volData.blocks.forEach((block) => {
-        // Compute extruded polygon or box
-        const coords = block.coordinates;
-        const flatDegrees: number[] = [];
-        coords.forEach((pt) => {
-          flatDegrees.push(pt[0], pt[1]);
+          ds.entities.add({
+            id: `block-${block.id}${ghost ? '-ghost' : ''}`,
+            polygon: {
+              hierarchy: Cesium.Cartesian3.fromDegreesArray(flatDegrees),
+              height: block.bottomAltitude,
+              extrudedHeight: block.topAltitude,
+              material: Cesium.Color.fromCssColorString(block.color).withAlpha(ghost ? 0.4 : 0.85),
+              outline: true,
+              outlineColor: Cesium.Color.fromCssColorString(block.color).withAlpha(ghost ? 0.35 : 0.55),
+              outlineWidth: 1.5
+            },
+            properties: {
+              blockData: block
+            }
+          });
         });
+      }).catch(err => console.error(`Error rendering 3D ore volume (${zoneId}):`, err));
 
-        // 3D Voxel block cutting below the ground level
-        ds.entities.add({
-          id: `block-${block.id}`,
-          polygon: {
-            hierarchy: Cesium.Cartesian3.fromDegreesArray(flatDegrees),
-            height: block.bottomAltitude,
-            extrudedHeight: block.topAltitude,
-            material: Cesium.Color.fromCssColorString(block.color).withAlpha(0.85),
-            outline: true,
-            outlineColor: Cesium.Color.fromCssColorString(block.color).withAlpha(0.4),
-            outlineWidth: 1
-          },
-          properties: {
-            blockData: block
-          }
+    if (underground) {
+      // Underground mapping: every GSI resource block for both explored deposits,
+      // then auto-fit the camera to the blocks — they span ~1.8 km across two
+      // clusters, so a fixed camera position leaves them off-screen (black view).
+      Promise.all([loadZone('UKWA', false), loadZone('GUDMA', false)]).then(() => {
+        const viewer = viewerRef.current;
+        if (!viewer || viewer.isDestroyed() || !undergroundFlyDoneRef.current) return;
+        undergroundFlyDoneRef.current = false;
+        viewer.flyTo(ds.entities.values, {
+          duration: 2.2,
+          offset: new Cesium.HeadingPitchRange(
+            Cesium.Math.toRadians(0),
+            Cesium.Math.toRadians(-35),
+            2400
+          )
         });
-      });
-    }).catch(err => console.error('Error rendering 3D ore volume:', err));
-  }, [flow.stage, flow.selectedZoneId]);
+      }).catch(() => { /* blocks already render; fly is cosmetic */ });
+    } else if (isZoomed) {
+      loadZone(flow.selectedZoneId || 'UKWA', false);
+    }
+  }, [flow.stage, flow.selectedZoneId, layers.undergroundMode]);
 
   // 5. Render Boreholes (Pins in Overview, Vertical Stratigraphic Columns in Close-Up)
   useEffect(() => {
@@ -533,23 +679,26 @@ export const CesiumMap: React.FC = () => {
         return;
       }
 
-      if (isZoomed) {
-        // Render 3D vertical cylinder passing through the ore volume!
-        // Guard: 31 of 50 real holes lack reported depth/elevation — use documented fallbacks.
+      const safeCollar = Number.isFinite(collarElev) ? collarElev : 600;
+      const gradeColor = (g: number | null | undefined) =>
+        g == null ? '#78716c' : g > 40 ? '#dc2626' : g > 30 ? '#ea580c' : g > 20 ? '#d97706' : '#a8a29e';
+      const coreColor = gradeColor(props.interceptMnPercent);
+
+      if (isZoomed || layers.undergroundMode) {
+        // Stratigraphic column at REAL depth: top = collar, bottom = collar − totalDepth
         const totalDepth = props.totalDepthMeters ?? 100;
-        const safeCollar = Number.isFinite(collarElev) ? collarElev : 600;
         const cylinderLength = Math.max(10, Math.min(totalDepth, 400));
         const cylinderCenterElev = safeCollar - (cylinderLength / 2);
 
-        // Vertical column cylinder
+        const colR = layers.undergroundMode ? 9 : 4.5;
         ds.entities.add({
           id: `bh-col-${props.id}`,
           position: Cesium.Cartesian3.fromDegrees(lng, lat, cylinderCenterElev),
           cylinder: {
             length: cylinderLength,
-            topRadius: 4.5,
-            bottomRadius: 4.5,
-            material: Cesium.Color.fromCssColorString((props.interceptMnPercent ?? 0) > 40 ? '#ef4444' : '#f97316').withAlpha(0.9 * opacity),
+            topRadius: colR,
+            bottomRadius: colR,
+            material: Cesium.Color.fromCssColorString(coreColor).withAlpha(0.9 * opacity),
             outline: true,
             outlineColor: Cesium.Color.WHITE.withAlpha(0.7 * opacity),
             outlineWidth: 1.5
@@ -557,22 +706,11 @@ export const CesiumMap: React.FC = () => {
           properties: { boreholeData: props }
         });
 
-        // Top collar tag label (matching screenshot 2 tags)
-        const tagTitles = [
-          "Borehole grade",
-          "Estimated probability",
-          "Click to view",
-          "Estimated grade (% Mn)",
-          "Interception 95",
-          "Anomalies"
-        ];
-        const tagTitle = tagTitles[Math.abs(props.id.charCodeAt(props.id.length - 1)) % tagTitles.length];
-
         ds.entities.add({
           id: `bh-lbl-${props.id}`,
-          position: Cesium.Cartesian3.fromDegrees(lng, lat, (Number.isFinite(collarElev) ? collarElev : 600) + 22),
+          position: Cesium.Cartesian3.fromDegrees(lng, lat, safeCollar + 22),
           label: {
-            text: `${props.name || props.id}${props.interceptMnPercent != null ? `\n${props.interceptMnPercent}% Mn` : '\ncollar only'}`,
+            text: `${props.name || props.id}${props.interceptMnPercent != null ? `\n${props.interceptMnPercent}% Mn` : props.totalDepthMeters ? `\n${Math.round(props.totalDepthMeters)} m deep` : '\ncollar only'}`,
             font: 'bold 11px Inter, monospace',
             fillColor: Cesium.Color.WHITE.withAlpha(opacity),
             showBackground: true,
@@ -584,32 +722,43 @@ export const CesiumMap: React.FC = () => {
           properties: { boreholeData: props }
         });
       } else {
-        // Overview Pin
+        // Overview: grade-colored cores standing above the voxel field (reference-video look)
+        const standH = 280;
+        const hasLog = Array.isArray(props.logs) && props.logs.length > 0;
+
         ds.entities.add({
-          id: `bh-pin-${props.id}`,
-          position: Cesium.Cartesian3.fromDegrees(lng, lat, (Number.isFinite(collarElev) ? collarElev : 600) + 15),
-          point: {
-            pixelSize: 8,
-            color: Cesium.Color.fromCssColorString('#38bdf8').withAlpha(opacity),
-            outlineColor: Cesium.Color.WHITE.withAlpha(opacity),
-            outlineWidth: 2,
-            disableDepthTestDistance: Number.POSITIVE_INFINITY
+          id: `bh-col-${props.id}`,
+          position: Cesium.Cartesian3.fromDegrees(lng, lat, safeCollar + standH / 2),
+          cylinder: {
+            length: standH,
+            topRadius: 12,
+            bottomRadius: 12,
+            material: Cesium.Color.fromCssColorString(coreColor).withAlpha(0.95 * opacity),
+            outline: true,
+            outlineColor: Cesium.Color.WHITE.withAlpha(0.55 * opacity),
+            outlineWidth: 1.2
           },
+          properties: { boreholeData: props }
+        });
+
+        ds.entities.add({
+          id: `bh-lbl-${props.id}`,
+          position: Cesium.Cartesian3.fromDegrees(lng, lat, safeCollar + standH + 30),
           label: {
-            text: props.id,
-            font: '10px Inter',
-            fillColor: Cesium.Color.fromCssColorString('#cbd5e1').withAlpha(opacity),
+            text: `${props.name || props.id}${props.interceptMnPercent != null ? `\n${props.interceptMnPercent.toFixed(1)}% Mn` : hasLog ? '\ncored' : '\ncollar only'}`,
+            font: 'bold 10px Inter, monospace',
+            fillColor: Cesium.Color.WHITE.withAlpha(0.95 * opacity),
             showBackground: true,
-            backgroundColor: Cesium.Color.fromCssColorString('#0b0f19').withAlpha(0.8 * opacity),
-            backgroundPadding: new Cesium.Cartesian2(4, 2),
-            pixelOffset: new Cesium.Cartesian2(0, -14),
+            backgroundColor: Cesium.Color.fromCssColorString('#0f172a').withAlpha(0.9 * opacity),
+            backgroundPadding: new Cesium.Cartesian2(7, 4),
+            verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
             disableDepthTestDistance: Number.POSITIVE_INFINITY
           },
           properties: { boreholeData: props }
         });
       }
     });
-  }, [mapDataReady, layers.layers.boreholes, flow.stage, flow.selectedZoneId]);
+  }, [mapDataReady, layers.layers.boreholes, flow.stage, flow.selectedZoneId, layers.undergroundMode]);
 
   // 6. Render Climate Layers (Driven by TimeSlider)
   useEffect(() => {
@@ -686,8 +835,11 @@ export const CesiumMap: React.FC = () => {
       // Center on the selected zone's real grid reference when available
       const selZone = zonesDataRef.current?.features?.find(
         (f: any) => f.properties.id === zoneId);
-      const targetLng = selZone?.properties?.gridRef?.lon ?? CENTER_LNG;
-      const targetLat = selZone?.properties?.gridRef?.lat ?? CENTER_LAT;
+      const liveZone = useStore.getState().selectedZoneData;
+      const targetLng = selZone?.properties?.gridRef?.lon
+        ?? liveZone?.gridRef?.lon ?? CENTER_LNG;
+      const targetLat = selZone?.properties?.gridRef?.lat
+        ?? liveZone?.gridRef?.lat ?? CENTER_LAT;
 
       camera.flyTo({
         destination: Cesium.Cartesian3.fromDegrees(
@@ -720,6 +872,15 @@ export const CesiumMap: React.FC = () => {
     <div className="relative w-full h-full overflow-hidden select-none bg-[#0b0f19]">
       {/* Cesium Canvas Container */}
       <div ref={containerRef} className="w-full h-full" />
+
+      {/* Underground Mapping HUD badge */}
+      {layers.undergroundMode && (
+        <div className="fixed top-14 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-3.5 py-2 bg-[#0f172a]/90 backdrop-blur-md rounded-xl border border-sky-400/50 shadow-2xl pointer-events-none">
+          <Box className="w-4 h-4 text-sky-400" />
+          <span className="text-xs font-bold text-sky-200 tracking-wide">UNDERGROUND MAPPING</span>
+          <span className="text-[10px] font-mono text-slate-400">GSI blocks · real borehole depth</span>
+        </div>
+      )}
 
       {/* Warning Banner for missing Cesium Ion Token */}
       {tokenMissing && (

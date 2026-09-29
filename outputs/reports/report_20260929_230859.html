@@ -1,0 +1,41 @@
+<html><head><meta charset="utf-8"><style>
+      body{font-family:Segoe UI,Arial; margin:34px; color:#222}
+      h1{color:#0b3d2e} h2{border-bottom:2px solid #0b3d2e; padding-bottom:4px}
+      table{border-collapse:collapse; width:100%} td,th{border:1px solid #bbb; padding:6px 8px; font-size:13px}
+      th{background:#e8f2ec; text-align:left} .note{font-size:11px; color:#555}
+      img{max-width:100%; border:1px solid #ddd; margin:8px 0}
+    </style></head><body>
+    <h1>MOIL Manganese Intelligence — Exploration & Operations Report</h1>
+    <p>Scope: full · Generated 2026-09-29T17:39:00+00:00 UTC</p>
+
+    <h2>1. Prospectivity (model v3)</h2>
+    <img src="C:\Users\Debu018\Downloads\MOIL SIH26009\outputs\reports\report_20260929_230859_scores.png" />
+    <p class="note">Ensemble XGB+RF+HistGB; spatial LOGO ROC 0.997 / PR 0.998.
+    Provenance: real labels (30 known deposits + 50 NGDR collars) on real S2/DEM/GSI features</p>
+
+    <h2>2. Volume &amp; area (GSI resource estimates — real)</h2>
+    <table><tr><th>Block</th><th>Tonnage</th><th>Volume</th><th>Avg Mn</th><th>SG</th><th>Category</th></tr>
+    <tr><td>Gudma</td><td>168,976 t</td><td>80,850 m³</td><td>21.65 % Mn</td><td>2.09</td><td>Inferred (UNFC 333)</td></tr><tr><td>Western Ukwa</td><td>2,182,604 t</td><td>614,818 m³</td><td>36.61 % Mn</td><td>3.55</td><td>Indicated+Inferred (GSI)</td></tr></table>
+    <p class="note">Cross-section totals; the separate probable-partial area (W. Ukwa, 0.21 Mt) overlaps the same block and is reported apart to avoid double counting. District-wide volume would require the other 49 NUID packages.</p>
+
+    <h2>3. Ore grade (core assays — real)</h2>
+    <img src="C:\Users\Debu018\Downloads\MOIL SIH26009\outputs\reports\report_20260929_230859_grades.png" />
+    <table><tr><th>Block</th><th>Ore samples</th><th>Mean Mn</th><th>Mean Fe</th><th>Mean P</th></tr>
+    <tr><td>Gudma</td><td>37</td><td>33.25 %</td><td>4.95 %</td><td>0.78 %</td></tr><tr><td>Western Ukwa</td><td>20</td><td>37.99 %</td><td>7.27 %</td><td>0.55 %</td></tr></table>
+
+    <h2>4. Shortfall prediction (holdout)</h2>
+    <img src="C:\Users\Debu018\Downloads\MOIL SIH26009\outputs\reports\report_20260929_230859_shortfall.png" />
+    <p class="note">ExtraTrees forecaster; holdout MAE ≈ 736 t/month, R² 0.66.
+    Provenance: SYNTHETIC-CALIBRATED: see production_forecast; metrics validate learning, not real ops</p>
+
+    <h2>5. Model registry</h2>
+    <table><tr><th>Model</th><th>Artifact</th><th>Loaded</th></tr>
+    <tr><td>prospectivity</td><td>prospectivity_v3.joblib</td><td>True</td></tr><tr><td>shortfall_forecaster</td><td>shortfall_forecaster_v2.joblib</td><td>True</td></tr><tr><td>whatif_response</td><td>whatif_response_v2.joblib</td><td>True</td></tr><tr><td>shortfall_alert</td><td>shortfall_alert_clf_v2.joblib</td><td>False</td></tr></table>
+
+    <h2>6. Provenance &amp; limitations</h2>
+    <ul class="note">
+      <li>Production/shortfall mine-monthly data: SYNTHETIC-CALIBRATED (real annual MOIL anchors + real rainfall). No public mine-monthly source exists.</li>
+      <li>Corrective actions: rule-based playbook (no action-outcome training data available).</li>
+      <li>Volume/grade claims scoped to the two explored NGDR blocks (Gudma CRO-23394-2017, W. Ukwa CRO-23290-2016).</li>
+    </ul>
+    </body></html>

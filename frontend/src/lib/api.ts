@@ -51,6 +51,14 @@ export async function fetchKnownOccurrences(): Promise<{ features: any[]; metada
   return fetchJson<{ features: any[]; metadata: any }>(`${API_BASE}/layers/moil_mines`);
 }
 
+export async function fetchGridScores(bbox?: { minLat: number; minLon: number; maxLat: number; maxLon: number }): Promise<{ features: any[]; count: number }> {
+  // v3 ensemble probability per grid cell — feeds the 3D voxel prospectivity terrain
+  const p = bbox
+    ? q({ min_lat: bbox.minLat, min_lon: bbox.minLon, max_lat: bbox.maxLat, max_lon: bbox.maxLon, max_cells: 20000 })
+    : '';
+  return fetchJson<{ features: any[]; count: number }>(`${API_BASE}/grid/scores${p}`);
+}
+
 export async function fetchBoreholeStructure(): Promise<{ structure: any[] }> {
   return fetchJson<{ structure: any[] }>(`${API_BASE}/layers/structure`);
 }

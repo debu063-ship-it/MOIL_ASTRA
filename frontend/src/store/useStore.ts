@@ -42,6 +42,7 @@ interface AppStore {
     isPlaying: boolean;
     panelOpen: boolean;
     terrainTransparent: boolean;
+    undergroundMode: boolean; // X-ray globe + real-depth ore blocks & borehole columns
   };
 
   // 3. Corrective Actions State
@@ -79,6 +80,8 @@ interface AppStore {
   togglePlay: () => void;
   toggleTerrainTransparency: () => void;
   setTerrainTransparency: (val: boolean) => void;
+  toggleUnderground: () => void;
+  setUnderground: (val: boolean) => void;
 
   // Action Status Actions
   setActionStatus: (actionId: string, status: ActionStatus) => void;
@@ -116,7 +119,8 @@ export const useStore = create<AppStore>((set) => ({
     timeIndex: 0,
     isPlaying: false,
     panelOpen: false,
-    terrainTransparent: false
+    terrainTransparent: false,
+    undergroundMode: false
   },
 
   actions: {
@@ -259,6 +263,23 @@ export const useStore = create<AppStore>((set) => ({
 
   setTerrainTransparency: (val) => set((state) => ({
     layers: { ...state.layers, terrainTransparent: val }
+  })),
+
+  toggleUnderground: () => set((state) => ({
+    layers: {
+      ...state.layers,
+      undergroundMode: !state.layers.undergroundMode,
+      // X-ray the surface automatically when entering underground mode
+      terrainTransparent: !state.layers.undergroundMode ? true : state.layers.terrainTransparent
+    }
+  })),
+
+  setUnderground: (val) => set((state) => ({
+    layers: {
+      ...state.layers,
+      undergroundMode: val,
+      terrainTransparent: val ? true : state.layers.terrainTransparent
+    }
   })),
 
   setActionStatus: (actionId, status) => set((state) => ({
