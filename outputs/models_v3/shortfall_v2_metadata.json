@@ -1,0 +1,114 @@
+{
+  "data": "data/synthetic/monthly_ops_synthetic_2015_2026.csv",
+  "provenance": "SYNTHETIC ops calibrated to real MOIL annual anchors + real rainfall seasonality",
+  "featurizerA_features": [
+    "sr_lag1",
+    "sr_lag2",
+    "sr_lag3",
+    "sr_lag12",
+    "sr_roll3",
+    "sr_roll12",
+    "eq_lag1",
+    "eq_lag2",
+    "eq_lag3",
+    "eq_lag12",
+    "equipment_availability",
+    "downtime_hours",
+    "blast_delay_flag",
+    "monthly_rain_mm",
+    "heavy_rain_days",
+    "rain_mm_roll3",
+    "heavy_rain_roll3",
+    "planned_lag1",
+    "month_num",
+    "mine_Balaghat",
+    "mine_Chikla",
+    "mine_Dongri Buzurg",
+    "mine_Gumgaon",
+    "mine_Kandri",
+    "mine_Mansar",
+    "mine_Sitapatore",
+    "mine_Tirodi",
+    "mine_Ukwa",
+    "type_opencast",
+    "type_underground"
+  ],
+  "featurizerB_features": [
+    "equipment_availability",
+    "downtime_hours",
+    "blast_delay_flag",
+    "monthly_rain_mm",
+    "heavy_rain_days",
+    "rain_mm_roll3",
+    "heavy_rain_roll3",
+    "planned_lag1",
+    "month_num",
+    "mine_Balaghat",
+    "mine_Chikla",
+    "mine_Dongri Buzurg",
+    "mine_Gumgaon",
+    "mine_Kandri",
+    "mine_Mansar",
+    "mine_Sitapatore",
+    "mine_Tirodi",
+    "mine_Ukwa",
+    "type_opencast",
+    "type_underground"
+  ],
+  "modelA": "et",
+  "modelB": "rf",
+  "cvA": [
+    {
+      "model": "rf",
+      "mae": 0.03907296447784408,
+      "r2": 0.4971625366679657
+    },
+    {
+      "model": "et",
+      "mae": 0.03893453314137519,
+      "r2": 0.5051616947782027
+    },
+    {
+      "model": "hgb",
+      "mae": 0.042722972928193444,
+      "r2": 0.41256044053937824
+    },
+    {
+      "model": "ridge",
+      "mae": 0.03986692864937874,
+      "r2": 0.48110272026120193
+    }
+  ],
+  "cvB": [
+    {
+      "model": "rf",
+      "mae": 0.03837208859594993,
+      "r2": 0.5322081553204607
+    },
+    {
+      "model": "et",
+      "mae": 0.038902462333804115,
+      "r2": 0.5197092734607416
+    },
+    {
+      "model": "hgb",
+      "mae": 0.040427403055510965,
+      "r2": 0.4829510873361693
+    },
+    {
+      "model": "ridge",
+      "mae": 0.04068533025931381,
+      "r2": 0.47788535721352365
+    }
+  ],
+  "holdout": {
+    "months": "2025-08..2025-12",
+    "mae_ratio": 0.03806230104571307,
+    "mae_tonnes": 736.0578812060903,
+    "r2_tonnes": 0.6564608758510629,
+    "baseline_mae_ratio_dev_mean": 0.05581440633186062
+  },
+  "alert_clf": {
+    "threshold_ratio": 0.15
+  }
+}

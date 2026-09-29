@@ -1,0 +1,418 @@
+{
+  "gap": 1,
+  "status": "SOURCE_COLLARS_AND_ASSAYS_IMPORTED",
+  "source_rows": 13,
+  "imported_ngdr_collar_rows": 7,
+  "imported_workbook_hole_rows": 13,
+  "synthetic_rows": 0,
+  "assay_interval_rows": 88,
+  "source_csv": "data\\processed\\boreholes_source.csv",
+  "assay_csv": "data\\processed\\borehole_assays_source.csv",
+  "published_summary_csv": "data/processed/published_drilling_summaries.csv",
+  "synthetic_csv": "data\\synthetic\\boreholes_synthetic.csv",
+  "ngdr_source_audit": {
+    "source_file": "data/external/geology/ngdr/NGDR_Mining_Exploration_Drilling_Boreholes.parquet",
+    "source_url": "https://github.com/ramSeraph/indian_land_features/releases/download/mining/NGDR_Mining_Exploration_Drilling_Boreholes.parquet",
+    "retrieved": "2026-09-29",
+    "sha256": "B88D0FECF564E999D052BA397992405A0EC253CF764EFD7426CD2E888303AFDA",
+    "national_source_rows": 6904,
+    "manganese_collar_rows_inside_project_bbox": 7,
+    "selected_hole_ids": [
+      "GDBH-1",
+      "GDBH-2",
+      "GDBH-3",
+      "GDBH-4",
+      "GDBH-5",
+      "GDBH-6",
+      "GDBH-7"
+    ],
+    "selected_ngdr_ids": [
+      "BH-13226",
+      "BH-13246",
+      "BH-13281",
+      "BH-13229",
+      "BH-13282",
+      "BH-13283",
+      "BH-13230"
+    ],
+    "drilled_length_sum_m": 1009.7,
+    "grid_bounds": {
+      "lat_min": 21.1,
+      "lat_max": 22.045,
+      "lon_min": 79.2,
+      "lon_max": 80.49,
+      "crs": "EPSG:4326"
+    },
+    "source_data_code": [
+      "M3AGIM/NC/CR//2022/39826"
+    ],
+    "source_stage_values": {
+      "G2": 6,
+      "MISSING": 1
+    },
+    "license_note": "GitHub release states CC0 1.0 and requests attribution to datameet and the original government source where possible; verify official NGDR reuse terms before external publication."
+  },
+  "registered_workbook_audit": {
+    "registered_downloads": [
+      {
+        "block": "Gudma",
+        "nuid": "CRO-23394-2017",
+        "workbook": "data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017/20250708115140.988_CRO-23394-2017.xlsx",
+        "workbook_sha256": "B4E0B671196D8AEBFA889848425EEF849CAA3FEA51631A774D035AD5C3A77FCD",
+        "report_pdf": "data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017/20250708115140.923_CRO-23394-2017.pdf",
+        "report_sha256": "4AC4222A81926EC648FDBB6085BFC793055A2F2A91896F259DC888399C409228"
+      },
+      {
+        "block": "Western Ukwa",
+        "nuid": "CRO-23290-2016",
+        "workbook": "data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016/20240724141822.249_CRO-23290-2016.xlsx",
+        "workbook_sha256": "05E7523D5E4C6D271AD2467FFDC1F1186557FC0AEB3E81BF4B7B61B1811A388D",
+        "report_pdf": "data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016/20240724141822.027_CRO-23290-2016.pdf",
+        "report_sha256": "8BC9F58A717CDFF37DF82FF567E7E4C57D61FB72C9091215DF43E3895701BC87"
+      }
+    ],
+    "collar_rows": 13,
+    "gudma_collars": 7,
+    "western_ukwa_collars": 6,
+    "assay_interval_rows": 88,
+    "assay_intervals_by_block": {
+      "Gudma": 37,
+      "Western Ukwa": 51
+    },
+    "gudma_drilled_depth_sum_m": 1009.7,
+    "western_ukwa_drilled_depth_sum_m": 1071.35,
+    "gudma_borehole_ids": [
+      "GDBH-1",
+      "GDBH-2",
+      "GDBH-3",
+      "GDBH-4",
+      "GDBH-5",
+      "GDBH-6",
+      "GDBH-7"
+    ],
+    "western_ukwa_borehole_ids": [
+      "UKBH-1",
+      "UKBH-2",
+      "UKBH-3",
+      "UKBH-4",
+      "UKBH-5",
+      "UKBH-6"
+    ],
+    "sample_interval_overlap_pair_count": 21,
+    "sample_interval_rows_flagged_overlap": 29,
+    "overlapping_sample_ids": [
+      "CS/01/ JBP/GDM/ 2017- 18/GDBH-1",
+      "CS/01/ JBP/GDM/ 2017- 18/GDBH-7",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-1",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-2",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-3",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-4",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-5",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-6",
+      "CS/02/ JBP/GDM/ 2017- 18/GDBH-7",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-1",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-2",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-3",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-4",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-5",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-6",
+      "CS/03/ JBP/GDM/ 2017- 18/GDBH-7",
+      "CS/04/ JBP/GDM/ 2017- 18/GDBH-2",
+      "CS/04/ JBP/GDM/ 2017- 18/GDBH-3",
+      "CS/04/ JBP/GDM/ 2017- 18/GDBH-5",
+      "CS/04/ JBP/GDM/ 2017- 18/GDBH-7",
+      "CS/04/ JBP/GDM/ 2017- 18/GDBH-l",
+      "CS/05/ JBP/GDM/ 2017- 18/GDBH-1",
+      "CS/05/ JBP/GDM/ 2017- 18/GDBH-5",
+      "CS/05/ JBP/GDM/ 2017- 18/GDBH-7",
+      "CS/06/ JBP/GDM/ 2017- 18/GDBH-1",
+      "UKBH-05/CS/2/16-17",
+      "UKBH-05/CS/4/16-17",
+      "UKBH-05/CS/5/16-17",
+      "UKBH-05/CS/6/16-17"
+    ],
+    "reversed_intervals": [
+      {
+        "hole_id": "UKBH-5",
+        "sample_id": "UKBH-05/CS/3/16-17",
+        "from_m": 197.93,
+        "to_m": 197.52
+      }
+    ],
+    "reported_intersection_thickness_discrepancies": [
+      {
+        "block": "Gudma",
+        "hole_id": "GDBH-4",
+        "table_reported_thickness_m": 0.25,
+        "from_to_difference_m": 0.24,
+        "source_ref": "data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017/20250708115140.988_CRO-23394-2017.xlsx; worksheet 'Table- VI' row 7; NGDR NUID CRO-23394-2017; downloaded/retrieved 2026-09-29; https://geodataindia.gov.in/guestuser"
+      },
+      {
+        "block": "Western Ukwa",
+        "hole_id": "UKBH-3",
+        "table_reported_thickness_m": 3.645,
+        "from_to_difference_m": 3.675,
+        "source_ref": "data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016/20240724141822.249_CRO-23290-2016.xlsx; worksheet 'Table-14' row 7; NGDR NUID CRO-23290-2016; downloaded/retrieved 2026-09-29; https://geodataindia.gov.in/guestuser"
+      }
+    ],
+    "sample_interval_rows_with_to_not_after_from": 1,
+    "source_grade_checks": {
+      "gudma_table_v_vs_annexure_v_mn_pct_max_abs_difference": 0.005,
+      "western_table_6_vs_annexure_ii_mn_pct_mismatch_count": 0,
+      "western_table_7_fraction_times_100_vs_annexure_ii_b_max_abs_difference": 0.0,
+      "western_mn_mismatches": []
+    },
+    "notes": [
+      "Detailed worksheets contain both current core intervals and non-hole check samples; only intervals with borehole/sample ID and numeric from/to were imported.",
+      "The Gudma Annexure-V repeats each sample in oxide and elemental result blocks; both rows are joined and elemental Mn%/Fe% are kept distinct from MnO%/Fe2O3%.",
+      "Western Ukwa # and * assay markers are retained; the report says # denotes dilution from core loss and * marks samples used in weighted-average calculations.",
+      "Sample intervals are not necessarily ore thickness. Overlaps and a reversed interval are retained and flagged rather than repaired.",
+      "Western Ukwa DMS coordinates were converted to decimal degrees; the original DMS text is retained in the hole summary and source reference."
+    ]
+  },
+  "assay_grade_ranges": {
+    "Gudma": {
+      "sample_count": 37,
+      "min_mn_pct": 0.031,
+      "max_mn_pct": 44.945,
+      "unweighted_mean_mn_pct": 15.691622,
+      "method": "Descriptive range and arithmetic mean over reported core-sample Mn% rows; samples include ore and non-ore lithologies and are not a resource grade.",
+      "provenance": "DERIVED",
+      "source_ref": "20250708115140.988_CRO-23394-2017.xlsx; Table-V/Annexure-V; NGDR CRO-23394-2017; retrieved 2026-09-29"
+    },
+    "Western Ukwa": {
+      "sample_count": 51,
+      "min_mn_pct": 1.13846,
+      "max_mn_pct": 39.729,
+      "unweighted_mean_mn_pct": 21.684385,
+      "method": "Descriptive range and arithmetic mean over reported core-sample Mn% rows; samples include ore and non-ore lithologies and are not a resource grade.",
+      "provenance": "DERIVED",
+      "source_ref": "20240724141822.249_CRO-23290-2016.xlsx; Table-6/Annexure II; NGDR CRO-23290-2016; retrieved 2026-09-29"
+    }
+  },
+  "validation": {
+    "seven_gudma_collars_found_inside_grid": true,
+    "ngdr_depth_sum_m": 1009.7,
+    "ibm_2018_published_depth_sum_m": 1009.7,
+    "depth_sum_matches_published_total": true,
+    "depth_difference_m": 0.0,
+    "western_ukwa_depth_sum_m": 1071.35,
+    "ibm_2017_western_ukwa_published_depth_sum_m": 1071.35,
+    "western_ukwa_depth_sum_matches_published_total": true,
+    "interval_assays_available": true,
+    "assay_rows_have_source_reference_and_method": true,
+    "all_assay_sample_ids_crosswalked": true,
+    "synthetic_assays_generated": false
+  },
+  "published_summary_records": [
+    {
+      "source_record_id": "IBM-2018-MP-GUDMA-DRILLING",
+      "record_type": "drilling_summary",
+      "block": "Gudma",
+      "district": "Balaghat",
+      "state": "Madhya Pradesh",
+      "exploration_stage": "G3",
+      "borehole_count": 7,
+      "total_drilling_m": 1009.7,
+      "ore_thickness_min_m": 0.25,
+      "ore_thickness_max_m": 1.38,
+      "cumulative_intersected_ore_horizon_m": 5.74,
+      "resource_tonnage": "",
+      "resource_tonnage_unit": "",
+      "average_mn_grade_pct": "",
+      "resource_class": "",
+      "notes": "Published aggregate; 5.74 m includes manganiferous quartzite.",
+      "provenance": "SOURCE",
+      "source_ref": "IBM_Indian_Minerals_Yearbook_2018_Madhya_Pradesh.pdf; Table 3, printed p. 11-7 (PDF p. 7); https://ibm.gov.in/writereaddata/files/02042020163948Madhya%20Pradesh_2018.pdf; retrieved 2026-09-29",
+      "method": "",
+      "random_seed": ""
+    },
+    {
+      "source_record_id": "IBM-2017-UKWA-DRILLING",
+      "record_type": "drilling_summary",
+      "block": "Western Ukwa",
+      "district": "Balaghat",
+      "state": "Madhya Pradesh",
+      "exploration_stage": "G2",
+      "borehole_count": 6,
+      "total_drilling_m": 1071.35,
+      "ore_thickness_min_m": 0.15,
+      "ore_thickness_max_m": 3.61,
+      "cumulative_intersected_ore_horizon_m": 10.015,
+      "resource_tonnage": "",
+      "resource_tonnage_unit": "",
+      "average_mn_grade_pct": "",
+      "resource_class": "",
+      "notes": "Published aggregate; no hole-wise assay intervals in this summary.",
+      "provenance": "SOURCE",
+      "source_ref": "IBM_Exploration_and_Development_2017.pdf; Manganese Ore/GSI, PDF p. 34, Western Ukwa paragraph; https://ibm.gov.in/writereaddata/files/02282019174006Exploration%20and%20development.pdf; retrieved 2026-09-29",
+      "method": "",
+      "random_seed": ""
+    },
+    {
+      "source_record_id": "LOKSABHA-2017-18-GUDMA-RESOURCE",
+      "record_type": "resource_summary",
+      "block": "Gudma",
+      "district": "Balaghat",
+      "state": "Madhya Pradesh",
+      "exploration_stage": "G3",
+      "borehole_count": "",
+      "total_drilling_m": "",
+      "ore_thickness_min_m": "",
+      "ore_thickness_max_m": "",
+      "cumulative_intersected_ore_horizon_m": "",
+      "resource_tonnage": 0.168,
+      "resource_tonnage_unit": "million tonnes",
+      "average_mn_grade_pct": 21.65,
+      "resource_class": "",
+      "notes": "Published rounded resource and grade; this is not an assay interval dataset.",
+      "provenance": "SOURCE",
+      "source_ref": "LokSabha_Mn_resources_MP_annex.pdf; Annexure-II, p. 8, row 15; https://sansad.in/getFile/loksabhaquestions/annex/178/AS211.pdf?source=pqals; retrieved 2026-09-29",
+      "method": "",
+      "random_seed": ""
+    },
+    {
+      "source_record_id": "LOKSABHA-2016-17-UKWA-RESOURCE",
+      "record_type": "resource_summary",
+      "block": "Ukwa (annexure scope)",
+      "district": "Balaghat",
+      "state": "Madhya Pradesh",
+      "exploration_stage": "G2",
+      "borehole_count": "",
+      "total_drilling_m": "",
+      "ore_thickness_min_m": "",
+      "ore_thickness_max_m": "",
+      "cumulative_intersected_ore_horizon_m": "",
+      "resource_tonnage": 2.6,
+      "resource_tonnage_unit": "million tonnes",
+      "average_mn_grade_pct": 35.138,
+      "resource_class": "",
+      "notes": "Annexure calls the block Ukwa; do not assume identical scope to the Western Ukwa drilling summary.",
+      "provenance": "SOURCE",
+      "source_ref": "LokSabha_Mn_resources_MP_annex.pdf; Annexure-II, p. 8, row 5; https://sansad.in/getFile/loksabhaquestions/annex/178/AS211.pdf?source=pqals; retrieved 2026-09-29",
+      "method": "",
+      "random_seed": ""
+    }
+  ],
+  "existing_summary_records_preserved_separately": [
+    {
+      "block": "Western Ukwa",
+      "district": "Balaghat",
+      "state": "Madhya Pradesh",
+      "exploration_stage": "G2",
+      "borehole_count": "6",
+      "total_drilling_m": "1071.35",
+      "ore_thickness_min_m": "0.15",
+      "ore_thickness_max_m": "3.61",
+      "cumulative_intersected_ore_horizon_m": "10.015",
+      "resource_tonnage_t": "",
+      "average_mn_grade_pct": "",
+      "resource_class": "",
+      "source_type": "IBM official annual exploration summary",
+      "source_url": "https://ibm.gov.in/writereaddata/files/04252019125051E_D%202017.pdf",
+      "notes": "Summary values only; collar coordinates and assay intervals are not in this extracted table"
+    },
+    {
+      "block": "Gudma",
+      "district": "Balaghat",
+      "state": "Madhya Pradesh",
+      "exploration_stage": "G3",
+      "borehole_count": "7",
+      "total_drilling_m": "1009.53",
+      "ore_thickness_min_m": "0.24",
+      "ore_thickness_max_m": "1.38",
+      "cumulative_intersected_ore_horizon_m": "5.73",
+      "resource_tonnage_t": "168975.78",
+      "average_mn_grade_pct": "21.65",
+      "resource_class": "Inferred (UNFC 333)",
+      "source_type": "Lok Sabha official reply with GSI exploration summary",
+      "source_url": "https://sansad.in/getFile/loksabhaquestions/annex/178/AS211.pdf?source=pqals",
+      "notes": "Resource tonnage is gross ore plus waste; summary-level data only, not a 3D block model"
+    }
+  ],
+  "published_summary_discrepancy_note": "The pre-existing extracted summary reports Gudma drilling as 1009.53 m, 5.73 m cumulative horizon, and 0.24-1.38 m thickness; the separate IBM 2018 table reports 1009.7 m, 5.74 m, and 0.25-1.38 m. Both source-specific records are retained; the collar depths match the IBM 2018 total. The GitHub mirror labels six collars G2 and leaves one stage blank, while IBM/Lok Sabha summaries identify Gudma as G3; preserve these source-specific stage values rather than reconciling them without the primary workbook.",
+  "source_pdf_audit": [],
+  "pdf_scan_note": "The official NGDR XLSX tables were extracted directly; the older broad scan of unrelated reference PDFs was skipped on this run.",
+  "candidate_interval_tables": [],
+  "ngdr_file_assets_still_registered_user_required": [
+    {
+      "block": "Gudma",
+      "accession": "CRO-23394-2017",
+      "file_kind": "georeferenced_map_gdb",
+      "portal_file_path": "GIS_FILES/20250708115140.992_CRO-23394-2017-PLATE-7-DM.gdb.zip",
+      "expected_contents": "Georeferenced geological map"
+    },
+    {
+      "block": "Gudma",
+      "accession": "CRO-23394-2017",
+      "file_kind": "map_images_zip",
+      "portal_file_path": "GEOREF_IMAGES/20250708115141.0_PLATE 7.zip",
+      "expected_contents": "Georeferenced plate image"
+    },
+    {
+      "block": "Gudma",
+      "accession": "CRO-23394-2017",
+      "file_kind": "other_image_zip",
+      "portal_file_path": "IMAGE/20250708115140.96_Image.zip",
+      "expected_contents": "Supplementary report images"
+    },
+    {
+      "block": "Western Ukwa",
+      "accession": "CRO-23290-2016",
+      "file_kind": "georeferenced_map_gdb",
+      "portal_file_path": "GIS_FILES/20240724141822.257_CRO-23290-2016-PLATE-3-DM.gdb.zip",
+      "expected_contents": "Georeferenced detailed geological map"
+    },
+    {
+      "block": "Western Ukwa",
+      "accession": "CRO-23290-2016",
+      "file_kind": "georeferenced_map_gdb",
+      "portal_file_path": "GIS_FILES/20240724141822.264_CRO-23290-2016-PLATE-4-LSM.gdb.zip",
+      "expected_contents": "Georeferenced large-scale map"
+    },
+    {
+      "block": "Western Ukwa",
+      "accession": "CRO-23290-2016",
+      "file_kind": "map_images_zip",
+      "portal_file_path": "GEOREF_IMAGES/20240724141822.278_PLATE 3.zip",
+      "expected_contents": "Georeferenced plate images"
+    },
+    {
+      "block": "Western Ukwa",
+      "accession": "CRO-23290-2016",
+      "file_kind": "map_images_zip",
+      "portal_file_path": "GEOREF_IMAGES/20240724141822.33_PLATE 4.zip",
+      "expected_contents": "Georeferenced plate images"
+    },
+    {
+      "block": "Western Ukwa",
+      "accession": "CRO-23290-2016",
+      "file_kind": "map_images_zip",
+      "portal_file_path": "GEOREF_IMAGES/20240724141822.35_Dam-3.zip",
+      "expected_contents": "Georeferenced dam/plate images"
+    },
+    {
+      "block": "Western Ukwa",
+      "accession": "CRO-23290-2016",
+      "file_kind": "other_image_zip",
+      "portal_file_path": "IMAGE/20240724141822.066_Image.zip",
+      "expected_contents": "Supplementary report images"
+    }
+  ],
+  "synthetic_summary_validation": {
+    "status": "NO_SYNTHETIC_REQUIRED_SOURCE_ASSAYS_AVAILABLE",
+    "tolerance_fraction": 0.05,
+    "reason": "No synthetic collars or assays were generated because official NGDR core-sample intervals and assays were recovered from both registered-user workbooks."
+  },
+  "reason": "Official NGDR workbooks now provide Gudma and Western Ukwa assay intervals and per-hole intersections. Thirteen located collars and 88 sample-assay intervals are available. Reported overlapping Gudma samples and the Western Ukwa interval anomaly remain source-faithful and flagged. No synthetic assays were generated.",
+  "method": "SHA-256 verified the pinned NGDR-attributed Parquet release, parsed the registered NGDR XLSX workbooks using the Open XML format, joined sample intervals to laboratory chemistry by normalized sample ID, and converted published Western Ukwa DMS collar coordinates to decimal degrees. No assay grades were estimated.",
+  "source_ref": [
+    "NGDR_Mining_Exploration_Drilling_Boreholes.parquet; https://github.com/ramSeraph/indian_land_features/releases/download/mining/NGDR_Mining_Exploration_Drilling_Boreholes.parquet; retrieved 2026-09-29; SHA-256 B88D0FECF564E999D052BA397992405A0EC253CF764EFD7426CD2E888303AFDA",
+    "IBM_Indian_Minerals_Yearbook_2018_Madhya_Pradesh.pdf, Table 3, printed p. 11-7 (PDF p. 7); https://ibm.gov.in/writereaddata/files/02042020163948Madhya%20Pradesh_2018.pdf; retrieved 2026-09-29",
+    "IBM_Exploration_and_Development_2017.pdf, Manganese Ore/GSI, PDF p. 34; https://ibm.gov.in/writereaddata/files/02282019174006Exploration%20and%20development.pdf; retrieved 2026-09-29",
+    "LokSabha_Mn_resources_MP_annex.pdf, Annexure-II, p. 8; https://sansad.in/getFile/loksabhaquestions/annex/178/AS211.pdf?source=pqals; retrieved 2026-09-29",
+    "data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017/20250708115140.988_CRO-23394-2017.xlsx; Table-V, Table- VI, Annexure-V and Annexure-VII; NGDR NUID CRO-23394-2017; retrieved 2026-09-29",
+    "data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016/20240724141822.249_CRO-23290-2016.xlsx; Table-6, Table-7, Table-10, Table-14, Annexure II and Annexure II(B); NGDR NUID CRO-23290-2016; retrieved 2026-09-29",
+    "data/external/exploration/ngdr_report_manifest.csv; workbook/PDF rows marked downloaded; georeferenced map/GDB files remain registered-user downloads; retrieved 2026-09-29"
+  ]
+}

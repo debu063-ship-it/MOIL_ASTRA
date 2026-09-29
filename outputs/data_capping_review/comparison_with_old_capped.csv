@@ -1,0 +1,7 @@
+Aspect,Old data/capped/,Revised data/capped_reviewed/,Significance
+Outlier Policy,Automatic destructive clipping across all columns,Outlier FLAGGING by default; raw measurements preserved,Prevents irreversible destruction of critical signals
+Rainfall & Monsoons,Clipped daily rain > 10.75 mm and monthly rain > 619 mm,Preserves ALL raw rainfall; flags >100mm with flag_extreme_rain_review,Captures true disaster-level operational risk drivers
+Shortfall Accounting,"157 monthly records violated shortfall == max(plan - actual, 0) by up to 3,367t",0 violations; accounting identity mathematically preserved,Eliminates mathematical contradiction in mine accounting
+Cyclical Terrain Aspect,Applied linear IQR clipping to circular 0-360 deg angle,Preserves angle and creates orthogonal aspect_sin and aspect_cos,Prevents spurious boundary artifacts across North (0 deg == 360 deg)
+deposit_probability,Clipped probability column independently at 0.653,Unmodified; strictly isolated as model diagnostic only,No target/prediction distortion; no leakage
+Model-Ready Capping,Global pooling; fit thresholds across entire dataset with leakage,Fitted on training split ONLY; applied to test/validation,Honest out-of-sample machine learning validation

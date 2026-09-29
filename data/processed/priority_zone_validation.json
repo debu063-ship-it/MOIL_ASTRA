@@ -1,0 +1,48 @@
+{
+  "gap": 4,
+  "status": "COMPLETE",
+  "grid_cells": 5568,
+  "threshold_cells": {
+    "top_decile": 557,
+    "top_quartile": 1392
+  },
+  "discarded_single_cell_components": true,
+  "minimum_component_cells": 2,
+  "polygon_count": 134,
+  "occurrence_records_in_file": 11,
+  "valid_occurrence_points": 6,
+  "occurrence_records_missing_coordinates": 5,
+  "mine_points": 6,
+  "top_ranked_zone_polygon_count": 21,
+  "top_ranked_zone_cell_count": 1047,
+  "coverage": {
+    "occurrences_inside_top_zones": 6,
+    "occurrence_denominator": 6,
+    "occurrence_fraction": 1.0,
+    "mines_inside_top_zones": 6,
+    "mine_denominator": 6,
+    "mine_fraction": 1.0
+  },
+  "random_baseline": {
+    "trials": 1000,
+    "seed": 20260929,
+    "occurrence_mean_fraction": 0.18933333333333333,
+    "occurrence_95pct": [
+      0.0,
+      0.6666666666666666
+    ],
+    "mine_mean_fraction": 0.18933333333333333,
+    "mine_95pct": [
+      0.0,
+      0.6666666666666666
+    ]
+  },
+  "method": "Scores sorted descending with stable centroid tie-breaks; select ceil(10%) and ceil(25%). 8-neighbor connected components on regular centroid grid; discard components <2 cells; polygonize cell rectangles. Rank within threshold using 0.60 mean-score percentile, 0.15 log-area percentile, 0.10 mine-proximity score, 0.15 occurrence-proximity score. Random baseline selects the same number of cells uniformly without replacement.",
+  "validation_caveat": "Only occurrence records with coordinates were tested; five of eleven occurrence rows lack coordinates. This is not independent predictive validation because occurrence records may also inform existing training labels.",
+  "provenance": "DERIVED",
+  "source_ref": [
+    "grid_scores_v2.csv",
+    "known_occurrences.csv",
+    "moil_mines.geojson"
+  ]
+}

@@ -1,0 +1,319 @@
+
+==========================================================================================
+OUTLIER ANALYSIS: A. LABELED SAMPLES (Prospectivity, n=90)
+==========================================================================================
+Total records: 90
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+B2                             90       2          2.22     0          0.00     0.0334       0.1107       0.622    0.070   
+B3                             90       1          1.11     0          0.00     0.0370       0.1409       0.356    0.161   
+B4                             90       0          0.00     0          0.00     0.0276       0.1706       0.205    -0.555  
+B8                             90       4          4.44     3          3.33     0.0135       0.3476       -1.992   7.554   
+B11                            90       3          3.33     3          3.33     0.0115       0.4165       -1.128   1.938   
+B12                            90       2          2.22     0          0.00     0.0080       0.3226       -0.589   0.144   
+elevation                      90       11         12.22    11         12.22    248.0000     714.0000     2.092    3.790   
+slope                          90       4          4.44     3          3.33     0.0000       25.6813      4.508    27.464  
+aspect                         90       0          0.00     0          0.00     0.0000       347.8587     -0.021   -1.046  
+iron_oxide_index               90       2          2.22     2          2.22     0.7269       1.8593       -1.201   2.715   
+swir_nir_ratio                 90       0          0.00     0          0.00     0.4819       1.6890       -0.620   -0.183  
+clay_alteration_idx            90       3          3.33     1          1.11     1.0980       2.0751       0.937    1.286   
+ferrous_iron_idx               90       0          0.00     0          0.00     0.2322       1.2262       -0.565   -0.478  
+ndvi                           90       3          3.33     2          2.22     -0.3431      0.7428       -1.528   6.027   
+dist_to_gondite_km             90       10         11.11    9          10.00    1.8659       48.1496      1.719    3.081   
+
+--- Isolation Forest (Multivariate Outlier Detection, contamination=5%) ---
+  Multivariate outliers detected: 5 / 90 (5.6%)
+  Outlier samples:
+                 name  label                                  type     B2     B3     B4     B8    B11
+        Jarah Mohgaon      1              Positive (Known Deposit) 0.0430 0.0678 0.0455 0.0458 0.0365
+       Gowari Wadhona      1              Positive (Known Deposit) 0.0358 0.0370 0.0276 0.0135 0.0162
+    Jagantola Deposit      1              Positive (Known Deposit) 0.0361 0.0500 0.0412 0.1974 0.1802
+Control_Point_Outer_1      0 Negative (Outer Region Control Point) 0.0443 0.0538 0.0322 0.0198 0.0115
+Control_Point_Outer_8      0 Negative (Outer Region Control Point) 0.0426 0.0608 0.0567 0.3040 0.1465
+
+--- Domain-Specific Validation ---
+  NDVI range: [-0.3431, 0.7428]  (Valid: [-1, 1])
+  Suspiciously negative NDVI (<-0.2): 2 samples
+  Elevation range: [248, 714] m
+  Unusually high elevation (>600m): 4 samples
+  Slope range: [0.00, 25.68] degrees
+  Very steep slopes (>20 deg): 1 samples
+  Outlier label distribution: {1: 3, 0: 2}
+  Outlier class balance: 60.0% deposits
+
+==========================================================================================
+OUTLIER ANALYSIS: B. REGION GRID PREDICTIONS (n=5,568)
+==========================================================================================
+Total records: 5568
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+B2                             5568     102        1.83     45         0.81     0.0281       0.2886       1.669    9.458   
+B3                             5568     88         1.58     41         0.74     0.0343       0.3156       1.355    6.086   
+B4                             5568     67         1.20     28         0.50     0.0242       0.3370       1.105    3.102   
+B8                             5568     174        3.12     125        2.24     0.0075       0.4108       -1.573   7.512   
+B11                            5568     126        2.26     90         1.62     0.0112       0.5504       -0.372   1.468   
+B12                            5568     85         1.53     15         0.27     0.0088       0.5218       0.323    1.026   
+elevation                      5568     429        7.70     794        14.26    241.0000     848.0000     1.242    0.385   
+slope                          5568     438        7.87     359        6.45     0.0000       40.7214      3.888    21.041  
+aspect                         5568     0          0.00     0          0.00     0.0000       354.4001     0.046    -1.209  
+iron_oxide_index               5568     102        1.83     57         1.02     0.6552       2.4639       -0.208   1.196   
+swir_nir_ratio                 5568     5          0.09     0          0.00     0.4005       2.0679       -0.179   -0.463  
+clay_alteration_idx            5568     10         0.18     0          0.00     1.0087       2.0360       0.288    -0.310  
+ferrous_iron_idx               5568     8          0.14     2          0.04     0.2049       1.7812       0.094    -0.462  
+ndvi                           5568     88         1.58     77         1.38     -0.5640      0.7869       -1.364   5.367   
+dist_to_gondite_km             5568     164        2.95     208        3.74     0.0000       63.0378      1.069    0.420   
+deposit_probability            5568     31         0.56     11         0.20     0.1180       0.7224       0.865    -0.180  
+
+--- Isolation Forest (Grid, contamination=5%) ---
+  Multivariate outliers: 279 / 5568 (5.0%)
+  High-prob outliers (prob>0.5 + ISO outlier): 113
+
+--- Domain-Specific Grid Checks ---
+  Very negative NDVI (<-0.3): 22 cells (may indicate water/shadow)
+  Extreme deposit probability (>0.7): 6 cells
+  Zero distance to Gondite: 1 cells (within formation)
+
+==========================================================================================
+OUTLIER ANALYSIS: C. SENTINEL-2 + DEM GRID (n=5,568)
+==========================================================================================
+Total records: 5568
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+B2                             5568     104        1.87     41         0.74     0.0199       0.2709       1.365    6.953   
+B3                             5568     73         1.31     33         0.59     0.0344       0.2914       1.183    4.803   
+B4                             5568     69         1.24     25         0.45     0.0236       0.3010       1.016    2.691   
+B8                             5568     229        4.11     155        2.78     0.0088       0.4696       -1.036   5.789   
+B11                            5568     122        2.19     14         0.25     0.0091       0.5585       -0.001   1.057   
+B12                            5568     38         0.68     17         0.31     0.0076       0.5254       0.615    1.188   
+ndvi                           5568     94         1.69     81         1.45     -0.4685      0.8371       -1.049   3.754   
+elevation                      5568     394        7.08     805        14.46    237.0000     846.2396     1.234    0.357   
+slope                          5568     0          0.00     0          0.00     0.0350       0.0930       -0.523   -1.672  
+aspect                         5568     348        6.25     216        3.88     103.6311     216.0644     0.145    6.454   
+
+--- Physical Bounds Validation (Sentinel-2) ---
+  B2: negative=0, >1.0=0
+  B3: negative=0, >1.0=0
+  B4: negative=0, >1.0=0
+  B8: negative=0, >1.0=0
+  B11: negative=0, >1.0=0
+  B12: negative=0, >1.0=0
+  NDVI range: [-0.4685, 0.8371]
+  Very negative NDVI (<-0.3): 13 (water/cloud/shadow artifacts)
+  Elevation: [237, 846] m
+  Slope: [0.0350, 0.0930] deg
+
+==========================================================================================
+OUTLIER ANALYSIS: D. MONTHLY OPS SYNTHETIC (n=1,188)
+==========================================================================================
+Total records: 1188
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+planned_tonnes                 1188     132        11.11    132        11.11    4375.0000    42070.0000   1.967    3.808   
+actual_tonnes                  1188     131        11.03    120        10.10    2785.3000    40578.3000   1.986    3.965   
+shortfall_tonnes               1188     82         6.90     67         5.64     0.0000       8723.0000    2.006    5.025   
+equipment_availability         1188     14         1.18     4          0.34     0.7550       0.9300       -0.897   0.663   
+downtime_hours                 1188     21         1.77     3          0.25     32.0000      178.0000     0.840    0.714   
+monthly_rain_mm                1188     36         3.03     360        30.30    0.0000       726.2000     1.393    0.807   
+heavy_rain_days                1188     72         6.06     36         3.03     0.0000       14.0000      1.752    2.271   
+shortfall_pct                  1188     26         2.19     11         0.93     0.0000       44.5153      0.734    1.550   
+production_efficiency          1188     28         2.36     11         0.93     55.4857      105.2071     -0.698   1.574   
+
+--- Mine-Specific Outlier Counts (IQR method) ---
+  Mine                 Prod Outliers   Shortfall Out   Rain Outliers  
+  Balaghat             2               0               4              
+  Chikla               0               0               4              
+  Dongri Buzurg        0               4               4              
+  Gumgaon              0               0               4              
+  Kandri               0               0               4              
+  Mansar               0               0               4              
+  Sitapatore           8               4               4              
+  Tirodi               1               5               4              
+  Ukwa                 1               0               4              
+
+--- Operational Domain Checks ---
+  Production exceeding plan: 7 months (0.6%)
+  Zero shortfall months: 7
+  Equipment availability: [0.7550, 0.9300]
+  Equipment avail < 0.80: 6 months
+  Extreme downtime (>150 hrs/month): 3
+
+==========================================================================================
+OUTLIER ANALYSIS: E. PRODUCTION SCENARIO (n=1,452)
+==========================================================================================
+Total records: 1452
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+planned_tonnes                 1452     126        8.68     98         6.75     4009.1900    41247.2800   2.271    5.840   
+actual_tonnes                  1452     122        8.40     99         6.82     2389.3000    45196.1100   2.297    6.230   
+shortfall_tonnes               1452     81         5.58     155        10.67    0.0000       12348.6900   3.614    21.850  
+equipment_availability         1452     22         1.52     6          0.41     0.8309       0.9400       -0.799   1.411   
+monthly_rain_mm                1452     81         5.58     452        31.13    0.0000       867.8000     1.652    2.096   
+heavy_rain_days                1452     102        7.02     40         2.75     0.0000       16.0000      1.988    3.632   
+shortfall_pct                  1452     47         3.24     113        7.78     0.0000       50.7258      1.518    2.272   
+production_efficiency          1452     31         2.13     10         0.69     49.2742      126.8793     -0.563   0.653   
+
+--- Production Efficiency Extreme Cases ---
+  Efficiency < 60%: 9 records
+  Low-efficiency breakdown:
+    Tirodi             2018-07  eff=56.7%  rain=535mm  event=planned_disruption
+    Beldongri          2019-09  eff=52.4%  rain=356mm  event=planned_disruption
+    Tirodi             2020-08  eff=58.3%  rain=726mm  event=planned_disruption
+    Parsoda            2020-08  eff=50.5%  rain=692mm  event=planned_disruption
+    Balaghat           2022-07  eff=49.3%  rain=602mm  event=planned_disruption
+    Dongri Buzurg      2022-07  eff=55.3%  rain=793mm  event=planned_disruption
+    Chikla             2022-07  eff=58.6%  rain=793mm  event=planned_disruption
+    Gumgaon            2022-07  eff=49.6%  rain=868mm  event=planned_disruption
+    Parsoda            2022-07  eff=52.9%  rain=868mm  event=planned_disruption
+  Efficiency > 105%: 264 records (possible catch-up production)
+
+==========================================================================================
+F. WEATHER DATA — Outlier Analysis (Daily, 4 Sites)
+==========================================================================================
+
+==========================================================================================
+OUTLIER ANALYSIS: F. WEATHER DATA (n=17136, 4 sites combined)
+==========================================================================================
+Total records: 17136
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+precip_mm                      17136    2992       17.46    318        1.86     0.0000       224.6000     5.681    53.092  
+temp_mean                      17136    301        1.76     0          0.00     13.1000      39.5000      0.185    -0.208  
+temp_max                       17136    75         0.44     100        0.58     18.0000      45.5000      0.669    -0.282  
+temp_min                       17136    0          0.00     20         0.12     6.6000       34.5000      -0.435   -0.510  
+et0_mm                         17136    200        1.17     182        1.06     0.6500       11.4000      0.622    0.052   
+wind_max_kmh                   17136    316        1.84     156        0.91     4.6000       41.7000      0.940    1.042   
+
+--- Per-Site Weather Extremes ---
+
+  BALAGHAT:
+    Max daily rain: 222.2 mm on 2018-08-08
+    Max temperature: 45.0 C on 2016-05-21
+    Min temperature: 6.6 C on 2019-12-29
+    Rain > 100mm days: 8
+    Temp > 44C days: 11
+
+  UKWA:
+    Max daily rain: 150.6 mm on 2024-09-10
+    Max temperature: 45.0 C on 2016-05-21
+    Min temperature: 6.8 C on 2019-12-29
+    Rain > 100mm days: 9
+    Temp > 44C days: 12
+
+  BHANDARA:
+    Max daily rain: 152.6 mm on 2020-08-28
+    Max temperature: 45.1 C on 2024-05-27
+    Min temperature: 8.4 C on 2019-01-30
+    Rain > 100mm days: 9
+    Temp > 44C days: 33
+
+  NAGPUR:
+    Max daily rain: 224.6 mm on 2020-08-28
+    Max temperature: 45.5 C on 2022-04-29
+    Min temperature: 7.7 C on 2019-12-29
+    Rain > 100mm days: 7
+    Temp > 44C days: 43
+
+--- Weather Physical Bounds ---
+  Negative precipitation: 0
+  Temperature inversions (min > max): 0
+  Negative ET0: 0
+  Extreme wind (>80 km/h): 0
+
+==========================================================================================
+G. SOIL MOISTURE — Outlier Analysis (Hourly, 4 Sites)
+==========================================================================================
+
+==========================================================================================
+OUTLIER ANALYSIS: G. SOIL MOISTURE (n=411,264, hourly, 4 sites)
+==========================================================================================
+Total records: 411264
+
+Feature                        N        IQR Out    IQR %    MZ Out     MZ %     Min          Max          Skew     Kurt    
+----------------------------------------------------------------------------------------------------------------------------
+sm_0_7cm                       411264   0          0.00     3          0.00     0.0160       0.5440       0.533    -1.204  
+sm_7_28cm                      411264   0          0.00     95383      23.19    0.2350       0.5220       0.782    -1.037  
+
+--- Soil Moisture Physical Validation ---
+  sm_0_7cm range: [0.0160, 0.5440] m3/m3
+  sm_7_28cm range: [0.2350, 0.5220] m3/m3
+  Negative soil moisture: 0 records
+  Above saturation (>0.6 m3/m3): 0 records
+  Extremely dry shallow (<0.05): 11 records (0.00%)
+
+--- Per-Site Soil Moisture Outlier Counts (IQR) ---
+  Balaghat     Shallow outliers:      0 (0.00%)  Deep outliers:      0 (0.00%)
+  Ukwa         Shallow outliers:      0 (0.00%)  Deep outliers:      0 (0.00%)
+  Bhandara     Shallow outliers:      0 (0.00%)  Deep outliers:      0 (0.00%)
+  Nagpur       Shallow outliers:      0 (0.00%)  Deep outliers:      0 (0.00%)
+
+==========================================================================================
+H. CROSS-DATASET OUTLIER SUMMARY
+==========================================================================================
+
+Dataset                   Features   Total Recs   Mean IQR%    Mean MZ%     Max IQR%     Worst Feature                 
+-------------------------------------------------------------------------------------------------------------------
+A. Labeled Samples        15         90           3.33         2.52         12.22        elevation                     
+B. Grid Predictions       16         5568         2.15         2.08         7.87         slope                         
+C. Sentinel-2 DEM         10         5568         2.64         2.49         7.08         elevation                     
+D. Monthly Ops            9          1188         5.07         6.96         11.11        planned_tonnes                
+E. Production Scenario    8          1452         5.27         8.38         8.68         planned_tonnes                
+F. Weather                6          17136        3.78         0.75         17.46        precip_mm                     
+G. Soil Moisture          2          411264       0.00         11.60        0.00         sm_0_7cm                      
+
+--- Features with High Skewness (|skew| > 2) — Candidates for Transformation ---
+  [A. Labeled Samples] elevation                      skew=   2.092  kurtosis=   3.790
+  [A. Labeled Samples] slope                          skew=   4.508  kurtosis=  27.464
+  [B. Grid Predictions] slope                          skew=   3.888  kurtosis=  21.041
+  [D. Monthly Ops] shortfall_tonnes               skew=   2.006  kurtosis=   5.025
+  [E. Production Scenario] planned_tonnes                 skew=   2.271  kurtosis=   5.840
+  [E. Production Scenario] actual_tonnes                  skew=   2.297  kurtosis=   6.230
+  [E. Production Scenario] shortfall_tonnes               skew=   3.614  kurtosis=  21.850
+  [F. Weather] precip_mm                      skew=   5.681  kurtosis=  53.092
+
+--- Features with High Kurtosis (kurt > 7) — Heavy-Tailed Distributions ---
+  [A. Labeled Samples] B8                             kurtosis=   7.554  IQR outlier%=  4.44
+  [A. Labeled Samples] slope                          kurtosis=  27.464  IQR outlier%=  4.44
+  [B. Grid Predictions] B2                             kurtosis=   9.458  IQR outlier%=  1.83
+  [B. Grid Predictions] B8                             kurtosis=   7.512  IQR outlier%=  3.12
+  [B. Grid Predictions] slope                          kurtosis=  21.041  IQR outlier%=  7.87
+  [E. Production Scenario] shortfall_tonnes               kurtosis=  21.850  IQR outlier%=  5.58
+  [F. Weather] precip_mm                      kurtosis=  53.092  IQR outlier%= 17.46
+
+==========================================================================================
+OUTLIER HANDLING RECOMMENDATIONS
+==========================================================================================
+
+  1. LABELED SAMPLES (n=90):
+     - Small sample size makes outlier removal risky
+     - Recommend: Flag but RETAIN outliers; use robust methods (RF, XGB)
+     - Key concern: Very steep slopes and extreme elevation values
+
+  2. REGION GRID / SENTINEL-2 (n=5,568):
+     - ~5% multivariate outliers detected via Isolation Forest
+     - Highly negative NDVI values likely represent water bodies/shadows
+     - Recommend: Cap extreme spectral values; keep spatial outliers for
+       anomaly detection (they may indicate mineral signatures)
+
+  3. OPERATIONS DATA:
+     - Production overshoots (>100% efficiency) are operationally valid
+       (catch-up production after delays)
+     - High-rainfall months are real operational risks, not data errors
+     - Recommend: Winsorize extreme shortfall values for modeling;
+       retain raw values for risk analysis
+
+  4. WEATHER DATA:
+     - No physical impossibilities detected (no negative rain, no inversions)
+     - Extreme rainfall events (>100mm/day) are real monsoon events
+     - Recommend: No outlier treatment needed; these are genuine extremes
+
+  5. SOIL MOISTURE:
+     - Values within physical bounds (0 to ~0.55 m3/m3)
+     - Outliers mostly represent genuine seasonal extremes
+     - Recommend: Retain all values; consider temporal smoothing
+       for modeling

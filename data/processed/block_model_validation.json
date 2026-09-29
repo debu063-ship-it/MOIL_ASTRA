@@ -1,0 +1,17 @@
+{
+  "gap": 2,
+  "status": "BLOCKED_NO_3D_HOLE_TRACES_OR_LEASE_POLYGONS",
+  "block_count": 0,
+  "variogram": null,
+  "fallback": null,
+  "cross_validation_rmse": null,
+  "note": "Illustrative, based on sparse data; not a resource estimate. No blocks generated: source assays are available for 13 Gudma and Western Ukwa holes, but complete downhole XYZ traces and mine lease polygons are unavailable.",
+  "reason": "Real assay intervals and collars are available for seven Gudma and six Western Ukwa holes. The sample depths are measured along the boreholes, but validated downhole XYZ traces and mine lease polygons are not in the project. A 3D 25 x 25 x 5 m grid and kriging/IDW values would require unverified hole paths and a made-up model domain.",
+  "method": "No interpolation run. Empty schema artifacts are emitted until surveyed downhole traces and lease geometry are available.",
+  "source_ref": [
+    "data/processed/boreholes_source.csv; 13 joined collar/intersection rows; retrieved 2026-09-29",
+    "data/processed/borehole_assays_source.csv; 88 intervals extracted from official NGDR workbooks; retrieved 2026-09-29",
+    "data/processed/published_drilling_summaries.csv; SOURCE aggregate summaries; retrieved 2026-09-29",
+    "data/external/exploration/ibm_moil_reserves_2024.csv; IBM Indian Minerals Yearbook 2024, pp. 66-67; retrieved 2026-09-29"
+  ]
+}

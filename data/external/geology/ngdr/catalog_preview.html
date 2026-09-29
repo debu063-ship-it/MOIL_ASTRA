@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NGDR Balaghat Mn Exploration Catalog — 51 records</title>
+<style>
+  body { font-family: 'Segoe UI', system-ui, sans-serif; margin: 0; background: #f4f6f8; color: #1a2733; }
+  header { background: linear-gradient(135deg, #0d3b2e, #14532d); color: #fff; padding: 22px 32px; }
+  header h1 { margin: 0 0 6px; font-size: 21px; }
+  header p { margin: 0; opacity: .85; font-size: 13px; }
+  .stats { display: flex; gap: 14px; padding: 18px 32px; flex-wrap: wrap; }
+  .stat { background: #fff; border-radius: 10px; padding: 12px 18px; box-shadow: 0 1px 4px rgba(0,0,0,.08); min-width: 130px; }
+  .stat b { display: block; font-size: 22px; color: #14532d; }
+  .stat span { font-size: 11.5px; color: #5b6b7a; text-transform: uppercase; letter-spacing: .4px; }
+  .wrap { padding: 0 32px 40px; }
+  table { border-collapse: collapse; width: 100%; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.08); font-size: 12.5px; }
+  th { background: #14532d; color: #fff; text-align: left; padding: 9px 10px; position: sticky; top: 0; font-size: 11.5px; text-transform: uppercase; letter-spacing: .4px; }
+  td { padding: 7px 10px; border-bottom: 1px solid #e8edf1; vertical-align: top; }
+  tr:hover td { background: #f0f7f2; }
+  .nuid { font-family: Consolas, monospace; font-weight: 600; color: #0d3b2e; white-space: nowrap; }
+  .stage { padding: 2px 9px; border-radius: 20px; font-weight: 700; font-size: 11px; }
+  .g4 { background: #dcfce7; color: #166534; }
+  .g3 { background: #dbeafe; color: #1e40af; }
+  .g2 { background: #fef3c7; color: #92400e; }
+  .small { font-size: 11px; color: #44586b; max-width: 260px; }
+  td.scrambled { color: #b45309; background: #fffbeb; }
+  .note { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 10px 14px; font-size: 12.5px; margin: 0 32px 18px; border-radius: 4px; }
+  .warn { color:#b45309; font-weight:600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>NGDR — Balaghat Manganese Exploration Catalog</h1>
+  <p>Source: NGDR AI Query PDF (195 pp) → scripts/parse_ngdr_ai_pdf.py → data/external/geology/ngdr/ngdr_ai_query_balaghat_boreholes.csv</p>
+</header>
+<div class="stats">
+  <div class="stat"><b>51</b><span>Records</span></div>
+  <div class="stat"><b>48</b><span>Mention Balaghat</span></div>
+  <div class="stat"><b>51/51</b><span>Standard NUIDs</span></div>
+  <div class="stat"><b>1962–2024</b><span>Year span</span></div>
+  <div class="stat"><b>28 / 22 / 1</b><span>G4 / G3 / G2</span></div>
+  <div class="stat"><b class="warn">47</b><span>Scrambled titles</span></div>
+</div>
+<div class="note"><b>Known artifact:</b> orange <td> cells — <code>project_title</code> (and some state/district strings) are interleaved text from the PDF's one-character-per-line rendering. NUID, commodity, district, toposheet &amp; stage are clean and analysis-ready.</div>
+<div class="wrap">
+<table>
+<thead><tr><th>#</th><th>NUID</th><th>Project Title</th><th>Commodity</th><th>State</th><th>District</th><th>Toposheets</th><th>Stage</th></tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td class="nuid">CRO-07286-1971</td>
+<td class="scrambled">ostwerlimecectdtsie,udmMsapehhcaotrsoaprshshoitrnruansNnaomgRiapetnupogrora-rynBtehssauenrdvoaerryeasoidfnils</td>
+<td>Manganese</td>
+<td>TRYAA MPARDAHDYEASH,MAHARASH</td>
+<td>ya,Mandla,Nagpur,Rajnandgaon,Seoni</td>
+<td class="small">64C06,64C10,64C14,55O01,55O05,55O09,55O13,64C01,64C05,64C09,55N12,55N16,64B04,64B08,64B12,64B07,64B11,55K13</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>2</td>
+<td class="nuid">CRO-18470-1972</td>
+<td class="scrambled">gssaitnorenis-ceGth,OarnMeoaIrhnavSreeascstthiotgrraatViBoAn&amp;iRnVeCpCohBrihokanlntadhaeErxaMtaeDnni</td>
+<td>Manganese</td>
+<td>AHARASHTMRAADHYA PRADESH,M</td>
+<td>Balaghat,Bhandara</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>3</td>
+<td class="nuid">CRO-10528-1973</td>
+<td class="scrambled">AeasgsOherasetsImnDeinMstitrrOaifgcptLu,orwMPaPidhnhodyskapahpPoarrraoduSesestchMt.Oaonnrg,TahnBeeasl</td>
+<td>Manganese</td>
+<td>AHARASHTRA PRADESH,M</td>
+<td>Balaghat,Bhandara</td>
+<td class="small">55O14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>4</td>
+<td class="nuid">CRO-10793-1974</td>
+<td class="scrambled">ROxaertdpeehoInyrnsatiJoPOanrngaaSdTneehtcseothloAars-ss,eGAshBsoaRmnleedapnigothrAatOntfdDMSiaasnmtgnraainpceutsr,AeEM</td>
+<td>Manganese</td>
+<td>DHYA PRAMDAEDSHHYA MA</td>
+<td>Balaghat</td>
+<td class="small">64C01,64C05,64B08,64B12,64C02,64C06,64C09</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>5</td>
+<td class="nuid">CRO-12261-1976</td>
+<td class="scrambled">trnaiesdgsuhaIaytn-aiLoPaPnatrruaFtrdoerOSsfehAcsLtsaoMeurisgsnsu,omrBre-anKlataanngdOhhfaattOMonalDnaiTgshaAtennrIedinscveDteh,sOaM</td>
+<td>Manganese</td>
+<td>MADHYA PRA PRADESH</td>
+<td>Balaghat,Bhandara,Chhindwara,GondiBalaghat</td>
+<td class="small">64C05</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>6</td>
+<td class="nuid">CRO-04494-1979</td>
+<td class="scrambled">tarDaisshttrriabuatnidonMiandhMyaangParnaedseesThrOarceeRseEpolfemMeanh</td>
+<td>Manganese</td>
+<td>HTRA DESH,MMAADHARAS</td>
+<td>ya,Nagpur,Seoni</td>
+<td class="small">55K14,55K15,55O02,55O03,55O06,55O07,55O10,55O11,55O14,55O15</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>7</td>
+<td class="nuid">CRO-15271-1962</td>
+<td class="scrambled">natnrTgieacsntte,sGeMeaoOdprhheyyasAitPcraCalhdIienksvmheasrtai,RgeaBptaoilroangshaoFtrotrDiOMs</td>
+<td>Manganese</td>
+<td>RADESH MADHY HYA P</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>8</td>
+<td class="nuid">CRO-10615-1974</td>
+<td class="scrambled">eABsOasrleeasIgsnhmaeTtnhteDiOMsfitrrLaiogcwptuPrMh-aoPdsihpnyhdaokraPuprsaardtMeaSsOnehngcIatTnoheres,</td>
+<td>Manganese</td>
+<td>H A PRADES</td>
+<td>Balaghat</td>
+<td class="small">55O10,55O14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>9</td>
+<td class="nuid">CRO-15469-1981</td>
+<td class="scrambled">exnrpLilRemoaarmsParertahoimogoalrn-deNssFeIsotnrrRaBeMapaBlonearglgtathn,aOetnsSeeDTlihOeserctetrReieDdcgetipP,oornsiMaivpltansttEIe</td>
+<td>Manganese</td>
+<td>DHYA PRADESH MA</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O13</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>10</td>
+<td class="nuid">CRO-18630-1982</td>
+<td class="scrambled">RsaaeDeigeohPipnarooiransdaiTTelteesshhhEIssxniipllFlR,ioaAnrmnBaardaltalimLaRoaagen-uhpNgaoFeutrotrtrrDaMiMisaAntnrergeiaaScneteOc,sfteoMWraOa,drrheaBy</td>
+<td>Manganese</td>
+<td>MADHYAMAPDRHAYDAESH</td>
+<td>Balaghat</td>
+<td class="small">55O13,55O14,64C01,64C02,64C05</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>11</td>
+<td class="nuid">CRO-23290-2016</td>
+<td class="scrambled">pItlnroirWcaetts,itoeMnrandFhoByrlaoMcPakrnagOdafenseUhskewaRM,OeingnBieaGorlenaanlgeihrzaaatltiDEoixns</td>
+<td>ManganeseBaseMetal,RareEarth</td>
+<td>MPARDAHDYEASH</td>
+<td>BalaghatBalaghat,Bhandara,Gondiya,Nagpur,S</td>
+<td class="small">64B08,64B12,64C05,64C09</td>
+<td><span class="stage g2">G2</span></td>
+</tr><tr>
+<td>12</td>
+<td class="nuid">CRO-03862-2021</td>
+<td class="scrambled">artanurdliselyraetzeniisaia,znaahrnrann.ggcmtpddethaiathfnorBBPieogntharnrasalegnnanalfapesodgiotossfahmruteoraire,cSatnaeniaastcaudDrsoiotsiiyefabeasssladrttRsmlrremiatwMiienrioccneeatbtttranhisasdloalfSeofniooafdzrtuBMathseMaactiealadlhinrrthhao,,aymrntmoraiauirNancannoasPetngegghrredsrepta</td>
+<td>Elements,RareMetals,Tin-Tungsten,Cobalt,Manganese</td>
+<td>MADH,YMAAHPARRAADSEHTRA PRADESH</td>
+<td>eoni</td>
+<td class="small">55O07,55O09,55O10,55O11,55O13,55O14,55O15</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>13</td>
+<td class="nuid">CRO-17293-1971</td>
+<td class="scrambled">lrtoaeonsOrhfD(SteVerLp)caootwsAo-inrRMtd-eesVpdIAaoinr,ruetmCaBhhOPiEanhkanolsdTsatahp-rehDOapoofornDrugCitsrhsiitOM-krnaBlinuacAgztpauE,pnrxregtMaseaieSnhsesaaOcir</td>
+<td>Manganese</td>
+<td>MADHYASH,MAHARASHTRA</td>
+<td>Balaghat,Bhandara</td>
+<td class="small">55O10,55O14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>14</td>
+<td class="nuid">IBM-004205-1973</td>
+<td class="scrambled">oesnAheOrreBeaKa,anHtdoBasranilgAzajsoghsnhaoIarcntiiaUDMtkiaewsndat,rWiiBcSthttha,urdTwMyheaeldOihfM,yaaSnLigaPlaurtngaseudtsre</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat</td>
+<td class="small">64C05</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>15</td>
+<td class="nuid">IBM-00037-2010</td>
+<td class="scrambled">eKaaat(t(HaAenrlgedjaaBr5y).1ST0ha1rhi.H-aAL.da)iltbgyuaGarnereoPasla,eongdDOiiirtsetV.Pi-.lBLla.algaAegrh</td>
+<td>Manganese</td>
+<td>PRMAADDEHSYHA</td>
+<td>Balaghat</td>
+<td class="small">55O13</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>16</td>
+<td class="nuid">IBM-00043-2009</td>
+<td class="scrambled">iaOln-PKrPharadoiesrsplheacntjGiien,oglDoFigosirtcraMilacntRg-aBnaelsacegahlOartReeMpTaoadrhhtsy</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>17</td>
+<td class="nuid">IBM-00044-2013</td>
+<td class="scrambled">etcAatrnPiegrnaiog(,sTpFoDeoticrastltiMrnaAignrcgetRaa-en-Bpe3aos6lre.a4gO2hr9aeteHpJaMoa.arm)dt-hATyOreanjhpusrPniarildo-esPKsplah</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat</td>
+<td class="small">55O13</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>18</td>
+<td class="nuid">IBM-00047-2012</td>
+<td class="scrambled">e-sWearOarseeoDneipoDsiisttrViiclttl-aBOgafel-aBBguuhddabbtuu(ddMaa.PMT)aenhgsainl</td>
+<td>Manganese</td>
+<td>PRADESH</td>
+<td>Balaghat</td>
+<td class="small">55O13</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>19</td>
+<td class="nuid">IBM-00051-2009</td>
+<td class="scrambled">osdNsDteiperslepihcocMtstAiiirnntBeegaarVlaRia6lelg.plh8Uoaa1nrgt0dte(eMHrFJ.eoaPcPrm.tl)aJTrMaeSeamhtnsaAgMitrnaleeenasgKMIeaaanntdOeahFrsnyoeegarieOPsPrDrtreia</td>
+<td>Manganese</td>
+<td>DHYA PRADESH MA</td>
+<td>Balaghat</td>
+<td class="small">55O13</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>20</td>
+<td class="nuid">IBM-00055-2009</td>
+<td class="scrambled">onOtldrVroeeiigrlciAltcPra-aregBloaeas(-lp4PgPe.ihrc6paot4etsi2r(pntMegHo.calPtL.a.ii))nc(TgeNanohPRsnsreeiopFlsoOo-prfrKeteacMsnOattfnagAnAargrneieeaas)DGeIieUns</td>
+<td>Manganese</td>
+<td>DHYA PRADEMSAHDHYA MA</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>21</td>
+<td class="nuid">IBM-00082-2010</td>
+<td class="scrambled">roaeA3tsrsSrihoeFtDuaPoiRtrrVsah3oitn0sDlrgB3phliea.eaacl9cngtLa1tseog0iuBghnaDauaHghlrtaLaa.ongBMRgshliFeuuaonopratcerkreMLSasaotDltngahgutaMCarenaonsnmeTMugpseaaaatehdnnishDernOiyistgrlavemeieRBPsOneDarirtpeiaoeophdn9</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat</td>
+<td class="small">64C05</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>22</td>
+<td class="nuid">IBM-00084-2010</td>
+<td class="scrambled">aBPUnrnarkeeeiawrsshdaateaelrsFCOhoMorDrameiRenpsasgaDtntarergntpieDemocisestNvenioittBrsOatirNVlhoeoian1olgUA8rlhkNr0taawoe2gtaraFetoSFh2rPUto4rkarB3Uowtea.ksaesl0wpta0aTMgeaBhHMhdlaaashot.niycalakMFgio</td>
+<td>Manganese</td>
+<td>PRADESMHADHY</td>
+<td>Balaghat</td>
+<td class="small">64C05</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>23</td>
+<td class="nuid">IBM-00106-2014</td>
+<td class="scrambled">Ra-egBpeao-lrCathgihCkahmtia,krmaMa,ardaThayMhaasnipglra-anKdeaestseahnDgeiGp,eoosDeliictsttiVrniiglclt</td>
+<td>Manganese</td>
+<td>SH MADAH PRADE</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>24</td>
+<td class="nuid">IBM-00138-2013</td>
+<td class="scrambled">euPrrDaoeisp,PporesDociisttspi,ten.cgVtiSiRlenelogpanogiRre,et-pDMDh.hoPob.biitAtorolelaaa,1MT3aa.onh0ggs5iaicnlHae-alsK.</td>
+<td>Manganese</td>
+<td>MADDHEYSAH YA PRA</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O10</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>25</td>
+<td class="nuid">IBM-00148-2014</td>
+<td class="scrambled">nKdeaestseahnDgAeirp,eoasDiiOtsftVr5ii.lc9lt5a-5gBeaHo-lerCacthgtihaCkarhmteia,skrmaMa,arPdarThoayMhaasnipglra-a</td>
+<td>Manganese</td>
+<td>PRADESH MAD</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>26</td>
+<td class="nuid">IBM-00325-2011</td>
+<td class="scrambled">iVi4nic.glt2l-7RaB8egapelHo-aerSgctohtnaaSetrog,enaseoMgnaa,dFohinTyneaaMhlasPnirRglaea-dpnKeeassthen.gDiAe,rpesoDapsieisOcttftr</td>
+<td>Gold,Copper,Lead,Zinc,CobManganese</td>
+<td>RADESMHADHYA HYA P</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>27</td>
+<td class="nuid">IBM-00404-2010</td>
+<td class="scrambled">ndqdal.hiaysKasRma.PnPrcDaeBidlseSotsucrhrkiv(ceRtPypr.BoONasvolpe.aer-gc9htB5aia)tnlaAAogrnrhedtaatMO7anA4nn2dRd.le0acM0oaMnnSa</td>
+<td>alt,Manganese,Bauxite,Iron,Nickel,Silver</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat,Mandla,Seoni</td>
+<td class="small">55N14,55N15,55N16,64B02,64B03,64B04,64B06,64B07,64B08,64B10,64B11,64B12</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>28</td>
+<td class="nuid">IBM-00458-2011</td>
+<td class="scrambled">appoMonanadarhPryrTaoMapahPensrcgiataldin-eneKsgsahetRaAeDnrpegeopiaosDOiiftst9gVr.ii1Rlc7elt2pa-ogBHreaet-lcLatLigainhrngaegats</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O10</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>29</td>
+<td class="nuid">IBM-00459-2011</td>
+<td class="scrambled">alrn-aeKdsaeetsahDnegApiro,esaiDtiOsfVtir4li.lc8at5g6rebt-aHLleLiacingtnghagaaraptepo,sonnaMarar,dRThMayahansgip</td>
+<td>Manganese</td>
+<td>PRADESH M</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O10</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>30</td>
+<td class="nuid">CRO-1463-2010</td>
+<td class="scrambled">tlcDatOegnpeBo-aPsJlriaaotmgskhpOhaevatcertriMi.nATPgna.hOAifrselJaRaKemOhpkfaohira1rtr3li.a9nM9ja3ingHDaaienspeVtosirreli</td>
+<td>Manganese</td>
+<td>A PRADESMHADHYA ADHY</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>31</td>
+<td class="nuid">CRO-22117-1975</td>
+<td class="scrambled">sOn,trdieBgAaaDolthlaiaagonjhnshauitFaro-iDrL-iaBsAuatsglrsaaiergcs,htsa,mLteaMnuSatgedachOrtyf-oaKrOMaPnanMrnh.aTgaPdhat.eenosIelBhnsaeveleAt</td>
+<td>Manganese</td>
+<td>PRADESH</td>
+<td>Balaghat</td>
+<td class="small">64C01,64C05</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>32</td>
+<td class="nuid">CRO-23938-2023</td>
+<td class="scrambled">RNPEGUDPARION,SRETTSPREAIOYCNMATIL,RNIEEMCRAAOANDNLDHNIYAZSAIAESTRPSIVRAOIANNDCIAEENRSEHSBA(UHSRAOTVGFAEOGYLBEIA-F,LGOA4RHG)IH.MRAAAT</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH</td>
+<td>Balaghat</td>
+<td class="small">64C01,64C05</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>33</td>
+<td class="nuid">CRO-04014-2023</td>
+<td class="scrambled">ntReDeroDcaniolgsniatnzrraaiiitycsiatso,ananinMcndaedKKhSaayunsarkpviuPe,rryafBadoarerlesaahMgsahnaoAgtfa,RnBeGasalerargmahi,a</td>
+<td>Manganese</td>
+<td>MADHYA PRADESH MAD</td>
+<td>Balaghat</td>
+<td class="small">64C01,64C02</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>34</td>
+<td class="nuid">CRO-26238-1970</td>
+<td class="scrambled">OonnanrtdtuoTslLDhaaieM-usaGgtAnhursgorisan-cendKtseia,ss(nmeIhMe)aanO,tdtroheDlyOIhaafna(vnIPLesirosu)awtad-i-SeMgLeseaachdtutiigouourRmnr,eI(ecPnIBphiaooJilrsa)atpgghaAh</td>
+<td>Manganese</td>
+<td>ADESH,MAHARASHTRA MAHDYA PR</td>
+<td>Balaghat,Bhandara,Nagpur,Seoni</td>
+<td class="small">55O03,55O07,55O10,55O11,55O14,55K15,64C01,64C05,64C09</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>35</td>
+<td class="nuid">CRO-24036-2023</td>
+<td class="scrambled">soa,surapiMnacoadefrhreysoaaucsrk,PvsreiSaynedfoeoPnsriihpmaaarnFnwdigananBaniale,lsaReAgeighnraitSaadunisdsoatnrKrnoiaGycirlt</td>
+<td>Manganese</td>
+<td>RADESHMADHYA HYA P</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O10</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>36</td>
+<td class="nuid">CRO-23394-2017</td>
+<td class="scrambled">lriiaOcmlftii,nsWaaeMrtsayitdoehEnryxInapnlUPoGkrruwaadadtmeiaBsolhnBolcOokAfc,kRM,BeaapnAlpognaoragrnEhtexasttOeennDMsiPiisrnoteenr</td>
+<td>Manganese</td>
+<td>MADHYAPRADESH</td>
+<td>Balaghat</td>
+<td class="small">64C05</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>37</td>
+<td class="nuid">CRO-02042-1974</td>
+<td class="scrambled">Aass,sGehBsoasnlmdaeignhtAantOdfDSiMasamtnnrgaiapcnuter,seEMxpOtreenAIsnitNooJnOangSaeTnchtteoolr</td>
+<td>ManganeseCopper,Iron,Limestone,Clay,</td>
+<td>MADPHRADESH</td>
+<td>Balaghat</td>
+<td class="small">64B08,64B12,64C05,64C09</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>38</td>
+<td class="nuid">CRO-14471-1966</td>
+<td class="scrambled">h,saeenLIdRinlemapeP,osartrDtotienssdet,OrOficCcclTtuai,rykr,aMemanBgdcaaheurysxhai,OtPfeRraaCAjdongepdasprhteMheIra,nAOnIgnnradonTneM</td>
+<td>Bauxite,Manganese</td>
+<td>ESH YA PMRAD</td>
+<td>Balaghat,Mandla</td>
+<td class="small">54D08,54D12,54D16,54H04,54H08,55A05,55A09,55A13,55E01,55E02,55E05,55E06,64B07,64B11,64B12,55A14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>39</td>
+<td class="nuid">DMP-05874-1980</td>
+<td class="scrambled">ieetmd,OPiRrrMeeiAapvndoDadhretytpeBaorOsLoPnietrtahaEIsedxnerepsslRHhoaoLrmltarddta.SimOaoafBmnapEMllFa/aiosSgnrt.haMMJtai.nnADge.iassn,TtterresTiirehvc</td>
+<td>Manganese</td>
+<td>YA PRADMEASDHHYA ADH</td>
+<td>Balaghat</td>
+<td class="small">55O13,64C01</td>
+<td><span class="stage g3">G3</span></td>
+</tr><tr>
+<td>40</td>
+<td class="nuid">CRO-20089-1975</td>
+<td>angAanReespeorOtreOInnEBxapllaoghat DistgriOcft(TMh.eP.M)</td>
+<td>Manganese</td>
+<td>MAHDAHRYAASHTRA PRADESH,MA</td>
+<td>Balaghat,Bhandara,Seoni</td>
+<td class="small">64B04,64B08,64B12,55O09,55O10,55O13,55O14,64C01,64C02,64C05,64C06,64C09</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>41</td>
+<td class="nuid">MCL-002034-1970</td>
+<td class="scrambled">nsatiDdoeeOnpsfohAsriMetGaaEnBOgaLaAlOnlaGeogIsnhCegaAtLODriRrepDEaiPtPDsioitotrrneeinccAtttnii,daolnMAIasnOdsfheEysxUastkmewPenar</td>
+<td>Manganese</td>
+<td>MADHYPARADESH</td>
+<td>Balaghat</td>
+<td class="small">64B08,64C05</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>42</td>
+<td class="nuid">CRO-2356-2023</td>
+<td class="scrambled">SAYAMANASANDEDCBOHEALNYSOIASSCUOKPRC(KRVIAHAEArADYTeIE(EaLSGD-AH-1N4M4JI0ISN.,RTE2DeAR2IpGASoELSTOr)SqRRtIITFNKCOOmTOnRK)-NAMTTBRAOEAENRHLCGISAOA-IGNNJLHNEH-AASIWTIERA,SIR</td>
+<td>Manganese</td>
+<td>MAPDRHAYDAESH</td>
+<td>Balaghat</td>
+<td class="small">55O14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>43</td>
+<td class="nuid">CRO-21489-1994</td>
+<td class="scrambled">ls,IantMviaeodsnhtIyinagaUPtkriwaoadneAsFrhoera,AMRaBenapgloaarngtehsaGeteoMDpiihnsyetsrriaiclcait</td>
+<td>Manganese</td>
+<td>MADHYA P PRADESH</td>
+<td>Balaghat</td>
+<td class="small">64C05,64C09</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>44</td>
+<td class="nuid">CRO-11555-1993</td>
+<td class="scrambled">ndaDrPiyasIutnnrviieycsattiABgraaeltaai,gohnNaotFr,otrhM-aEdMahasyntagaOPOnfrneasdPeTeriseArhlroiodmuiin,</td>
+<td>Manganese</td>
+<td>RASHTRA RADESH,MAHA</td>
+<td>Balaghat,Bhandara</td>
+<td class="small">55O10,55O14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>45</td>
+<td class="nuid">CRO-15895-1975</td>
+<td>ea)pnogratneOsne GORerenepesosriOtsf OACnnednGtrPraearltIongdriaap(hIygcOpf-11RM1</td>
+<td>Manganese</td>
+<td>ADHYAMAPDRHAYDAESH M</td>
+<td>Balaghat</td>
+<td class="small">55O10,55O03,55O07,55O11,64C05</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>46</td>
+<td class="nuid">CRO-03382-1975</td>
+<td>i-McNaIadnrhvwyeaasntjPiprgaaardteiAsorhnesa, RFeoBpraolrMavtaginhtOgaynatnAeDnsides,tMraDigocnrtel,ti</td>
+<td>Manganese</td>
+<td>MADPHRYAADESH</td>
+<td>Balaghat</td>
+<td class="small">55O13,55O14</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>47</td>
+<td class="nuid">IBM-009261-1974</td>
+<td class="scrambled">lhlIianrgvihe-asBttailDgaiagsthtiarotin-csJta,FroaMraMdohMhyaaanggaPaornnaedGseeeAsoIrhpnehayAssGo,ilcaBaja</td>
+<td>Manganese</td>
+<td>PRADESHM</td>
+<td>Balaghat</td>
+<td class="small">55O14,64C01,64C02,55O13</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>48</td>
+<td class="nuid">IBM-00538-2009</td>
+<td class="scrambled">ogOKiracetaalDnegPpiroosDsiiptse,tcrtAiitcntgViBRlaellpaaoggrehtaStOe,flwMMa.aPnT.gaahnaeesosilel</td>
+<td>Manganese</td>
+<td>YA PRADESH ADH</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O13</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>49</td>
+<td class="nuid">CRO-2539-2010</td>
+<td class="scrambled">laadonlegebsisuhcerarlOaRr,eReceDopKinoasnrttatarinisOgcsnjtah-nPaBcrraeoilsapPgelhcatAtir,negaMaFTdoahrhysaMiGalPen-rogLa</td>
+<td>Manganese</td>
+<td>HYMAADPHRYAADESH MAD</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O13</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>50</td>
+<td class="nuid">DMP-04228-2024</td>
+<td class="scrambled">esTdeiiiksnatrrSiiacuatsn,adrMDaGodrnhogyuaaprgPoarfoarndsoeucasrkrhvseeiaynsfS,oaJrmoBpgamilatanogglhaaan,t</td>
+<td>Manganese</td>
+<td>PRADESMHADH</td>
+<td>Balaghat,Seoni</td>
+<td class="small">55O10</td>
+<td><span class="stage g4">G4</span></td>
+</tr><tr>
+<td>51</td>
+<td class="nuid">DMP-00150-1975</td>
+<td>f(tMh.eP)Manganese OreIn Balaghat DilsitnrgicOt</td>
+<td>Manganese</td>
+<td>DESH YA PRA</td>
+<td>Balaghat</td>
+<td class="small">64B04,55O09,55O10,64B08,55O13,55O14,64B12,64C01,64C02,64C05,64C06,64C09,64C10</td>
+<td><span class="stage g4">G4</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

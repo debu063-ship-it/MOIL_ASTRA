@@ -1,0 +1,74 @@
+block,nuid,borehole,collar_rl_m,from_m,to_m,lithology,ore_notes,source_sheet
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,0.0,8.0,Yellow silty soil with quartz fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,8.0,17.0,Lateritic soil with quartz fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,17.0,26.0,Weathered garnetiferous muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,26.0,35.0,Garnetiferous quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,35.0,68.0,Interbanded Garnetiferous quartz muscovite schist and quartzite with rare garnets.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,68.0,74.0,Quartz muscovite schist with rare garnets.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,74.0,83.0,Sericite schist(With Chlorite increasing downward),,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,83.0,86.0,Sericite schist (with Mn ore). Mn ore is brecciated and interbanded with quartzite.,"Core recovery = 0% during initial drilling. Mn ore of .15m was recovered during the re drilling at 83 m, core recovery =70% during re drilling.(Re drilling was started on 24/03/17; completed on 27/03/17) . Ore is 0.15m thick.",Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,86.0,92.0,Phyllite,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-1,600.06,92.0,113.35,Biotite Gneiss with veins of calcite and quartz and angular to rounded fragments of pegmatite,Initially very fine grained due to tectonic contact. Specks of magnetite and pyrite are observed within gneiss in disseminated form.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,0.0,5.0,Yellow clayey soil,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,5.0,14.0,Lateritic soil with quartz fragments,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,14.0,26.0,Weathered garnetiferous muscovite schist,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,26.0,35.0,Garnetiferous muscovite schist,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,35.0,47.0,Quartz muscovite Schist,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,47.0,62.0,Garnetiferous quartz muscovite schist,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,62.0,85.95,Quartz muscovite sericite schist with rare garnets.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,85.95,95.0,Quartz Muscovite Schist,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,95.0,100.45,Sericite Schist with chlorite.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,100.45,102.5,Mn ore of massive nature was observed with fine interbanding of quartz.( ore horizon),"Mn ore horizon of 1.43m was recovered, core recovery = 69.756%, core loss is .62 m. Brecciation is observed. Actual thickness of ore is 1.40m .",Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,102.5,106.0,Phyllite.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-2,603.066,106.0,116.0,Biotite Gneiss with veins of quartz and calcite with angular to rounded fragments of pegmatite.,Initially very fine grained due to tectonic contact. Specks of magnetite and pyrite are observed within gneiss in disseminated form,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,0.0,14.0,Red lateritic soil with quartz fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,14.0,23.0,"Yellow silty soil with fragments of quartz, laterite and schist.",,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,23.0,32.0,Weathered garnetiferous muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,32.0,56.0,Garnetiferous quartz muscovite schist.,Stringers of hematite are found to be intruding along weak planes.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,56.0,77.0,Quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,77.0,97.95,Quartz muscovite schist with,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,97.95,113.0,Sericite schist with chlorite.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,113.0,123.78,Sericite schist.,Specks of pyrite and magnetite are observed in it.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,123.78,127.425,Mn ore horizon (Mn ore inter banded with Mn Quartzite) is traversed by carbonate and quartz veinlets. (Pink coloured carbonate material).,Core recovery is 100% with Mn bands varying from <1 mm to 11cm thick bands. Evidence of faulting (small scale and oblique slip) and brecciation is observed. Actual thickness of Ore is 2.40m.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-3,601.208,127.425,128.0,Fine grained gneissic material.,Due to tectonic nature of contact.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,0.0,8.0,Reddish brown sandy soil with quartz fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,8.0,26.0,Lateritic soil.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,26.0,44.0,Yellowish and weathered,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,44.0,59.0,Weathered quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,59.0,89.0,Quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,89.0,98.0,Quartz muscovite schist with rare garnet.,Specks of Magnetite are observed in disseminated form.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,98.0,146.0,Quartz muscovite schist with chlorite and rare garnet.,Specks of Magnetite and Pyrite are observed in disseminated form.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,146.0,218.0,Garnetiferous quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,218.0,236.0,Sericite schist.( with increasing chlorite with depth),,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,236.0,251.7,Quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,251.7,253.5,Mn ore horizon (Mn ore inter banded with Mn Quartzite) is traversed by carbonate and quartz veinlets. (Pink coloured carbonate material).,Core recovery is 100% with Mn bands varying from <1 mm to 16 cm thick bands. Brecciation is observed. Actual thickness of ore is 1.20m.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-4,599.313,253.5,254.0,Fine grained gneissic material.,Due to tectonic nature of contact.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,0.0,9.0,Yellow silty soil with rock fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,9.0,17.0,Red lateritic soil.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,17.0,32.0,Yellow clayey soil with rock fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,32.0,56.0,Yellow clayey soil along with weathered garnetiferous muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,56.0,71.0,Weathered garnetiferous muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,71.0,131.0,Garnetiferous quartz muscovite schist.,Stringers of Fe along weak planes.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,131.0,170.0,Quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,170.0,196.92,Sericite schist with chlorite.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,196.92,198.79,Mn ore horizon(Mn ore inter banded with Mn Quartzite) is traversed by carbonate and quartz veinlets. (Pink coloured carbonate material).,"Mn ore horizon of 1.42 m was recovered, core recovery = 75.93%, 0.45 m was collected in powdery form. Brecciation is observed. Actual thickness of ore is 0.40m.",Table-10
+Western Ukwa,CRO-23290-2016,UKBH-5,602.066,198.79,200.0,Fine grained gneissic material.,Due to tectonic nature of contact.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,0.0,11.0,Yellow clayey soil.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,11.0,20.0,Red lateritic soil with rock fragments.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,20.0,44.0,Yellow clayey soil.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,44.0,50.0,Yellow clayey soil with weathered quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,50.0,98.0,Quartz muscovite schist with chlorite traversed by calcite vein along weak planes.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,98.0,116.0,Quartz muscovite schist with garnet.,Specks of magnetite is found in disseminated form,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,116.0,140.0,Quartz muscovite-sericite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,140.0,158.0,Garnetiferous quartz muscovite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,158.0,182.0,Quartz muscovite schist with chlorite.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,182.0,203.0,Garnetiferous quartz muscovite sericite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,203.0,253.25,Quartz muscovite sericite schist.,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,253.25,253.95,Mn ore horizon (Mn ore inter banded with Mn Quartzite) is traversed by carbonate and quartz veinlets. (Pink coloured carbonate material).,Core recovery is 100% with Mn bands varying from <1 mm to 5 cm thick bands. Brecciation is observed. Actual thickness of ore is 0.20m.,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,253.95,257.0,Phyllite,,Table-10
+Western Ukwa,CRO-23290-2016,UKBH-6,599.837,257.0,260.0,Fine grained gneissic material.,Due to tectonic nature of contact.,Table-10
+Western Ukwa,CRO-23290-2016,UKH-3,599.484,186.3,1.0,1) Core recovery in ore horizon: 94%. 2) Cumulative true thickness of manganese ore bands: 1.01m. 3) Cumulative true thickness of waste rock: 1.89m.,,ANNEXURE-IV
+Western Ukwa,CRO-23290-2016,UKH-4,602.489,191.7,1.0,1) Core recovery in ore horizon: 100%. 2) Cumulative true thickness of manganese ore bands: 0.85m. 3) Cumulative true thickness of waste rock: 0.85m.,,ANNEXURE-IV
+Western Ukwa,CRO-23290-2016,UKH-7,601.668,209.05,1.0,1) Core recovery in ore horizon: 100%. 2) Cumulative true thickness of manganese ore bands: 0.30m. 3) Cumulative true thickness of waste rock: 0.45m.,,ANNEXURE-IV
+Western Ukwa,CRO-23290-2016,UKH-14,598.709,227.2,1.0,1) Core recovery in ore horizon:100% 2) Cumulative true thickness of manganese ore bands: 1.54m. 3) Cumulative true thickness of waste rock: 3.86m.,,ANNEXURE-IV
+Western Ukwa,CRO-23290-2016,UKH-16,601.176,220.9,30.0,1) Core recovery in ore horizon: 99%. 2) Cumulative true thickness of manganese ore bands: 0.30m. 3) Cumulative true thickness of waste rock: 0.90m.,,ANNEXURE-IV

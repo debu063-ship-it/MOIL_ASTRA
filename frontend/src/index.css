@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 7%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 199 89% 48%;
+    --radius: 0.5rem;
+  }
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #0b0f19;
+  color: #f8fafc;
+}
+
+/* Cesium container adjustments */
+.cesium-viewer {
+  width: 100% !important;
+  height: 100% !important;
+  font-family: inherit !important;
+}
+
+.cesium-viewer-bottom {
+  display: block !important;
+  position: fixed !important;
+  left: auto !important;
+  right: 8px !important;
+  bottom: 4px !important;
+  z-index: 30 !important;
+  color: rgba(226, 232, 240, 0.88) !important;
+  font-size: 9px !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.cesium-viewer-bottom a {
+  color: #bae6fd !important;
+}
+
+/* Glass UI Elements */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-subtle {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(30, 41, 59, 0.65);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-button {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-button:hover {
+  background: rgba(51, 65, 85, 0.85);
+  border-color: rgba(56, 189, 248, 0.5);
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+}
+
+/* Light analysis drawer inspired by the reference while the map remains dark. */
+.analysis-panel {
+  color: #0f172a;
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  box-shadow: -24px 0 70px -30px rgba(2, 6, 23, 0.68);
+}
+
+.analysis-panel-header,
+.analysis-panel-stepper {
+  background: #ffffff;
+  border-color: #e2e8f0;
+}
+
+.analysis-panel-body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.analysis-panel .glass-card,
+.analysis-panel .glass-panel,
+.analysis-panel [class*="bg-[#0f172a]"],
+.analysis-panel [class*="bg-[#0b0f19]"] {
+  background: #ffffff !important;
+  color: #0f172a;
+  border-color: #e2e8f0;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  backdrop-filter: none;
+}
+
+.analysis-panel [class*="bg-slate-950"] {
+  background: #f8fafc !important;
+}
+
+.analysis-panel [class*="bg-slate-900"] {
+  background: #f1f5f9 !important;
+}
+
+.analysis-panel [class*="border-white"] {
+  border-color: #e2e8f0 !important;
+}
+
+.analysis-panel .text-slate-100 { color: #0f172a !important; }
+.analysis-panel .text-slate-200 { color: #1e293b !important; }
+.analysis-panel .text-slate-300 { color: #334155 !important; }
+.analysis-panel .text-slate-400,
+.analysis-panel .text-slate-500 { color: #64748b !important; }
+.analysis-panel .text-sky-200,
+.analysis-panel .text-sky-300 { color: #0369a1 !important; }
+.analysis-panel .text-emerald-300 { color: #047857 !important; }
+.analysis-panel .text-blue-300 { color: #1d4ed8 !important; }
+.analysis-panel .text-purple-300 { color: #7e22ce !important; }
+.analysis-panel .text-amber-300 { color: #b45309 !important; }
+.analysis-panel .text-red-300 { color: #b91c1c !important; }
+
+.analysis-panel input[type="number"],
+.analysis-panel input[type="text"] {
+  color: #0f172a;
+  background: #ffffff;
+  border-color: #cbd5e1;
+}
+
+.analysis-panel input[type="range"] {
+  accent-color: #2563eb;
+}
+
+.analysis-panel [class*="hover:bg-white/"]:hover {
+  background: #f1f5f9;
+}
+
+.analysis-panel ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.analysis-panel ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+.analysis-panel ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Range input styling */
+input[type=range] {
+  accent-color: #38bdf8;
+}

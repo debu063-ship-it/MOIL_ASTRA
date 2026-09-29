@@ -1,0 +1,238 @@
+{
+  "workflow": "Model-Preparation Capping (Train-Only Fit)",
+  "method": "Tukey's IQR Fences (1.5*IQR) with Physical Domain Clamping",
+  "target_variable": "label",
+  "deposit_probability_used_as_predictor": false,
+  "stratified_split": {
+    "train_size": 63,
+    "test_size": 27,
+    "train_positive_count": 21,
+    "test_positive_count": 9,
+    "random_state": 42,
+    "fitted_thresholds": {
+      "B2": {
+        "q1_train": 0.053000000000000005,
+        "q3_train": 0.07565,
+        "iqr_train": 0.02264999999999999,
+        "lower_bound": 0.01902500000000002,
+        "upper_bound": 0.10962499999999997,
+        "train_capped_lower": 0,
+        "train_capped_upper": 1,
+        "test_capped_lower": 0,
+        "test_capped_upper": 0
+      },
+      "B3": {
+        "q1_train": 0.0741,
+        "q3_train": 0.10189999999999999,
+        "iqr_train": 0.02779999999999999,
+        "lower_bound": 0.03240000000000001,
+        "upper_bound": 0.14359999999999998,
+        "train_capped_lower": 0,
+        "train_capped_upper": 0,
+        "test_capped_lower": 0,
+        "test_capped_upper": 0
+      },
+      "B4": {
+        "q1_train": 0.0717,
+        "q3_train": 0.1255,
+        "iqr_train": 0.0538,
+        "lower_bound": 0.0,
+        "upper_bound": 0.2062,
+        "train_capped_lower": 0,
+        "train_capped_upper": 0,
+        "test_capped_lower": 0,
+        "test_capped_upper": 0
+      },
+      "B8": {
+        "q1_train": 0.2114,
+        "q3_train": 0.25615,
+        "iqr_train": 0.044749999999999984,
+        "lower_bound": 0.14427500000000004,
+        "upper_bound": 0.323275,
+        "train_capped_lower": 1,
+        "train_capped_upper": 1,
+        "test_capped_lower": 2,
+        "test_capped_upper": 1
+      },
+      "B11": {
+        "q1_train": 0.23604999999999998,
+        "q3_train": 0.3188,
+        "iqr_train": 0.08274999999999999,
+        "lower_bound": 0.111925,
+        "upper_bound": 0.44292499999999996,
+        "train_capped_lower": 2,
+        "train_capped_upper": 0,
+        "test_capped_lower": 2,
+        "test_capped_upper": 0
+      },
+      "B12": {
+        "q1_train": 0.1518,
+        "q3_train": 0.2383,
+        "iqr_train": 0.08650000000000002,
+        "lower_bound": 0.02204999999999996,
+        "upper_bound": 0.36805000000000004,
+        "train_capped_lower": 1,
+        "train_capped_upper": 0,
+        "test_capped_lower": 1,
+        "test_capped_upper": 0
+      },
+      "elevation": {
+        "q1_train": 294.5,
+        "q3_train": 353.0,
+        "iqr_train": 58.5,
+        "lower_bound": 206.75,
+        "upper_bound": 440.75,
+        "train_capped_lower": 0,
+        "train_capped_upper": 9,
+        "test_capped_lower": 0,
+        "test_capped_upper": 2
+      },
+      "slope": {
+        "q1_train": 1.3608500000000001,
+        "q3_train": 4.07715,
+        "iqr_train": 2.7162999999999995,
+        "lower_bound": 0.0,
+        "upper_bound": 8.151599999999998,
+        "train_capped_lower": 0,
+        "train_capped_upper": 1,
+        "test_capped_lower": 0,
+        "test_capped_upper": 2
+      },
+      "iron_oxide_index": {
+        "q1_train": 1.4390999999999998,
+        "q3_train": 1.66005,
+        "iqr_train": 0.2209500000000002,
+        "lower_bound": 1.1076749999999995,
+        "upper_bound": 1.9914750000000003,
+        "train_capped_lower": 1,
+        "train_capped_upper": 0,
+        "test_capped_lower": 2,
+        "test_capped_upper": 0
+      },
+      "swir_nir_ratio": {
+        "q1_train": 1.0526499999999999,
+        "q3_train": 1.3602500000000002,
+        "iqr_train": 0.3076000000000003,
+        "lower_bound": 0.5912499999999994,
+        "upper_bound": 1.8216500000000007,
+        "train_capped_lower": 5,
+        "train_capped_upper": 0,
+        "test_capped_lower": 1,
+        "test_capped_upper": 0
+      },
+      "clay_alteration_idx": {
+        "q1_train": 1.3468,
+        "q3_train": 1.57325,
+        "iqr_train": 0.22645000000000004,
+        "lower_bound": 1.0071249999999998,
+        "upper_bound": 1.912925,
+        "train_capped_lower": 0,
+        "train_capped_upper": 3,
+        "test_capped_lower": 0,
+        "test_capped_upper": 0
+      },
+      "ferrous_iron_idx": {
+        "q1_train": 0.6709,
+        "q3_train": 1.00735,
+        "iqr_train": 0.3364499999999999,
+        "lower_bound": 0.16622500000000018,
+        "upper_bound": 1.512025,
+        "train_capped_lower": 0,
+        "train_capped_upper": 0,
+        "test_capped_lower": 0,
+        "test_capped_upper": 0
+      },
+      "ndvi": {
+        "q1_train": 0.3137,
+        "q3_train": 0.49505,
+        "iqr_train": 0.18135,
+        "lower_bound": 0.04167499999999996,
+        "upper_bound": 0.767075,
+        "train_capped_lower": 1,
+        "train_capped_upper": 0,
+        "test_capped_lower": 2,
+        "test_capped_upper": 0
+      },
+      "dist_to_gondite_km": {
+        "q1_train": 9.4783,
+        "q3_train": 15.6627,
+        "iqr_train": 6.184399999999998,
+        "lower_bound": 0.20170000000000243,
+        "upper_bound": 24.939299999999996,
+        "train_capped_lower": 0,
+        "train_capped_upper": 7,
+        "test_capped_lower": 0,
+        "test_capped_upper": 4
+      }
+    }
+  },
+  "spatial_split": {
+    "spatial_boundary": "Longitude 79.75\u00b0E",
+    "spatial_train_region": "West Block (lon < 79.75)",
+    "spatial_test_region": "East Block (lon >= 79.75)",
+    "spatial_train_size": 46,
+    "spatial_test_size": 44,
+    "spatial_train_positive": 13,
+    "spatial_train_negative": 33,
+    "spatial_test_positive": 17,
+    "spatial_test_negative": 27,
+    "fitted_thresholds": {
+      "B2": {
+        "lower_bound": 0.018025000000000006,
+        "upper_bound": 0.10542499999999999
+      },
+      "B3": {
+        "lower_bound": 0.03991249999999996,
+        "upper_bound": 0.13201250000000003
+      },
+      "B4": {
+        "lower_bound": 0.0,
+        "upper_bound": 0.187975
+      },
+      "B8": {
+        "lower_bound": 0.14584999999999995,
+        "upper_bound": 0.32465
+      },
+      "B11": {
+        "lower_bound": 0.15949999999999998,
+        "upper_bound": 0.3851
+      },
+      "B12": {
+        "lower_bound": 0.05848750000000001,
+        "upper_bound": 0.3195875
+      },
+      "elevation": {
+        "lower_bound": 154.0,
+        "upper_bound": 494.0
+      },
+      "slope": {
+        "lower_bound": 0.0,
+        "upper_bound": 8.0948125
+      },
+      "iron_oxide_index": {
+        "lower_bound": 1.1056125000000003,
+        "upper_bound": 1.8775125
+      },
+      "swir_nir_ratio": {
+        "lower_bound": 0.6060500000000004,
+        "upper_bound": 1.7276499999999995
+      },
+      "clay_alteration_idx": {
+        "lower_bound": 1.0287749999999996,
+        "upper_bound": 1.8797750000000004
+      },
+      "ferrous_iron_idx": {
+        "lower_bound": 0.195075,
+        "upper_bound": 1.4564750000000002
+      },
+      "ndvi": {
+        "lower_bound": 0.06971250000000012,
+        "upper_bound": 0.7960124999999998
+      },
+      "dist_to_gondite_km": {
+        "lower_bound": 0.0,
+        "upper_bound": 25.856187500000004
+      }
+    }
+  }
+}

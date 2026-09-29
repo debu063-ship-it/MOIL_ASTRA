@@ -1,0 +1,1176 @@
+{
+  "manifest_version": 1,
+  "generated_by": "scripts/run_data_gaps.py",
+  "generated_date": "2026-09-29",
+  "grid_crs": "EPSG:4326",
+  "grid_rows": 5568,
+  "files": [
+    {
+      "path": "data/capped/external/satellite/s2_dem_grid_samples.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_s2_dem_grid.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/soilmoisture_hourly_balaghat_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/soilmoisture_hourly_bhandara_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/soilmoisture_hourly_nagpur_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/soilmoisture_hourly_ukwa_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/weather_daily_balaghat_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/weather_daily_bhandara_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/weather_daily_nagpur_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/external/satellite/weather_daily_ukwa_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/processed/engineered_features_integrated_grid.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/processed/engineered_features_monthly_ops.csv",
+      "row_count": 1188,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1188
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/processed/engineered_features_monthly_weather.csv",
+      "row_count": 564,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 564
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/raw/labeled_samples_dataset.csv",
+      "row_count": 90,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 90
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/raw/region_grid_predictions.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/synthetic/monthly_ops_synthetic_2015_2026.csv",
+      "row_count": 1188,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 1188
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/generate_synthetic_ops.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped/synthetic/production_scenario.csv",
+      "row_count": 1452,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 1452
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap5_production_scenario.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/s2_dem_grid_samples.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_s2_dem_grid.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/soilmoisture_hourly_balaghat_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/soilmoisture_hourly_bhandara_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/soilmoisture_hourly_nagpur_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/soilmoisture_hourly_ukwa_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/weather_daily_balaghat_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/weather_daily_bhandara_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/weather_daily_nagpur_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/external/satellite/weather_daily_ukwa_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/archived_obsolete_splits/STALE_DO_NOT_USE_prospectivity_test_spatial_bhandara_nagpur.csv",
+      "row_count": 74,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 74
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/archived_obsolete_splits/STALE_DO_NOT_USE_prospectivity_train_spatial_balaghat.csv",
+      "row_count": 16,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 16
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/prospectivity_model_prep_metadata.json",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 0
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/prospectivity_test_spatial_east.csv",
+      "row_count": 44,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 44
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/prospectivity_test_stratified_capped.csv",
+      "row_count": 27,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 27
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/prospectivity_train_spatial_west.csv",
+      "row_count": 46,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 46
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/model_ready/prospectivity_train_stratified_capped.csv",
+      "row_count": 63,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 63
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/processed/engineered_features_integrated_grid.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/processed/engineered_features_monthly_ops.csv",
+      "row_count": 1188,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1188
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/processed/engineered_features_monthly_weather.csv",
+      "row_count": 564,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 564
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/raw/labeled_samples_dataset.csv",
+      "row_count": 90,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 90
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/raw/region_grid_predictions.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/synthetic/monthly_ops_synthetic_2015_2026.csv",
+      "row_count": 1188,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 1188
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/generate_synthetic_ops.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/capped_reviewed/synthetic/production_scenario.csv",
+      "row_count": 1452,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 1452
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap5_production_scenario.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/ibm_moil_reserves_2024.csv",
+      "row_count": 20,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 20
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/manganese_drilling_resource_summary.csv",
+      "row_count": 2,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 2
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017/20250708115140.923_CRO-23394-2017.pdf",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR/GSI or IBM source document",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017/20250708115140.988_CRO-23394-2017.xlsx",
+      "row_count": 37,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 37
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR registered-user workbook",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016/20240724141822.027_CRO-23290-2016.pdf",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR/GSI or IBM source document",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016/20240724141822.249_CRO-23290-2016.xlsx",
+      "row_count": 51,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 51
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR registered-user workbook",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/ngdr_report_manifest.csv",
+      "row_count": 13,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 13
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/reports/IBM_Exploration_and_Development_2017.pdf",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR/GSI or IBM source document",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/reports/IBM_Indian_Minerals_Yearbook_2024.pdf",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR/GSI or IBM source document",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/exploration/reports/LokSabha_Mn_resources_MP_annex.pdf",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "official NGDR/GSI or IBM source document",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/geology/gsi_geology_grid.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/build_gsi_geology_grid.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/geology/gsi_geology_raw.json",
+      "row_count": 53,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "UNSPECIFIED": 53
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "public GSI feature service",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/geology/ngdr/catalog_preview.html",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {},
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/geology/ngdr/ngdr_ai_query_balaghat_boreholes.csv",
+      "row_count": 51,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 51
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/geology/ngdr/NGDR_Mining_Exploration_Drilling_Boreholes.parquet",
+      "row_count": 6904,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 6904
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap1_boreholes.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/imagery/belt_falsecolor.png",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_belt_imagery.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/imagery/belt_hillshade.png",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_belt_imagery.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/imagery/belt_truecolor.png",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_belt_imagery.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/ndvi_monthly_balaghat_2015_2026.csv",
+      "row_count": 139,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 139
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_ndvi_gee.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/ndvi_monthly_bhandara_2015_2026.csv",
+      "row_count": 139,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 139
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_ndvi_gee.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/ndvi_monthly_nagpur_2015_2026.csv",
+      "row_count": 139,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 139
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_ndvi_gee.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/ndvi_monthly_ukwa_2015_2026.csv",
+      "row_count": 139,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 139
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_ndvi_gee.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/s2_dem_grid_samples.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/fetch_s2_dem_grid.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/soilmoisture_hourly_balaghat_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/soilmoisture_hourly_bhandara_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/soilmoisture_hourly_nagpur_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/soilmoisture_hourly_ukwa_2015_2026.csv",
+      "row_count": 102816,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 102816
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/weather_daily_balaghat_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/weather_daily_bhandara_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/weather_daily_nagpur_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/external/satellite/weather_daily_ukwa_2015_2026.csv",
+      "row_count": 4284,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 4284
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/GAPS_LOG.md",
+      "row_count": 1,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/run_data_gaps.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/block_model.geojson",
+      "row_count": 0,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 0
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap2_block_model.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/block_model.parquet",
+      "row_count": 0,
+      "crs": "EPSG:32644; no coordinates emitted",
+      "provenance_mix": {
+        "DERIVED": 0
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap2_block_model.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/block_model_validation.json",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/borehole_assays_source.csv",
+      "row_count": 88,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 88
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap1_boreholes.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/borehole_validation.json",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/boreholes_source.csv",
+      "row_count": 13,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 13
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap1_boreholes.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/engineered_features_integrated_grid.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/engineered_features_monthly_ops.csv",
+      "row_count": 1188,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 1188
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/engineered_features_monthly_weather.csv",
+      "row_count": 564,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 564
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/feature_importance.csv",
+      "row_count": 14,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 14
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/grid_scores_v2.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/priority_zone_validation.json",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/priority_zones.geojson",
+      "row_count": 134,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 134
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap4_priority_polygons.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/production_scenario_validation.json",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/published_drilling_summaries.csv",
+      "row_count": 4,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 4
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap1_boreholes.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/processed/raster_validation.json",
+      "row_count": null,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/raw/known_occurrences.csv",
+      "row_count": 11,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "SOURCE": 11
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/raw/labeled_samples_dataset.csv",
+      "row_count": 90,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 90
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/raw/moil_mines.geojson",
+      "row_count": 6,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "UNSPECIFIED": 6
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/raw/region_grid_predictions.csv",
+      "row_count": 5568,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "DERIVED": 5568
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/raw/sausar_manganese_data_dictionary.csv",
+      "row_count": 102,
+      "crs": null,
+      "provenance_mix": {
+        "SOURCE": 102
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/raw/training_labels.geojson",
+      "row_count": 360,
+      "crs": "EPSG:4326",
+      "provenance_mix": {
+        "UNSPECIFIED": 360
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": null,
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/synthetic/boreholes_synthetic.csv",
+      "row_count": 0,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 0
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap1_boreholes.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/synthetic/monthly_ops_synthetic_2015_2026.csv",
+      "row_count": 1188,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 1188
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/generate_synthetic_ops.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/synthetic/production_scenario.csv",
+      "row_count": 1452,
+      "crs": null,
+      "provenance_mix": {
+        "SYNTHETIC": 1452
+      },
+      "provenance_assessment": "Row/feature tags when present; otherwise file-level legacy assessment.",
+      "generating_script": "scripts/close_gap5_production_scenario.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    },
+    {
+      "path": "data/MANIFEST.json",
+      "row_count": 1,
+      "crs": null,
+      "provenance_mix": {
+        "DERIVED": 1
+      },
+      "provenance_assessment": "Manifest generated by this runner.",
+      "generating_script": "scripts/run_data_gaps.py",
+      "raster_bands": null,
+      "raster_shape_rows_cols": null
+    }
+  ],
+  "notes": [
+    "Legacy files were not altered to retrofit row provenance.",
+    "SOURCE/DERIVED/SYNTHETIC tags are emitted on all newly generated tabular and feature outputs.",
+    "Empty schema outputs are listed with row_count 0 where the required source inputs are unavailable."
+  ]
+}

@@ -1,0 +1,134 @@
+==============================================================================================================
+MOIL SIH26009 — REVISED STATISTICAL INFERENCE & HYPOTHESIS TESTING REPORT
+==============================================================================================================
+
+1. LABELED SAMPLES DISCRIMINATION AUDIT (n=90, 30 Deposits, 60 Controls)
+--------------------------------------------------------------------------------------------------------------
+
+A1. Comparison: Positive (Known Deposits, n=30) vs Pooled Controls (n=60)
+Feature                 Deposit Mean  Control Mean    Cohen d    Cliff d    Raw p-val    FDR q-val  Signif (q<0.05)
+--------------------------------------------------------------------------------------------------------------
+clay_alteration_idx           1.4471        1.4839     -0.210     -0.236   7.0252e-02   6.2644e-01               NO
+ndvi                          0.3594        0.4140     -0.337     -0.218   9.4262e-02   6.2644e-01               NO
+B8                            0.2184        0.2359     -0.348     -0.199   1.2655e-01   6.2644e-01               NO
+dist_to_gondite_km           11.2754       15.9576     -0.502     -0.184   1.5661e-01   6.2644e-01               NO
+ferrous_iron_idx              0.8401        0.7989      0.172      0.158   2.2585e-01   7.2271e-01               NO
+elevation                   347.6000      344.9667      0.027      0.092   4.8002e-01   9.6245e-01               NO
+swir_nir_ratio                1.1729        1.1595      0.047      0.083   5.2648e-01   9.6245e-01               NO
+slope                         2.8617        3.2272     -0.112      0.079   5.4618e-01   9.6245e-01               NO
+aspect_cos                    0.0175       -0.0722      0.125      0.075   5.6474e-01   9.6245e-01               NO
+B2                            0.0638        0.0633      0.034      0.046   7.2563e-01   9.6245e-01               NO
+aspect_sin                   -0.0172        0.0190     -0.051     -0.036   7.8660e-01   9.6245e-01               NO
+B12                           0.1823        0.1879     -0.085      0.036   7.8745e-01   9.6245e-01               NO
+B4                            0.0973        0.0978     -0.013      0.031   8.1723e-01   9.6245e-01               NO
+B3                            0.0871        0.0877     -0.029      0.026   8.4728e-01   9.6245e-01               NO
+B11                           0.2569        0.2716     -0.189      0.015   9.1140e-01   9.6245e-01               NO
+iron_oxide_index              1.4966        1.5214     -0.120     -0.007   9.6245e-01   9.6245e-01               NO
+
+Statistical Significance Summary (Positive vs Pooled Controls):
+  Features significant at raw p < 0.05: 0 / 16
+  Features significant after Benjamini-Hochberg FDR (q < 0.05): 0 / 16
+
+>> STATISTICAL CONCLUSION: The labeled sample data DOES NOT SHOW statistically significant feature differences between deposits and controls after controlling for multiple hypothesis testing.
+   - Geological Context: The Sausar fold belt exhibits intense regional metamorphism, high lithological variance, and regolith cover. Single-pixel spectral bands do not exhibit univariate separability at n=30.
+   - Methodological Implication: High reported AUCs in complex models reflect multivariate boundary fitting rather than individual feature distinctiveness. Claims of univariate spectral discriminators are not supported.
+
+A2. Sub-Group Comparisons Summary (FDR q-values):
+Feature                  vs Pooled (q)  vs Intra-Belt (q)  vs Outer-Region (q)   Intra vs Outer (q)
+----------------------------------------------------------------------------------------------------
+B2                              0.9625             0.9941               0.8353               0.5952
+B3                              0.9625             0.9289               0.8353               0.5952
+B4                              0.9625             0.9289               0.8856               0.9102
+B8                              0.6264             0.2673               0.8353               0.5952
+B11                             0.9625             0.9289               0.8856               0.5952
+B12                             0.9625             0.9289               0.9764               0.5952
+elevation                       0.9625             0.2673               0.8353               0.0644
+slope                           0.9625             0.9289               0.8856               0.9102
+aspect_sin                      0.9625             0.9289               0.8353               0.5952
+aspect_cos                      0.9625             0.9289               0.8353               0.9172
+iron_oxide_index                0.9625             0.9289               0.8353               0.5952
+swir_nir_ratio                  0.9625             0.2986               0.8353               0.4533
+clay_alteration_idx             0.6264             0.2986               0.8353               0.7572
+ferrous_iron_idx                0.7227             0.2986               0.8856               0.5651
+ndvi                            0.6264             0.2673               0.8353               0.5952
+dist_to_gondite_km              0.6264             0.9289               0.8353               0.4533
+
+==============================================================================================================
+2. SPATIAL AUTOCORRELATION & HOTSPOT TESTING
+==============================================================================================================
+  Computing Global Moran's I for regional deposit probability...
+  Conducting Monte Carlo Permutation Test (999 iterations)...
+
+  Spatial Autocorrelation Results (Global Moran's I):
+    Observed Moran's I: 0.1353
+    Expected Moran's I (Random): -0.000180
+    Permutation Z-score: 19.77
+    Permutations >= observed: 0 / 999
+    Permutation p-value: p <= 0.0010 (resolution limit for 999 permutations: (0 + 1)/(999 + 1) = 0.0010)
+    Conclusion: Statistically significant spatial clustering detected in model-predicted probabilities.
+
+  Regional Probability Zoning (Descriptive Top-Quantile vs Statistical Hotspots):
+    Top-decile threshold (90th percentile): 0.4960 (558 cells)
+    Bottom-decile threshold (10th percentile): 0.1527
+    >> CLARIFICATION: These top-decile cells represent Descriptive High-Probability Priority Targets.
+       They are defined by ranking model scores, not by a local spatial autocorrelation hypothesis test.
+
+==============================================================================================================
+2B. RAINFALL OUTLIER AUDIT: IQR FLAGS VS EXTREME RAIN (>100MM)
+==============================================================================================================
+Clarification: Generic IQR fences on zero-inflated daily rainfall flag ordinary monsoon showers (~11-15mm).
+True geotechnical/hazard extremes (>100 mm/day) are tracked separately to avoid conflating typical showers with floods.
+
+Station         Total Days   Rain Days (>0.1mm)   IQR Flags (>fence)     Extreme Rain (>100mm)     Max Single Day (mm) 
+-------------------------------------------------------------------------------------------------------------------
+BALAGHAT        4284         1739                 710                    8                         222.2               
+UKWA            4284         1739                 722                    9                         150.6               
+BHANDARA        4284         1717                 732                    9                         152.6               
+NAGPUR          4284         1703                 802                    7                         224.6               
+
+==============================================================================================================
+3. PROSPECTIVITY MODELING: SPATIAL VALIDATION VS RANDOM CROSS-VALIDATION
+==============================================================================================================
+  Random Stratified 5-Fold CV AUC: 0.7500 +/- 0.0340
+    Individual Fold AUCs: [np.float64(0.7222), np.float64(0.7639), np.float64(0.75), np.float64(0.7083), np.float64(0.8056)]
+
+  Spatially Disjoint Validation (Longitude 79.75°E boundary):
+    Pass 1: Train West (n=46, 13 pos) -> Test East (n=44, 17 pos): AUC = 0.6471
+    Pass 2: Train East (n=44, 17 pos) -> Test West (n=46, 13 pos): AUC = 0.6527
+    Mean Spatial Holdout AUC: 0.6499
+
+  Critical Evaluation of Spatial Validation:
+    - Random CV AUC (0.750) is substantially higher than Spatial Holdout AUC (0.650).
+    - Reason: Random k-fold splits randomly partition geographically contiguous samples, causing spatial autocorrelation leakage.
+    - Sample Size Limitations: With only 30 total known deposits across the entire manganese belt (13 in West block, 17 in East block), spatial sample size is constrained, leading to high variance across regional test sets.
+    - Recommendation: Future prospecting exploration campaigns should evaluate models with spatial block validation rather than random cross-validation.
+
+==============================================================================================================
+4. SYNTHETIC OPERATIONS & MONSOON SCENARIO CHECKS
+==============================================================================================================
+NOTE: All analyses in this section evaluate synthetic simulation scenarios.
+They test operational hypotheses under simulated weather stresses and MUST NOT be construed as empirical historical data of real MOIL operations.
+
+  Simulated Rainfall -> Shortfall Correlation: Spearman rho = 0.1604, p = 2.7161e-08
+  Scenario Interpretation: The synthetic data generation model accurately encoded monsoon degradation on mine pit access and haulage throughput.
+
+  Simulated Monsoon Stress Test (>400mm rain/mo vs <=400mm):
+    Months with >400mm rain: 144 / 1188 (12.1%)
+    Mean shortfall during extreme rain: 2321.8 tonnes
+    Mean shortfall during normal rain: 1528.7 tonnes
+    Mann-Whitney difference in synthetic scenario: U = 103480.5, p = 2.2064e-13
+
+==============================================================================================================
+5. MODEL DIAGNOSTICS: AUDITING PREVIOUS MODEL PROBABILITY ASSOCIATIONS
+==============================================================================================================
+NOTE: These correlations assess the internal mapping of the previously trained machine learning model,
+providing model transparency diagnostics rather than independent empirical geological evidence.
+
+Feature                      Spearman rho with prob         p-value Diagnostic Role in Model
+------------------------------------------------------------------------------------------
+dist_to_gondite_km                          -0.1180      9.8606e-19 Secondary/Weak
+iron_oxide_index                             0.1509      9.9961e-30 Positive weight
+elevation                                   -0.0407      2.3674e-03 Secondary/Weak
+slope                                        0.0838      3.7571e-10 Secondary/Weak
+ndvi                                        -0.3786     2.7319e-189 Strong negative anchor (Primary driver)
+swir_nir_ratio                               0.1611      1.0479e-33 Positive weight

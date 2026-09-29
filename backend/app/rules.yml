@@ -1,0 +1,50 @@
+# Corrective-action playbook (deterministic, auditable).
+# Context keys available to `when`: mine, month, shortfall_ratio, equipment_availability,
+# downtime_hours, monthly_rain_mm, rain_mm_roll3, heavy_rain_days, blast_delay_flag
+# NOTE: rule-based by design — no historical action-outcome data exists to learn from (SIH gap analysis).
+rules:
+  - id: CA-001
+    priority: 1
+    when: "shortfall_ratio > 0.25"
+    action: "Escalate to mine manager; trigger daily production war-room review for the affected section."
+    effect: "Faster decision loop; typical recovery 5-10 days earlier than unmanaged slippage."
+  - id: CA-002
+    priority: 2
+    when: "equipment_availability < 0.80"
+    action: "Prioritize maintenance crew allocation; borrow availability from sister mine; re-sequence haulage to available units."
+    effect: "Restores effective capacity without contractual penalty on monthly target."
+  - id: CA-003
+    priority: 3
+    when: "monthly_rain_mm > 200 or heavy_rain_days >= 8"
+    action: "Pre-pone blasting before forecast rain window; cover ore benches; pause wet-bench drilling."
+    effect: "Protects 2-4 operating days per monsoon month."
+  - id: CA-004
+    priority: 4
+    when: "blast_delay_flag == 1"
+    action: "Clear explosives Magazine clearance pending items; align Magazine-to-face logistics same-day."
+    effect: "Removes the leading single-day stoppage cause in the ops log."
+  - id: CA-005
+    priority: 5
+    when: "downtime_hours > 96"
+    action: "Root-cause downtime Pareto; schedule planned maintenance overlap with low-rain weekdays."
+    effect: "Converts unplanned to planned downtime; improves availability 2-4 pts next month."
+  - id: CA-006
+    priority: 6
+    when: "rain_mm_roll3 > 150 and shortfall_ratio > 0.15"
+    action: "Shift monthly plan weight to covered/underground sections; pre-build ROM buffer stock."
+    effect: "Decouples dispatch from rainfall spikes; smooths rail-rake fulfilment."
+  - id: CA-007
+    priority: 7
+    when: "shortfall_ratio > 0.15 and equipment_availability >= 0.90"
+    action: "Non-equipment shortfall: audit drilling-and-blasting fragmentation and haul-cycle times."
+    effect: "Targets cycle-time losses that availability metrics do not capture."
+  - id: CA-008
+    priority: 3
+    when: "shortfall_ratio > 0.15 and equipment_availability < 0.90"
+    action: "Expedite pending maintenance window; pre-position spares and crew for the 2 lowest-availability units."
+    effect: "Availability push of 2-4 pts next month, recovering roughly 1,500-2,500 t."
+  - id: CA-009
+    priority: 5
+    when: "downtime_hours > 80"
+    action: "Short-interval downtime review with section engineers; classify top 3 stoppage causes and assign owners."
+    effect: "Converts repeat unplanned stoppages into scheduled work within one shift cycle."

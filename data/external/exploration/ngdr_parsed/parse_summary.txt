@@ -1,0 +1,25 @@
+NGDR exploration parse summary (generated 2026-09-29T07:14:04)
+
+== Assays ==
+rows with Mn%%: 102  (Gudma: 81, W. Ukwa: 21)
+Mn%% range: 0.03 - 50.66, mean 20.74
+ore-grade samples (Mn>=15%%): 57, mean 34.91%%
+
+== Resource blocks (GSI estimates) ==
+total rows: 37; total tonnage: 2,561,906 t
+  Gudma / cross-section: 7 blocks, 168,976 t
+  Western Ukwa / cross-section: 26 blocks, 2,182,604 t
+  Western Ukwa / probable-partial: 4 blocks, 210,326 t
+
+== Collars ==
+block
+Gudma           13
+Western Ukwa    37
+
+== Litholog intervals ==
+73 intervals across 11 boreholes
+
+== Structure ==
+block         kind 
+Western Ukwa  line     18
+              plane    59

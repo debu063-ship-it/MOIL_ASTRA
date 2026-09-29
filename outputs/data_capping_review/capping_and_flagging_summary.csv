@@ -1,0 +1,84 @@
+dataset,feature,is_protected,policy,n_records,lower_fence,upper_fence,n_flagged_lower,n_flagged_upper,n_flagged_total,pct_flagged,n_values_changed,min_raw,max_raw,mean_raw,std_raw,skew_raw
+A. Labeled Samples Dataset,B2,False,Flagged for review (Values preserved),90,0.0206,0.1056,0,2,2,2.22,0,0.0334,0.1107,0.0635,0.017,0.6219
+A. Labeled Samples Dataset,B3,False,Flagged for review (Values preserved),90,0.036,0.1392,0,1,1,1.11,0,0.037,0.1409,0.0875,0.0211,0.3558
+A. Labeled Samples Dataset,B4,False,Flagged for review (Values preserved),90,0.0,0.1948,0,0,0,0.0,0,0.0276,0.1706,0.0976,0.0329,0.2046
+A. Labeled Samples Dataset,B8,False,Flagged for review (Values preserved),90,0.1445,0.3269,3,1,4,4.44,0,0.0135,0.3476,0.2301,0.0505,-1.9922
+A. Labeled Samples Dataset,B11,False,Flagged for review (Values preserved),90,0.0957,0.4518,3,0,3,3.33,0,0.0115,0.4165,0.2667,0.0774,-1.1282
+A. Labeled Samples Dataset,B12,False,Flagged for review (Values preserved),90,0.0194,0.3563,2,0,2,2.22,0,0.008,0.3226,0.186,0.065,-0.5888
+A. Labeled Samples Dataset,elevation,False,Flagged for review (Values preserved),90,217.125,420.125,0,11,11,12.22,0,248.0,714.0,345.8444,96.5755,2.0923
+A. Labeled Samples Dataset,slope,False,Flagged for review (Values preserved),90,0.0,7.549,0,4,4,4.44,0,0.0,25.6813,3.1053,3.254,4.5082
+A. Labeled Samples Dataset,iron_oxide_index,False,Flagged for review (Values preserved),90,1.0096,2.0376,2,0,2,2.22,0,0.7269,1.8593,1.5131,0.2062,-1.201
+A. Labeled Samples Dataset,swir_nir_ratio,False,Flagged for review (Values preserved),90,0.4347,1.8969,0,0,0,0.0,0,0.4819,1.689,1.164,0.2806,-0.6199
+A. Labeled Samples Dataset,clay_alteration_idx,False,Flagged for review (Values preserved),90,1.0248,1.9031,0,3,3,3.33,0,1.098,2.0751,1.4716,0.1749,0.9372
+A. Labeled Samples Dataset,ferrous_iron_idx,False,Flagged for review (Values preserved),90,0.1087,1.5083,0,0,0,0.0,0,0.2322,1.2262,0.8126,0.2393,-0.5648
+A. Labeled Samples Dataset,ndvi,False,Flagged for review (Values preserved),90,0.0687,0.7552,3,0,3,3.33,0,-0.3431,0.7428,0.3958,0.1633,-1.5284
+A. Labeled Samples Dataset,dist_to_gondite_km,False,Flagged for review (Values preserved),90,0.0,27.4498,0,10,10,11.11,0,1.8659,48.1496,14.3968,9.5447,1.7189
+B. Region Grid Predictions,B2,False,Flagged for review (Values preserved),5568,0.0133,0.1013,0,102,102,1.83,0,0.0281,0.2886,0.0588,0.0168,1.6685
+B. Region Grid Predictions,B3,False,Flagged for review (Values preserved),5568,0.025,0.1363,0,88,88,1.58,0,0.0343,0.3156,0.082,0.0215,1.3555
+B. Region Grid Predictions,B4,False,Flagged for review (Values preserved),5568,0.0,0.1802,0,67,67,1.2,0,0.0242,0.337,0.0904,0.0329,1.1053
+B. Region Grid Predictions,B8,False,Flagged for review (Values preserved),5568,0.1389,0.3176,121,53,174,3.12,0,0.0075,0.4108,0.2269,0.0411,-1.5734
+B. Region Grid Predictions,B11,False,Flagged for review (Values preserved),5568,0.0951,0.42,95,31,126,2.26,0,0.0112,0.5504,0.256,0.0669,-0.3717
+B. Region Grid Predictions,B12,False,Flagged for review (Values preserved),5568,0.0171,0.3336,44,41,85,1.53,0,0.0088,0.5218,0.176,0.0602,0.3234
+B. Region Grid Predictions,elevation,False,Flagged for review (Values preserved),5568,113.125,590.125,0,429,429,7.7,0,241.0,848.0,371.8346,114.2324,1.2425
+B. Region Grid Predictions,slope,False,Flagged for review (Values preserved),5568,0.0,7.5475,0,438,438,7.87,0,0.0,40.7214,3.4046,3.7814,3.8885
+B. Region Grid Predictions,iron_oxide_index,False,Flagged for review (Values preserved),5568,0.9781,2.0526,63,39,102,1.83,0,0.6552,2.4639,1.5123,0.2096,-0.2078
+B. Region Grid Predictions,swir_nir_ratio,False,Flagged for review (Values preserved),5568,0.4122,1.8754,1,4,5,0.09,0,0.4005,2.0679,1.1366,0.2592,-0.1792
+B. Region Grid Predictions,clay_alteration_idx,False,Flagged for review (Values preserved),5568,1.0105,1.9759,1,9,10,0.18,0,1.0087,2.036,1.4972,0.1726,0.2877
+B. Region Grid Predictions,ferrous_iron_idx,False,Flagged for review (Values preserved),5568,0.0995,1.4553,0,8,8,0.14,0,0.2049,1.7812,0.7806,0.2344,0.0937
+B. Region Grid Predictions,ndvi,False,Flagged for review (Values preserved),5568,0.0734,0.8097,88,0,88,1.58,0,-0.564,0.7869,0.4331,0.1475,-1.3638
+B. Region Grid Predictions,dist_to_gondite_km,False,Flagged for review (Values preserved),5568,0.0,49.8823,0,164,164,2.95,0,0.0,63.0378,19.3875,12.7255,1.0689
+B. Region Grid Predictions,deposit_probability,True,Protected (Preserved exact raw values; flagged only),5568,-0.0995,0.653,0,31,31,0.56,0,0.118,0.7224,0.2888,0.1294,0.8648
+C. Sentinel-2 + DEM Grid,B2,False,Flagged for review (Values preserved),5568,0.0112,0.0987,0,104,104,1.87,0,0.0199,0.2709,0.0564,0.0171,1.3654
+C. Sentinel-2 + DEM Grid,B3,False,Flagged for review (Values preserved),5568,0.0199,0.1332,0,73,73,1.31,0,0.0344,0.2914,0.0784,0.0213,1.1834
+C. Sentinel-2 + DEM Grid,B4,False,Flagged for review (Values preserved),5568,0.0,0.1693,0,69,69,1.24,0,0.0236,0.301,0.0843,0.0319,1.0155
+C. Sentinel-2 + DEM Grid,B8,False,Flagged for review (Values preserved),5568,0.1288,0.3133,124,105,229,4.11,0,0.0088,0.4696,0.2208,0.0436,-1.0356
+C. Sentinel-2 + DEM Grid,B11,False,Flagged for review (Values preserved),5568,0.0597,0.405,93,29,122,2.19,0,0.0091,0.5585,0.2326,0.0674,-0.0007
+C. Sentinel-2 + DEM Grid,B12,False,Flagged for review (Values preserved),5568,0.0,0.3193,0,38,38,0.68,0,0.0076,0.5254,0.1558,0.0602,0.6153
+C. Sentinel-2 + DEM Grid,ndvi,False,Flagged for review (Values preserved),5568,0.0704,0.8422,94,0,94,1.69,0,-0.4685,0.8371,0.4491,0.1555,-1.0492
+C. Sentinel-2 + DEM Grid,elevation,False,Flagged for review (Values preserved),5568,108.8098,593.3196,0,394,394,7.08,0,237.0,846.2396,370.4747,114.6235,1.2341
+C. Sentinel-2 + DEM Grid,slope,False,Flagged for review (Values preserved),5568,0.0,0.18,0,0,0,0.0,0,0.035,0.093,0.0711,0.0273,-0.5228
+D. Monthly Ops Synthetic,planned_tonnes,True,Protected (Preserved exact raw values; flagged only),1188,-1502.5,22537.5,0,132,132,11.11,0,4375.0,42070.0,12287.8768,7716.4467,1.9667
+D. Monthly Ops Synthetic,actual_tonnes,True,Protected (Preserved exact raw values; flagged only),1188,-1686.2625,20185.6375,0,131,131,11.03,0,2785.3,40578.3,10664.1255,6845.0752,1.986
+D. Monthly Ops Synthetic,shortfall_tonnes,True,Protected (Preserved exact raw values; flagged only),1188,-925.525,3713.075,0,82,82,6.9,0,0.0,8723.0,1624.812,1275.1659,2.0062
+D. Monthly Ops Synthetic,equipment_availability,False,Flagged for review (Values preserved),1188,0.815,0.975,14,0,14,1.18,0,0.755,0.93,0.8914,0.0285,-0.8967
+D. Monthly Ops Synthetic,downtime_hours,False,Flagged for review (Values preserved),1188,17.5,133.5,0,21,21,1.77,0,32.0,178.0,77.7399,22.1302,0.8396
+D. Monthly Ops Synthetic,monthly_rain_mm,True,Protected (Preserved exact raw values; flagged only),1188,-367.8875,619.4125,0,36,36,3.03,0,0.0,726.2,136.4038,193.0306,1.3931
+D. Monthly Ops Synthetic,heavy_rain_days,False,Flagged for review (Values preserved),1188,0.0,10.0,0,72,72,6.06,0,0.0,14.0,2.197,3.5848,1.7521
+E. Production Scenario,planned_tonnes,True,Protected (Preserved exact raw values; flagged only),1452,-2087.4787,21057.0312,0,126,126,8.68,0,4009.19,41247.28,10704.0065,6727.5318,2.2713
+E. Production Scenario,actual_tonnes,True,Protected (Preserved exact raw values; flagged only),1452,-2311.1625,19870.1175,0,122,122,8.4,0,2389.3,45196.11,10194.2917,6608.5751,2.2966
+E. Production Scenario,shortfall_tonnes,True,Protected (Preserved exact raw values; flagged only),1452,-1578.0113,2630.0188,0,81,81,5.58,0,0.0,12348.69,745.3809,1176.4488,3.614
+E. Production Scenario,equipment_availability,False,Flagged for review (Values preserved),1452,0.8644,0.9623,22,0,22,1.52,0,0.8309,0.94,0.9123,0.0169,-0.799
+E. Production Scenario,monthly_rain_mm,True,Protected (Preserved exact raw values; flagged only),1452,-302.1,507.5,0,81,81,5.58,0,0.0,867.8,124.205,181.9087,1.6521
+E. Production Scenario,heavy_rain_days,False,Flagged for review (Values preserved),1452,0.0,7.5,0,102,102,7.02,0,0.0,16.0,1.865,3.1816,1.9876
+F. Weather Daily (Balaghat),precipitation_sum (mm),True,Protected (Preserved exact raw values; flagged only),4284,-4.95,8.25,0,710,710,16.57,0,0.0,222.2,4.4786,11.3881,5.7895
+F. Weather Daily (Balaghat),temperature_2m_mean (°C),False,Flagged for review (Values preserved),4284,15.05,36.25,13,43,56,1.31,0,13.1,37.9,26.0303,4.5738,0.1013
+F. Weather Daily (Balaghat),temperature_2m_max (°C),False,Flagged for review (Values preserved),4284,20.0625,43.3625,1,38,39,0.91,0,18.4,45.0,31.9841,4.754,0.6358
+F. Weather Daily (Balaghat),temperature_2m_min (°C),False,Flagged for review (Values preserved),4284,5.15,35.95,0,0,0,0.0,0,6.6,32.9,20.8397,5.0753,-0.5072
+F. Weather Daily (Balaghat),et0_fao_evapotranspiration (mm),False,Flagged for review (Values preserved),4284,0.0375,8.8975,0,23,23,0.54,0,0.65,10.21,4.4541,1.6603,0.5093
+F. Weather Daily (Balaghat),wind_speed_10m_max (km/h),False,Flagged for review (Values preserved),4284,1.9,22.7,0,81,81,1.89,0,4.6,38.1,12.6393,3.9819,0.958
+F. Weather Daily (Ukwa),precipitation_sum (mm),True,Protected (Preserved exact raw values; flagged only),4284,-4.65,7.75,0,722,722,16.85,0,0.0,150.6,4.3567,11.0899,5.249
+F. Weather Daily (Ukwa),temperature_2m_mean (°C),False,Flagged for review (Values preserved),4284,14.4,36.8,8,25,33,0.77,0,13.1,37.9,25.9994,4.6747,0.0695
+F. Weather Daily (Ukwa),temperature_2m_max (°C),False,Flagged for review (Values preserved),4284,20.15,43.75,3,23,26,0.61,0,18.0,45.0,32.1796,4.812,0.6236
+F. Weather Daily (Ukwa),temperature_2m_min (°C),False,Flagged for review (Values preserved),4284,4.9,36.1,0,0,0,0.0,0,6.8,33.0,20.7521,5.1517,-0.4827
+F. Weather Daily (Ukwa),et0_fao_evapotranspiration (mm),False,Flagged for review (Values preserved),4284,0.18,8.82,0,36,36,0.84,0,0.73,10.1,4.4946,1.6611,0.5492
+F. Weather Daily (Ukwa),wind_speed_10m_max (km/h),False,Flagged for review (Values preserved),4284,3.15,22.75,0,85,85,1.98,0,4.6,35.4,13.1754,3.8834,0.9373
+F. Weather Daily (Bhandara),precipitation_sum (mm),True,Protected (Preserved exact raw values; flagged only),4284,-3.6,6.0,0,732,732,17.09,0,0.0,152.6,4.0608,10.8459,5.1583
+F. Weather Daily (Bhandara),temperature_2m_mean (°C),False,Flagged for review (Values preserved),4284,16.0,36.8,8,81,89,2.08,0,14.5,38.8,26.8232,4.5591,0.2464
+F. Weather Daily (Bhandara),temperature_2m_max (°C),False,Flagged for review (Values preserved),4284,20.3,44.3,1,16,17,0.4,0,18.7,45.1,32.4852,4.8052,0.6972
+F. Weather Daily (Bhandara),temperature_2m_min (°C),False,Flagged for review (Values preserved),4284,8.0,35.2,0,0,0,0.0,0,8.4,33.7,21.9463,4.8325,-0.3745
+F. Weather Daily (Bhandara),et0_fao_evapotranspiration (mm),False,Flagged for review (Values preserved),4284,0.275,9.035,0,39,39,0.91,0,0.86,10.71,4.6702,1.7143,0.6187
+F. Weather Daily (Bhandara),wind_speed_10m_max (km/h),False,Flagged for review (Values preserved),4284,1.05,25.45,0,68,68,1.59,0,5.4,41.7,13.6363,4.4447,0.9104
+F. Weather Daily (Nagpur),precipitation_sum (mm),True,Protected (Preserved exact raw values; flagged only),4284,-2.85,4.75,0,802,802,18.72,0,0.0,224.6,3.7658,10.5961,6.5872
+F. Weather Daily (Nagpur),temperature_2m_mean (°C),False,Flagged for review (Values preserved),4284,16.2,37.0,13,91,104,2.43,0,14.4,39.5,26.9809,4.6452,0.3396
+F. Weather Daily (Nagpur),temperature_2m_max (°C),False,Flagged for review (Values preserved),4284,20.0,44.8,1,9,10,0.23,0,18.6,45.5,32.6055,4.9224,0.713
+F. Weather Daily (Nagpur),temperature_2m_min (°C),False,Flagged for review (Values preserved),4284,8.0,35.2,1,0,1,0.02,0,7.7,34.5,22.0042,4.931,-0.3261
+F. Weather Daily (Nagpur),et0_fao_evapotranspiration (mm),False,Flagged for review (Values preserved),4284,0.215,9.295,0,71,71,1.66,0,0.81,11.4,4.7832,1.7973,0.7352
+F. Weather Daily (Nagpur),wind_speed_10m_max (km/h),False,Flagged for review (Values preserved),4284,0.8,25.6,0,52,52,1.21,0,5.4,34.1,13.5895,4.4439,0.8905
+G. Soil Moisture (Balaghat),soil_moisture_0_to_7cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0,0.65,0,0,0,0.0,0,0.129,0.544,0.3197,0.1163,0.5866
+G. Soil Moisture (Balaghat),soil_moisture_7_to_28cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0215,0.65,0,0,0,0.0,0,0.257,0.521,0.3553,0.089,0.716
+G. Soil Moisture (Ukwa),soil_moisture_0_to_7cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0,0.65,0,0,0,0.0,0,0.196,0.533,0.3288,0.1079,0.6018
+G. Soil Moisture (Ukwa),soil_moisture_7_to_28cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0295,0.65,0,0,0,0.0,0,0.245,0.522,0.3507,0.0891,0.7642
+G. Soil Moisture (Bhandara),soil_moisture_0_to_7cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0,0.65,0,0,0,0.0,0,0.209,0.541,0.3399,0.0982,0.641
+G. Soil Moisture (Bhandara),soil_moisture_7_to_28cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0405,0.65,0,0,0,0.0,0,0.243,0.521,0.3525,0.0865,0.7555
+G. Soil Moisture (Nagpur),soil_moisture_0_to_7cm (m³/m³),False,Flagged for review (Values preserved),102816,0.0,0.65,0,0,0,0.0,0,0.016,0.522,0.3101,0.1122,0.4733
+G. Soil Moisture (Nagpur),soil_moisture_7_to_28cm (m³/m³),False,Flagged for review (Values preserved),102816,0.088,0.6,0,0,0,0.0,0,0.235,0.521,0.3437,0.0817,0.8885

@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_SOURCE_REGISTER_IMPORTED",
+  "row_count": 18,
+  "rows_by_district": {
+    "Nagpur": 12,
+    "Bhandara": 6
+  },
+  "output": "data/processed/moil_manganese_lease_register_2025.csv",
+  "source_file": "data/external/exploration/public_sources/maharashtra_working_major_mineral_leases_2025.pdf",
+  "source_sha256": "7a7db1e454079797c5c014eaf88e296c9d1ee1b8ffac0b1678313baf2c2096ce",
+  "retrieved": "2026-09-29",
+  "provenance": "DERIVED",
+  "method": "Extracted the MOIL manganese ore rows from pages 1-2 of the Maharashtra DGM working major-mineral lease PDF using pdfplumber; preserved reported parcel areas and wording without summing amalgamated parcels.",
+  "source_ref": "maharashtra_working_major_mineral_leases_2025.pdf; pages 1-2; https://mahadgm.gov.in/writereaddata/fckimagefile/WORKING%20MINE%20LIST%20%20Major%20minerals.pdf; retrieved 2026-09-29",
+  "limitations": [
+    "The register contains lease areas and village/locality text, not boundary coordinates or GIS polygons.",
+    "Lease area is not the area proven to contain ore.",
+    "Rows are preserved individually; amalgamation remarks may describe grouped parcels, so rows must not be summed as independent mine areas without checking the remarks."
+  ]
+}

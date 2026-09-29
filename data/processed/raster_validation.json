@@ -1,0 +1,7 @@
+{
+  "gap": 3,
+  "status": "BLOCKED_RASTER_FETCH_STALLED",
+  "retrieval_date": "2026-09-29",
+  "error": "STAC search and individual COG range requests worked, but the full buffered regional median-composite reduction did not complete within the local run. No rasters were emitted.",
+  "fallback": "Use scripts/earth_engine_gap3.js and docs/GAP3_RASTER_README.md; do not use sampled values as substitute rasters."
+}

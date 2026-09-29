@@ -1,0 +1,79 @@
+=========================================================================================================
+MOIL SIH26009 — STRENGTHENED DATA CAPPING & INTEGRITY VALIDATION AUDIT
+=========================================================================================================
+
+--- 1. Production Shortfall Accounting Identity Check ---
+Rule: shortfall_tonnes == max(planned_tonnes - actual_tonnes, 0)
+  Monthly Ops Synthetic (Reviewed, n=1188):
+    Max shortfall discrepancy: 0.100000 tonnes (within documented 0.1t precision tolerance)
+    Accounting violations (>0.15t): 0 / 1188 -> PASS
+  [Comparison with OLD data/capped/]: had 157 violations (up to 3367.13t) due to independent clipping
+
+  Production Scenario (Reviewed, n=1452):
+    Max shortfall discrepancy: 0.010000 tonnes (within documented 0.01t tolerance)
+    Accounting violations (>0.02t): 0 / 1452 -> PASS
+  [Comparison with OLD data/capped/]: had 179 violations (up to 6431.71t)
+
+--- 2. Daily Weather Temperature Consistency & Rainfall Audit ---
+Rule: temperature_min <= temperature_mean <= temperature_max; exact rainfall match
+  Station: BALAGHAT   (n=4,284) | Timestamps: PASS | Rain Max Delta: 0.000000mm | Temp Order: PASS | Rain IQR Flags (>fence): 710 | Extreme Rain Days (>100mm): 8
+  Station: UKWA       (n=4,284) | Timestamps: PASS | Rain Max Delta: 0.000000mm | Temp Order: PASS | Rain IQR Flags (>fence): 722 | Extreme Rain Days (>100mm): 9
+  Station: BHANDARA   (n=4,284) | Timestamps: PASS | Rain Max Delta: 0.000000mm | Temp Order: PASS | Rain IQR Flags (>fence): 732 | Extreme Rain Days (>100mm): 9
+  Station: NAGPUR     (n=4,284) | Timestamps: PASS | Rain Max Delta: 0.000000mm | Temp Order: PASS | Rain IQR Flags (>fence): 802 | Extreme Rain Days (>100mm): 7
+  Total weather observations audited: 17,136 | Temp Violations: 0 | Rain Discrepancies: 0
+
+--- 3. Row Keys, Timestamps & Original Column Preservation Audits ---
+
+  Dataset: labeled_samples_dataset.csv
+    Row count: 90 (PASS)
+    Row keys & timestamps alignment: PASS
+    Original columns preservation (23 raw columns): PASS
+    Specific fields audited for physical range bounds (12 fields):
+      - elevation [0.0, 5000.0 m], slope [0.0, 90.0 degrees], B2 [0.0, 1.0 reflectance], B3 [0.0, 1.0 reflectance], B4 [0.0, 1.0 reflectance], B8 [0.0, 1.0 reflectance], B11 [0.0, 1.0 reflectance], B12 [0.0, 1.0 reflectance], ndvi [-1.0, 1.0 index], aspect_sin [-1.0, 1.0 trig], aspect_cos [-1.0, 1.0 trig], dist_to_gondite_km [0.0, 200.0 km]
+      - Violations found: 0 -> PASS
+
+  Dataset: region_grid_predictions.csv
+    Row count: 5,568 (PASS)
+    Row keys & timestamps alignment: PASS
+    Original columns preservation (22 raw columns): PASS
+    Specific fields audited for physical range bounds (7 fields):
+      - deposit_probability [0.0, 1.0 probability], elevation [0.0, 5000.0 m], slope [0.0, 90.0 degrees], ndvi [-1.0, 1.0 index], aspect_sin [-1.0, 1.0 trig], aspect_cos [-1.0, 1.0 trig], dist_to_gondite_km [0.0, 200.0 km]
+      - Violations found: 0 -> PASS
+
+  Dataset: s2_dem_grid_samples.csv
+    Row count: 5,568 (PASS)
+    Row keys & timestamps alignment: PASS
+    Original columns preservation (12 raw columns): PASS
+    Specific fields audited for physical range bounds (8 fields):
+      - B2 [0.0, 1.0 reflectance], B3 [0.0, 1.0 reflectance], B4 [0.0, 1.0 reflectance], B8 [0.0, 1.0 reflectance], B11 [0.0, 1.0 reflectance], B12 [0.0, 1.0 reflectance], elevation [0.0, 5000.0 m], slope [0.0, 90.0 degrees]
+      - Violations found: 0 -> PASS
+
+  Dataset: monthly_ops_synthetic_2015_2026.csv
+    Row count: 1,188 (PASS)
+    Row keys & timestamps alignment: PASS
+    Original columns preservation (11 raw columns): PASS
+    Specific fields audited for physical range bounds (6 fields):
+      - planned_tonnes [0.0, 1000000.0 tonnes], actual_tonnes [0.0, 1000000.0 tonnes], shortfall_tonnes [0.0, 1000000.0 tonnes], equipment_availability [0.0, 1.0 fraction], downtime_hours [0.0, 744.0 hours], monthly_rain_mm [0.0, 5000.0 mm]
+      - Violations found: 0 -> PASS
+
+  Dataset: production_scenario.csv
+    Row count: 1,452 (PASS)
+    Row keys & timestamps alignment: PASS
+    Original columns preservation (16 raw columns): PASS
+    Specific fields audited for physical range bounds (5 fields):
+      - planned_tonnes [0.0, 1000000.0 tonnes], actual_tonnes [0.0, 1000000.0 tonnes], shortfall_tonnes [0.0, 1000000.0 tonnes], equipment_availability [0.0, 1.0 fraction], monthly_rain_mm [0.0, 5000.0 mm]
+      - Violations found: 0 -> PASS
+
+  Hourly Soil Moisture (4 sites):
+    Total records audited: 411,264 | Timestamp & Value Match: PASS
+    Specific fields audited: soil_moisture_0_to_7cm [0.0, 0.65 m3/m3], soil_moisture_7_to_28cm [0.0, 0.65 m3/m3] (PASS, 0 violations)
+
+=========================================================================================================
+AUDIT SUMMARY & CONCLUSION
+=========================================================================================================
+ALL VALIDATION CHECKS PASSED PERFECTLY:
+  1. Production shortfall accounting identity preserved (0 violations).
+  2. Weather thermal order preserved across all 17,136 station-days (0 violations).
+  3. Row keys and timestamps aligned 100% with source data.
+  4. Original measurement values completely preserved (rainfall, targets, coordinates).
+  5. Audited physical range limits strictly satisfied across all specified features.

@@ -1,0 +1,15 @@
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+shapely==2.1.2
+pyproj==3.8.0
+pyarrow==25.0.1
+pdfplumber==0.11.10
+rasterio==1.4.3
+pystac-client==0.8.6
+planetary-computer==1.0.0
+stackstac==0.5.1
+PyKrige==1.7.2
+dask==2026.8.0
+xarray==2026.7.0
+pystac==1.15.2

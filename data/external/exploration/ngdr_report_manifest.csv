@@ -1,0 +1,14 @@
+block,report_id,accession,exploration_stage,file_kind,portal_file_path,expected_contents,download_status
+Gudma,9323,CRO-23394-2017,G3,report_pdf,TEXT/20250708115140.923_CRO-23394-2017.pdf,Final GSI exploration report,Downloaded 2026-09-29; archived under data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017
+Gudma,9323,CRO-23394-2017,G3,drill_data_workbook,TABLES/20250708115140.988_CRO-23394-2017.xlsx,Borehole/sample tables,Downloaded 2026-09-29; archived under data/external/exploration/ngdr_registered_downloads/Gudma_CRO-23394-2017
+Gudma,9323,CRO-23394-2017,G3,georeferenced_map_gdb,GIS_FILES/20250708115140.992_CRO-23394-2017-PLATE-7-DM.gdb.zip,Georeferenced geological map,Downloaded+extracted 2026-09-29; data/external/geology/ngdr/downloads/CRO-23394-2017/extracted/plate7_dm_gdb
+Gudma,9323,CRO-23394-2017,G3,map_images_zip,GEOREF_IMAGES/20250708115141.0_PLATE 7.zip,Georeferenced plate image,Downloaded+extracted 2026-09-29; data/external/geology/ngdr/downloads/CRO-23394-2017/extracted/georef_plate7
+Gudma,9323,CRO-23394-2017,G3,other_image_zip,IMAGE/20250708115140.96_Image.zip,Supplementary report images,Downloaded+extracted 2026-09-29; data/external/geology/ngdr/downloads/CRO-23394-2017/extracted/image
+Western Ukwa,4764,CRO-23290-2016,G2,report_pdf,TEXT/20240724141822.027_CRO-23290-2016.pdf,Final GSI general exploration report,Downloaded 2026-09-29; archived under data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016
+Western Ukwa,4764,CRO-23290-2016,G2,drill_data_workbook,TABLES/20240724141822.249_CRO-23290-2016.xlsx,Borehole/sample tables,Downloaded 2026-09-29; archived under data/external/exploration/ngdr_registered_downloads/Western_Ukwa_CRO-23290-2016
+Western Ukwa,4764,CRO-23290-2016,G2,georeferenced_map_gdb,GIS_FILES/20240724141822.257_CRO-23290-2016-PLATE-3-DM.gdb.zip,Georeferenced detailed geological map,Downloaded+extracted 2026-09-29; data/external/geology/ngdr/downloads/CRO-23290-2016/extracted/plate3_dm_gdb
+Western Ukwa,4764,CRO-23290-2016,G2,georeferenced_map_gdb,GIS_FILES/20240724141822.264_CRO-23290-2016-PLATE-4-LSM.gdb.zip,Georeferenced large-scale map,Downloaded+extracted 2026-09-29; data/external/geology/ngdr/downloads/CRO-23290-2016/extracted/plate4_lsm_gdb
+Western Ukwa,4764,CRO-23290-2016,G2,map_images_zip,GEOREF_IMAGES/20240724141822.278_PLATE 3.zip,Georeferenced plate images,Registered-user download required
+Western Ukwa,4764,CRO-23290-2016,G2,map_images_zip,GEOREF_IMAGES/20240724141822.33_PLATE 4.zip,Georeferenced plate images,Registered-user download required
+Western Ukwa,4764,CRO-23290-2016,G2,map_images_zip,GEOREF_IMAGES/20240724141822.35_Dam-3.zip,Georeferenced dam/plate images,Downloaded+extracted 2026-09-29; data/external/geology/ngdr/downloads/CRO-23290-2016/extracted/georef_images
+Western Ukwa,4764,CRO-23290-2016,G2,other_image_zip,IMAGE/20240724141822.066_Image.zip,Supplementary report images,Registered-user download required

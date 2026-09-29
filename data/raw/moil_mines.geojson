@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "moil_mines",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"note": "Rebuilt 2026-09-24 from known_occurrences.csv (verified sources: Roy 1962, mindat.org, forestclearance.nic.in, Wikipedia). Mines without verified coordinates are omitted.",
+"features": [
+{ "type": "Feature", "properties": { "name": "Balaghat Mine (Bharweli)", "lat": 21.8333, "lon": 80.2333, "type": "Underground", "district": "Balaghat", "state": "Madhya Pradesh", "formation": "Mansar (Munsar) Formation", "coord_precision": "mine_area (official subsidence report)" }, "geometry": { "type": "Point", "coordinates": [ 80.2333, 21.8333 ] } },
+{ "type": "Feature", "properties": { "name": "Bharveli (Awalajhari) Mine", "lat": 21.84, "lon": 80.2311, "type": "Underground", "district": "Balaghat", "state": "Madhya Pradesh", "formation": "Mansar Formation", "coord_precision": "village-level approx" }, "geometry": { "type": "Point", "coordinates": [ 80.2311, 21.84 ] } },
+{ "type": "Feature", "properties": { "name": "Ukwa Mine", "lat": 21.97, "lon": 80.47, "type": "Underground", "district": "Balaghat", "state": "Madhya Pradesh", "formation": "Mansar Formation", "coord_precision": "town-level approx" }, "geometry": { "type": "Point", "coordinates": [ 80.47, 21.97 ] } },
+{ "type": "Feature", "properties": { "name": "Tirodi Mine", "lat": 21.684, "lon": 79.727, "type": "Opencast", "district": "Balaghat", "state": "Madhya Pradesh", "formation": "Mansar Formation / Tirodi gneiss", "coord_precision": "town-level approx" }, "geometry": { "type": "Point", "coordinates": [ 79.727, 21.684 ] } },
+{ "type": "Feature", "properties": { "name": "Mansar (Munsar) Mine", "lat": 21.4, "lon": 79.25, "type": "Underground", "district": "Nagpur", "state": "Maharashtra", "formation": "Mansar Formation", "coord_precision": "town-level approx" }, "geometry": { "type": "Point", "coordinates": [ 79.25, 21.4 ] } },
+{ "type": "Feature", "properties": { "name": "Dongri Buzurg Mine", "lat": 21.55, "lon": 79.6941, "type": "Opencast", "district": "Bhandara", "state": "Maharashtra", "formation": "Mansar Formation", "coord_precision": "village-level approx" }, "geometry": { "type": "Point", "coordinates": [ 79.6941, 21.55 ] } }
+]
+}

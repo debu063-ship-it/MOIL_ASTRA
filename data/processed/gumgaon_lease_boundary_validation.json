@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE_PUBLISHED_PILLARS_IMPORTED",
+  "pillar_count": 126,
+  "pillar_ids_sequential": true,
+  "polygon_valid": true,
+  "computed_geodesic_area_ha": 155.233,
+  "pfr_title_area_ha": 126.84,
+  "pfr_land_detail_area_ha": 126.46,
+  "dgm_register_area_ha": 126.84,
+  "area_discrepancy_ha": 0.38,
+  "source_sha256": "2cdf94d2fd612a75210e666ca2b9ef97567700e7e4842ae2c285b24e280fb55d",
+  "outputs": [
+    "data/processed/gumgaon_lease_pillars_source.csv",
+    "data/processed/gumgaon_lease_boundary.geojson"
+  ],
+  "provenance": "DERIVED",
+  "method": "Converted the report's DMS boundary pillars to decimal degrees, sorted BP1-BP126 by pillar number, linked them in that order, and closed the ring; computed geodesic area on the WGS84 ellipsoid.",
+  "source_ref": "MOIL_Gumgaon_Khodegaon_Tegai_PFR_2017.pdf; PDF pages 6-7, 'Co-ordinates of the Mining Lease area' and page 7 'Land Detail'; https://environmentclearance.nic.in/writereaddata/Online/TOR/01_Aug_2017_113719740WC70Q0QJPFR.pdf; retrieved 2026-09-29 | DGM register: maharashtra_working_major_mineral_leases_2025.pdf; page 1, table 'LIST OF WORKING MINING LEASES FOR MAJOR MINERALS AS ON 01.04.2025'; https://mahadgm.gov.in/writereaddata/fckimagefile/WORKING%20MINE%20LIST%20%20Major%20minerals.pdf; retrieved 2026-09-29",
+  "limitations": [
+    "The PFR describes the lease coordinates, but the resulting polygon should be verified against an approved DGPS/cadastral plan before legal boundary use.",
+    "The PFR has conflicting area fields: 126.84 ha in the title and 126.46 ha in its land-detail table; both source values are preserved.",
+    "Lease area is not proven ore area or a reserve estimate."
+  ]
+}

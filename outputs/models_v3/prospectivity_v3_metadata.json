@@ -1,0 +1,87 @@
+{
+  "model": "ensemble",
+  "ensemble_members": [
+    "xgb",
+    "rf",
+    "hgb"
+  ],
+  "features": [
+    "B2",
+    "B3",
+    "B4",
+    "B8",
+    "B11",
+    "B12",
+    "ndvi",
+    "elevation",
+    "slope",
+    "aspect",
+    "iron_oxide_idx",
+    "clay_mineral_ratio",
+    "ferrous_iron_idx",
+    "BSI",
+    "NDMI",
+    "spectral_mean",
+    "spectral_range",
+    "aspect_sin",
+    "aspect_cos",
+    "dist_to_sausar_km",
+    "geo_AMGAON GNEISSIC COMPLEX",
+    "geo_KHAIRAGARH",
+    "geo_NANDGAON",
+    "geo_SAKOLI",
+    "geo_SAUSAR",
+    "geo_TIRODI GNEISSIC COMPLEX",
+    "dist_to_known_deposit_km",
+    "dist_to_borehole_km",
+    "in_sausar"
+  ],
+  "n_train": 140,
+  "n_pos": 80,
+  "positives_source": "30 known deposits + 50 NGDR borehole collars (nearest-grid-cell sampling)",
+  "cv": {
+    "rf": {
+      "roc_random": 0.9991666666666666,
+      "pr_random": 0.999370944753988,
+      "roc_spatial": 0.9916666666666667,
+      "pr_spatial": 0.9927999273416421
+    },
+    "et": {
+      "roc_random": 0.9816666666666667,
+      "pr_random": 0.9859823994061359,
+      "roc_spatial": 0.9097916666666667,
+      "pr_spatial": 0.9405927382009849
+    },
+    "hgb": {
+      "roc_random": 0.989375,
+      "pr_random": 0.9855749742877429,
+      "roc_spatial": 0.9885416666666667,
+      "pr_spatial": 0.9870443834020333
+    },
+    "xgb": {
+      "roc_random": 0.995625,
+      "pr_random": 0.9965839787172172,
+      "roc_spatial": 0.991875,
+      "pr_spatial": 0.9935390897482566
+    },
+    "lr": {
+      "roc_random": 0.9820833333333334,
+      "pr_random": 0.9833502844229822,
+      "roc_spatial": 0.9347916666666667,
+      "pr_spatial": 0.942511474731552
+    },
+    "ensemble": {
+      "roc_random": 0.9997916666666666,
+      "pr_random": 0.9998456790123457,
+      "roc_spatial": 0.9972916666666666,
+      "pr_spatial": 0.9978279166471413
+    }
+  },
+  "selection_metric": "mean(spatial ROC-AUC, spatial PR-AUC)",
+  "evidence_only_no_proximity": {
+    "spatial_roc": 0.7591666666666667,
+    "spatial_pr": 0.8716584466788282
+  },
+  "top_decile_hit_rate_3km": 0.5377697841726619,
+  "validation_caveat": "spatial LOGO groups = individual mines/clusters; scores remain optimistic for truly unexplored terrain"
+}

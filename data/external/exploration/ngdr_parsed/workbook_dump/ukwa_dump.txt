@@ -1,0 +1,1356 @@
+
+######## SHEET: Table-1 (7x6) ########
+Table-1
+Sr No | Block | Mn % (Probable ‘A’ Category  | Average  thickness of ore horizon | GSU series
+1 | Eastern Block | 40.4 | 3.99 m | 21
+2 | Central Block | 43.14 | 3.51 m | 7
+3 | Western Block | 40.15 | 2.98 m | 13
+4 | Ukwa Deposit |  | 3.58 m | 41
+
+
+######## SHEET: Table-2 (19x5) ########
+Table-2
+Sr No | Item No: Target for FS 2016-17 |  | 050/ME/CR/MP/2016/43 Achievement
+1 | (a) Subsurface Exploration
+2 | (i) Drilling (m) |  | 800 m | 1071.35 m
+3 | (ii) Core samples |  | 50 Nos. | 51 nos.
+4 | (iii) Bulk sampling for Beneficiation study |  | 1 No. ( 250 kg of samples from all the mineralized zones of 1/4th of borehole cores | 80Kg   of   sample   collected   from Core    was    submitted    to    IBM. Result is still awaited.
+5 | (iv) Sampling for Bulk Density Study |  | As Necessary | Nil
+6 | 2.  Geochemical Survey
+7 | a. BRS | 20 Nos. | 20 Nos.
+8 | b. REE | 10 Nos. | 10 Nos.
+9 | 3. Petrographic and Mineragraphic Studies
+10 | a. PS | 10 Nos. | 10 Nos.
+11 | b. PCS | 10 Nos. | 10 Nos.
+12 | c. XRF* | 05 Nos. | 05 Nos.
+13 | 4. Chemical Analysis#
+14 | (a) Core sample (SiO2, Fe2O3, P2O5,MnO, TiO2 ) | 50 Nos. | 51 Nos.
+15 | (b) BRS ( Cu, Pb, Zn, Co, Ni, Cr, SiO2, Fe2O3, P2O5, MnO, TiO2) | 20 Nos. | 20 Nos.
+16 | (c) PCS | 10 Nos. | 10 Nos.
+17 | (d) REE@ | 10 Nos. | 10 Nos.
+
+######## SHEET: Table-3 (5x5) ########
+Chemical Laboratory, GSI, CR, Nagpur. *XRF Lab, GSI, Faridabad.  @ Chemical Lab, GSI Bhopal
+Sr No | Name of Officers |  | Field Days
+1 | 1. Dr. Suresh Kumar, (Sr. Geologist) |  | 114
+2 | 2. Keshav Khandelwal,(Geologist) |  | 133
+3 | Supervisory Officer A.K.Talwar, Director. |  | 6
+
+######## SHEET: Table-4 (12x4) ########
+Sr No | The generalized succession established by Shukla and Anandalwar (1973) around Ukwa region is presented in below Table 5.1.
+1 | Pre-Cambrian Sausar Group | Formation | Brief description of rock types
+2 |  | Recent and Sub - Recent | Sandy soils and alluvium
+3 |  | Tertiary | Laterite and laterite gravels
+4 |  | Post Sausar Intrusives | Pegmatite     and     vein     quartz, Granite   (?)   Basic    dykes   and orthogneisses
+5 |  | Bichua Formation | Marbles, Calc silicate granulite
+6 |  | Junewani Formation | Quartz-biotite schist with garnet, Kyanite, staurolite
+7 |  | Chorbaoli Formation | Quartz-biotite  schist  with  garnet and   Kyanite,   micaceous-flaggy quartzites, quartz schist
+8 |  | Mansar Formation | Muscovite        schist,        quartz- muscovite  schist,  quartz-sericite- muscovite schist with garnet
+9 |  | Lohangi Formation | Pink           calcitic           marbles (impersistant)
+10 |  | Sitasaongi Formation | Quartzite,           quartz-muscovite schist        and        conglomerate. Felspathic grits and conglomerate
+11 | Archaean (Unclassified) | Older metamorphics | Ortho         and         paragneisses, composite  gneisses  and  granite, bands and lenses  of amphibolite, epidiorite,    quartzite    etc,    with pegmatites and quartz veins
+
+######## SHEET: Table-5 (12x5) ########
+Sr No | 5.1.1 Geological set up
+1 | Pre-Cambrian Sausar Group | Recent to sub-Recent | Soil and alluvium
+2 |  | Tertiary | Laterite
+3 |  | Post Sausar | Pegmatite and vein quartz
+4 |  | Chorbaoli Formation (?) | Garnetiferous  quartz-muscovite-biotite  schist  ± Kyanite
+5 |  | Mansar Formation | Garnetiferous muscovite schist
+6 |  |  | Garnetiferous sericite schist/phyllite
+7 |  |  | Garnetiferous    quartz    muscovite    schist    with intercalations of thin quartzite
+8 |  |  | Sericite     schist.     Manganese     ore     horizon, Interbanded Mn ore and manganiferous quartzite.
+9 |  | Lohangi Formation (?) | Phyllite with calcareous bands
+10 | Tectonic contact
+11 | Archaean | Older metamorphics | Granite  gneiss  with  enclaves  of  biotite  schist, amphibolite,   intruded   by  K-granite,   pegmatite and vein quartz
+
+######## SHEET: Table-6 (71x7) ########
+Table-5
+Sr No | Borehole Number and Run | Ore horizon recovered (Run From along Borehole) | Ore horizon recovered (Run To along Borehole) | Sample Number | Sampled rocks | Maganese %
+ |  | Run 83 to 86 m.
+1 | UKBH-01 | 83 | 83.2 | UKBH-01/CS/1/16-17 | Ore horizon and Phyllite | 5.878
+2 | UKBH-02 | a) Run 98 to 101 m.
+3 |  | 100.45 | 100.65 | UKBH-02/CS/1/16-17 | Ore Horizon with fine interbanding of quartz. | 12.6
+4
+5 |  | 100.65 | 100.86 | UKBH-02/CS/2/16-17 | Ore Horizon with fine interbanding of quartz. | 13.793
+6 |  | 100.86 | 101 | UKBH-02/CS/3/16-17 | Ore Horizon with fine interbanding of quartz. | 32.49
+7
+8 |  | b)New Run from 101 to 104 m.
+9 |  | 101 | 101.27 | UKBH-02/CS/4/16-17 | Ore Horizon with fine interbanding of quartz. | 39.729
+11 |  | 101.27 | 101.47 | UKBH-02/CS/5/16-17 | Ore Horizon with fine interbanding of quartz. | 37.646
+12 |  | 101.47 | 101.68 | UKBH-02/CS/6/16-17 | Ore Horizon with fine interbanding of quartz. | 29.468
+13 |  | 101.68 | 101.88 | UKBH-02/CS/7/16-17 | Ore Horizon with fine interbanding of quartz. | 37.39
+14 |  | 101.88 | 102.09 | UKBH-02/CS/8/16-17 | Ore Horizon with fine interbanding of quartz. | 25.278
+15 |  | 102.09 | 102.29 | UKBH-02/CS/9/16-17 | Ore Horizon with fine interbanding of quartz. | 6.522
+16 |  | 102.29 | 102.5 | UKBH-02/CS/10/16-17 | Ore Horizon with fine interbanding of quartz. | 32.116
+17 | UKBH-03 | a)   Run from 122 to 125 m.
+18 |  | 123.78 | 123.98 | UKBH-03/CS/1/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 10.2616
+19
+20 |  | 123.98 | 124.18 | UKBH-03/CS/2/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 13.4601
+21
+22 |  | 124.18 | 124.38 | UKBH-03/CS/3/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 21.2589
+23
+24 |  | 124.38 | 124.58 | UKBH-03/CS/4/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 14.9935
+25
+26 |  | 124.58 | 124.79 | UKBH-03/CS/5/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 31.0171
+27 |  | 124.79 | 125 | UKBH-03/CS/6/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 22.653
+28
+29 |  | b)   Run from 125 to 128 m
+30 |  | 125 | 125.19 | UKBH-03/CS/7/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 21.9559
+31 |  | 125.19 | 125.39 | UKBH-03/CS/8/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 30.5679
+32 |  | 125.39 | 125.59 | UKBH-03/CS/9/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 33.5186
+33 |  | 125.59 | 125.8 | UKBH-03/CS/10/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 28.8022
+34 |  | 125.8 | 126 | UKBH-03/CS/11/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 38.5991
+35 |  | 126 | 126.2 | UKBH-03/CS/12/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 21.0111
+37 |  | 126.2 | 126.4 | UKBH-03/CS/13/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 34.7423
+39 |  | 126.4 | 126.6 | UKBH-03/CS/14/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 23.2183
+41 |  | 126.6 | 126.81 | UKBH-03/CS/15/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 23.7062
+43 |  | 126.81 | 127.01 | UKBH-03/CS/16/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 14.5521
+45 |  | 127.01 | 127.21 | UKBH-03/CS/17/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 24.2793
+47 |  | 127.21 | 127.425 | UKBH-03/CS/18/16-17 | Ore horizon and Phyllite | 10.3081
+48 |  | Run 251 to 254 m.
+49 |  | 251.7 | 251.9 | UKBH-04/CS/1/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 18.3082
+50 |  | 251.9 | 252.1 | UKBH-04/CS/2/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 24.1089
+52 | UKBH-04 | 252.1 | 252.3 | UKBH-04/CS/3/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 26.1303
+53 |  | 252.3 | 252.5 | UKBH-04/CS/4/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 33.5961
+54 |  | 252.5 | 252.7 | UKBH-04/CS/5/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 31.4431
+56 |  | 252.7 | 252.9 | UKBH-04/CS/6/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 33.6503
+58 |  | 252.9 | 253.1 | UKBH-04/CS/7/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 29.5999
+60 |  | 253.1 | 253.3 | UKBH-04/CS/8/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 17.7661
+62 |  | 253.3 | 253.5 | UKBH-04/CS/9/16-17 | Ore Horizon and Gneissic material | 12.1823
+63 | UKBH-05 | a)   Run 194 to 197.10 m.
+64 |  | 196.92 | 197.1 | UKBH-05/CS/1/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 16.7516
+65
+66 |  | b)   Run 197.10 to 200 m.
+67 |  | 197.12 | 197.93 | UKBH-05/CS/2/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 10.2229
+68 |  | 197.93 | 197.52 | UKBH-05/CS/3/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 21.4758
+70 |  | 197.52 | 197.72 | UKBH-05/CS/4/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 16.8677
+71 |  | 197.72 | 197.92 | UKBH-05/CS/5/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 24.318
+72 |  | 197.92 | 198.12 | UKBH-05/CS/6/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 11.2219
+74 |  | 198.12 | 198.32 | UKBH-05/CS/7/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 5.04948
+76 |  | 198.32 | 198.52 | UKBH-05/CS/8/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 10.5327
+78 |  | 198.52 | 198.79 | UKBH-05/CS/9/16-17 | Ore Horizon interbanded with quartzite and carbonate material. | 10.9818
+79 |  | c)   Run 251 to 254 m.
+80 | UKBH-06 | 253.25 | 253.45 | UKBH-06/CS/1/16-17 | Ore Horizon | 18.3082
+81 |  | 253.45 | 253.65 | UKBH-06/CS/2/16-17 | Ore Horizon | 23.3732
+82 |  | 253.65 | 253.85 | UKBH-06/CS/3/16-17 | Ore Horizon | 17.0614
+83 |  | 253.85 | 254.05 | UKBH-06/CS/4/16-17 | Ore Horizon with phyllite | 1.13846
+80 Kg of Manganese ore samples has been collected from core samples and have been submitted to IBM, Nagpur for beneficiation.
+
+######## SHEET: Table-7 (8x7) ########
+Total ore horizon (ore + waste ) intersected in Western Ukwa Block
+Sr No | Sectio n Line | BH | Total Drill Depth in meter | Ore horizon in meter | Only Ore | Weighted average
+1 | AB | UKBH-1 | 113.35 m | 83.0 -83.15m | 0.15m | 0.05878
+2 |  | UKBH-5 | 200 m | 196.92-198.79m | 0.40m | 0.230114
+3 | CD | UKBH-2 | 116 m | 100.45-102.50 | 1.40m | 0.336151
+4 |  | UKBH-4 | 254 m | 251.70-253.5 m | 1.20m | 0.299035
+5 | EF | UKBH-3 | 128 m | 123.75-127.425 | 2.40m | 0.279785
+6 |  | UKBH-6 | 260 m | 253.25-253.95 | 0.20m | 0.233732
+
+######## SHEET: Table-8 (7x5) ########
+ABIOTIC PARAMETERS                                                           7.1 Soil, Surface water (Pre-monsoon and post monsoon), ground water and air sampling
+Sr No | Sample no | Lat: Long | Remarks
+1 | 64C05/SK/UKW1/  FS16-17 | 21058’26”:80026’55” | pH   7.8,   conductivity   393µs/cm,   TDS   236ppm, Temp. 20.390C
+2 | 64C05/SK/UKW2/ FS16-17 | 21058’24”:80026’52” | pH  6.76,   conductivity  384µs/cm,   TDS  230ppm, Temp. 25.350C
+3 | 64C05/SK/UKW3/ FS16-17 | 21058’22”:80026’49” | pH   6.2,   conductivity   228µs/cm,   TDS   137ppm, Temp. 25.190C
+4 | 64C05/SK/UKW4/ FS16-17 | 21058’26”:80026’41” | pH  6.12,   conductivity  425µs/cm,   TDS  255ppm, Temp. 26.220C
+5 | 64C05/SK/UKW5/ FS16-17 | 21058’19”:80027’26” | pH 7.7, conductivity 83µs/cm, TDS 50ppm, Temp. 24.090C
+
+######## SHEET: Table-9 (8x6) ########
+Details of Mineralised Zone (ore plus waste rock within ore horizon) 
+Sr No | Sectio n Line | BH | Total Drill Depth in meter | Mineralized Zone (MZ) in meter | Thickness of MZ in meter
+1 | AB | UKBH-1 | 113.35 m | 83.0 -83.15 m | 0.15 m
+2 |  | UKBH-5 | 200 m | 196.92-198.79 m | 1.87 m
+3 | CD | UKBH-2 | 116 m | 100.45-102.50 m | 2.05 m
+4 |  | UKBH-4 | 254 m | 251.70-253.5 m | 1.80 m
+5 | EF | UKBH-3 | 128 m | 123.75-127.425 | 3.645 m
+6 |  | UKBH-6 | 260 m | 253.25-253.95 | 0.70 m
+
+######## SHEET: Table-10 (72x12) ########
+Table-10
+Sr No | Borehole No | Location |  R.L at Collar |  Date of commencement | Date of completion |  Total Depth |  Vertical Depth of intersection | Depth along BH in meters From | Depth along BH in meters To | Summarized Lithology | Details of ore horizon
+1 | UKBH-1 |  Western Block, Section Line No. A-B. Lat/Long: 21°58’13’’:80°26’54’’ | : 600.060 m.  |  09/01/2017.  |  17/01/2017 |  113.35 m.  ( |  75.22 m.  | 0 | 8 | Yellow silty soil with quartz fragments.
+2 |  |  |  |  |  |  |  | 8 | 17 | Lateritic   soil   with   quartz fragments.
+3 |  |  |  |  |  |  |  | 17 | 26 | Weathered        garnetiferous muscovite schist.
+4 |  |  |  |  |  |  |  | 26 | 35 | Garnetiferous               quartz muscovite schist.
+5 |  |  |  |  |  |  |  | 35 | 68 | Interbanded      Garnetiferous quartz  muscovite  schist  and quartzite with rare garnets.
+6 |  |  |  |  |  |  |  | 68 | 74 | Quartz muscovite schist with rare garnets.
+7 |  |  |  |  |  |  |  | 74 | 83 | Sericite schist(With Chlorite increasing downward)
+8 |  |  |  |  |  |  |  | 83 | 86 | Sericite    schist    (with    Mn ore).  Mn  ore  is  brecciated and        interbanded       with quartzite. | Core   recovery   =   0%   during initial  drilling.  Mn  ore  of  .15m was   recovered   during   the   re drilling  at  83  m,  core  recovery =70%    during    re    drilling.(Re drilling was started on 24/03/17; completed on 27/03/17) . Ore is 0.15m thick.
+9 |  |  |  |  |  |  |  | 86 | 92 | Phyllite
+10 |  |  |  |  |  |  |  | 92 | 113.35 | Biotite  Gneiss with  veins of calcite     and     quartz     and angular         to         rounded fragments of pegmatite | Initially very fine grained due to tectonic    contact.    Specks    of magnetite      and      pyrite      are observed     within     gneiss     in disseminated form.
+11 |  UKBH-2  |  Western Block, Section Line No. C-D.Lat/Long:21°58’19’’:80°27’00’’  |  603.066 m.  | 2017-01-20 00:00:00 |  27/01/2017 | 116 m.  |  91.03 m.  | 0 | 5 | Yellow clayey soil
+12 |  |  |  |  |  |  |  | 5 | 14 | Lateritic soil with quartz fragments
+13 |  |  |  |  |  |  |  | 14 | 26 | Weathered garnetiferous muscovite schist
+14 |  |  |  |  |  |  |  | 26 | 35 | Garnetiferous  muscovite schist
+15 |  |  |  |  |  |  |  | 35 | 47 | Quartz muscovite Schist
+16 |  |  |  |  |  |  |  | 47 | 62 | Garnetiferous quartz muscovite schist
+17 |  |  |  |  |  |  |  | 62 | 85.95 | Quartz muscovite sericite schist with rare garnets.
+18 |  |  |  |  |  |  |  | 85.95 | 95 | Quartz Muscovite Schist
+19 |  |  |  |  |  |  |  | 95 | 100.45 | Sericite Schist with chlorite.
+20 |  |  |  |  |  |  |  | 100.45 | 102.5 | Mn ore of massive nature was observed with fine interbanding of quartz.( ore horizon) | Mn ore horizon of 1.43m was recovered, core recovery = 69.756%, core loss is .62 m. Brecciation is observed.  Actual thickness of ore is 1.40m .
+21 |  |  |  |  |  |  |  | 102.5 | 106 | Phyllite.
+22 |  |  |  |  |  |  |  | 106 | 116 | Biotite Gneiss with veins of quartz and calcite with angular to rounded fragments of pegmatite. | Initially very fine grained due to tectonic contact. Specks of magnetite and pyrite are observed within gneiss in disseminated form
+23 |  UKBH-3 |  Western Block, Section Line No. E-F.Lat:long.21°58’22’’:80°27’10’’ |  601.208 m.  |  29/01/2017 |  05/02/2017 |  128 m.  |  112.18 m.  | 0 | 14 | Red lateritic soil with quartz fragments.
+24 |  |  |  |  |  |  |  | 14 | 23 | Yellow     silty     soil     with fragments  of  quartz,  laterite and schist.
+25 |  |  |  |  |  |  |  | 23 | 32 | Weathered        garnetiferous muscovite schist.
+26 |  |  |  |  |  |  |  | 32 | 56 | Garnetiferous               quartz muscovite schist. | Stringers  of  hematite  are  found to    be   intruding   along   weak planes.
+27 |  |  |  |  |  |  |  | 56 | 77 | Quartz muscovite schist.
+28 |  |  |  |  |  |  |  | 77 | 97.95 | Quartz muscovite schist with
+29 |  |  |  |  |  |  |  |  |  | chlorite.
+30 |  |  |  |  |  |  |  | 97.95 | 113 | Sericite schist with chlorite.
+31 |  |  |  |  |  |  |  | 113 | 123.78 | Sericite schist. | Specks  of  pyrite  and  magnetite are observed in it.
+32 |  |  |  |  |  |  |  | 123.78 | 127.425 | Mn   ore   horizon   (Mn   ore inter     banded     with     Mn Quartzite)   is   traversed   by carbonate        and        quartz veinlets.     (Pink     coloured carbonate material). | Core recovery is 100% with Mn bands  varying  from  <1  mm  to 11cm  thick  bands.  Evidence  of faulting (small scale and oblique slip)      and      brecciation      is observed.   Actual   thickness   of Ore is 2.40m.
+33 |  |  |  |  |  |  |  | 127.425 | 128 | Fine       grained       gneissic material. | Due    to    tectonic    nature    of contact.
+34 |  UKBH-4 |  Western Block, Section Line No. C-D.Lat:Long.21°58’25’’:80°26’55’’. |  599.313 m.  |  09/02/2017 |  22/02/2017 |  254 m.  |  228.11 m.  | 0 | 8 | Reddish   brown   sandy   soil with quartz fragments.
+35 |  |  |  |  |  |  |  | 8 | 26 | Lateritic soil.
+36 |  |  |  |  |  |  |  | 26 | 44 | Yellowish    and    weathered
+37 |  |  |  |  |  |  |  |  |  | quartz muscovite schist.
+38 |  |  |  |  |  |  |  | 44 | 59 | Weathered quartz muscovite schist.
+39 |  |  |  |  |  |  |  | 59 | 89 | Quartz muscovite schist.
+40 |  |  |  |  |  |  |  | 89 | 98 | Quartz muscovite schist with rare garnet. | Specks      of      Magnetite      are observed in disseminated form.
+41 |  |  |  |  |  |  |  | 98 | 146 | Quartz muscovite schist with chlorite and rare garnet. | Specks  of Magnetite  and  Pyrite are   observed   in   disseminated form.
+42 |  |  |  |  |  |  |  | 146 | 218 | Garnetiferous               quartz muscovite schist.
+43 |  |  |  |  |  |  |  | 218 | 236 | Sericite        schist.(        with increasing      chlorite     with depth)
+44 |  |  |  |  |  |  |  | 236 | 251.7 | Quartz muscovite schist.
+45 |  |  |  |  |  |  |  | 251.7 | 253.5 | Mn   ore   horizon   (Mn   ore inter     banded     with     Mn Quartzite)   is   traversed   by carbonate        and        quartz veinlets.     (Pink     coloured carbonate material). | Core recovery is 100% with Mn bands  varying  from  <1  mm  to 16  cm  thick  bands.  Brecciation is observed. Actual thickness of ore is 1.20m.
+46 |  |  |  |  |  |  |  | 253.5 | 254 | Fine       grained       gneissic material. | Due    to    tectonic    nature    of contact.
+47 |  UKBH-5 |  Western Block, Section Line No. A-B.Lat:Long.21°58’19’’:80°26’49’’ |  602.066 m.  |  25/02/2017 |  01/03/2017 |  200 m.  | 178.47 m.  | 0 | 9 | Yellow silty soil with rock fragments.
+48 |  |  |  |  |  |  |  | 9 | 17 | Red lateritic soil.
+49 |  |  |  |  |  |  |  | 17 | 32 | Yellow clayey soil with rock fragments.
+50 |  |  |  |  |  |  |  | 32 | 56 | Yellow clayey soil along with weathered garnetiferous muscovite schist.
+51 |  |  |  |  |  |  |  | 56 | 71 | Weathered garnetiferous muscovite schist.
+52 |  |  |  |  |  |  |  | 71 | 131 | Garnetiferous quartz muscovite schist. | Stringers of Fe along weak planes.
+53 |  |  |  |  |  |  |  | 131 | 170 | Quartz muscovite schist.
+54 |  |  |  |  |  |  |  | 170 | 196.92 | Sericite schist with chlorite.
+55 |  |  |  |  |  |  |  | 196.92 | 198.79 | Mn ore horizon(Mn ore inter banded  with  Mn  Quartzite) is traversed by carbonate and quartz       veinlets.       (Pink coloured                 carbonate material). | Mn ore horizon of 1.42 m was recovered, core recovery = 75.93%, 0.45 m was collected in powdery form. Brecciation is observed. Actual thickness of ore is 0.40m.
+56 |  |  |  |  |  |  |  | 198.79 | 200 | Fine grained gneissic material. | Due to tectonic nature of contact.
+57 |  UKBH-6 |  Western Block, Section Line No. E-F. Lat:Long.21°58’29’’:80°27’5’’ |  599.837 m.  |  05/03/2017.  |  16/03/2017 |  260 m.  |  229.52 m.  | 0 | 11 | Yellow clayey soil.
+58 |  |  |  |  |  |  |  | 11 | 20 | Red lateritic soil with rock fragments.
+59 |  |  |  |  |  |  |  | 20 | 44 | Yellow clayey soil.
+60 |  |  |  |  |  |  |  | 44 | 50 | Yellow clayey soil with weathered quartz muscovite schist.
+61 |  |  |  |  |  |  |  | 50 | 98 | Quartz muscovite schist with chlorite traversed by calcite vein along weak planes.
+62 |  |  |  |  |  |  |  | 98 | 116 | Quartz muscovite schist with garnet. | Specks of magnetite is found in disseminated form
+63 |  |  |  |  |  |  |  | 116 | 140 | Quartz muscovite-sericite schist.
+64 |  |  |  |  |  |  |  | 140 | 158 | Garnetiferous quartz muscovite schist.
+65 |  |  |  |  |  |  |  | 158 | 182 | Quartz muscovite schist with chlorite.
+66 |  |  |  |  |  |  |  | 182 | 203 | Garnetiferous quartz muscovite sericite schist.
+67 |  |  |  |  |  |  |  | 203 | 253.25 | Quartz muscovite sericite schist.
+68 |  |  |  |  |  |  |  | 253.25 | 253.95 | Mn ore horizon (Mn ore inter banded with Mn Quartzite) is traversed by carbonate and quartz veinlets. (Pink coloured carbonate material). | Core recovery is 100% with Mn bands varying from <1 mm to 5 cm thick bands. Brecciation is observed. Actual thickness of ore is 0.20m.
+69 |  |  |  |  |  |  |  | 253.95 | 257 | Phyllite
+70 |  |  |  |  |  |  |  | 257 | 260 | Fine grained gneissic material. | Due to tectonic nature of contact.
+
+######## SHEET: Table-11 (362x7) ########
+9.5 Core Recovery Percentage Core  recovery percentage  of individual  boreholes  for  whole  run  was  calculated  and  presented here in tabular form.
+Sr No | Borehole No | From | To | Core Recovery
+1 | UKBH-1 | 0 | 2 | 0
+2 |  | 2 | 5 | 0
+3 |  | 5 | 8 | 0
+4 |  | 8 | 11 | 0
+5 |  | 11 | 14 | 0
+6 |  | 14 | 17 | 18.33
+7 |  | 17 | 20 | 63
+8 |  | 20 | 23 | 0
+9 |  | 23 | 26 | 86
+10 |  | 26 | 29 | 97.33
+11 |  | 29 | 32 | 98
+12 |  | 32 | 35 | 97.33
+13 |  | 35 | 38 | 98.66
+14 |  | 38 | 41 | 97.833
+15 |  | 41 | 44 | 96.666
+16 |  | 44 | 47 | 99.166
+17 |  | 47 | 50 | 95.666
+18 |  | 50 | 53 | 99.66
+19 |  | 53 | 56 | 97
+20 |  | 56 | 59 | 98.66
+21 |  | 59 | 62 | 100
+22 |  | 62 | 65 | 100
+23 |  | 65 | 68 | 98
+24 |  | 68 | 71 | 100
+25 |  | 71 | 74 | 100
+26 |  | 74 | 77 | 99.333
+27 |  | 77 | 80 | 99
+28 |  | 80 | 83 | 100
+29 |  | 83 | 86 | 15.666
+30 |  | 86 | 89 | 26.66
+31 |  | 89 | 92 | 88.66
+32 |  | 92 | 95 | 100
+33 |  | 95 | 98 | 99.33
+34 |  | 98 | 101 | 100
+35 |  | 101 | 103.95 | 100
+36 |  | 103.95 | 107 | 100
+37 |  | 107 | 109.95 | 98.983
+38 |  | 109.95 | 112.95 | 100
+39 |  | 112.95 | 113.95 | 100
+40 | UKBH-2 | 0 | 2 | 0
+41 |  | 2 | 5 | 0
+42 |  | 5 | 8 | 0
+43 |  | 8 | 11 | 0
+44 |  | 11 | 14 | 0
+45 |  | 14 | 17 | 0
+46 |  | 17 | 20 | 0
+47 |  | 20 | 23 | 3.33
+48 |  | 23 | 26 | 62.33
+49 |  | 26 | 29 | 99.33
+50 |  | 29 | 32 | 99
+51 |  | 32 | 35 | 97.33
+52 |  | 35 | 38 | 97.33
+53 |  | 38 | 41 | 97.66
+54 |  | 41 | 44 | 99
+55 |  | 44 | 47 | 100
+56 |  | 47 | 50 | 100
+57 |  | 50 | 53 | 100
+58 |  | 53 | 56 | 100
+59 |  | 56 | 59 | 99.33
+60 |  | 59 | 62 | 100
+61 |  | 62 | 65 | 100
+62 |  | 65 | 68 | 98
+63 |  | 68 | 71 | 100
+64 |  | 71 | 73.95 | 100
+65 |  | 73.95 | 76.95 | 100
+66 |  | 76.95 | 79.95 | 100
+67 |  | 76.95 | 82.95 | 97.33
+68 |  | 82.95 | 85.95 | 100
+69 |  | 85.95 | 89 | 100
+70 |  | 89 | 92 | 100
+71 |  | 92 | 95 | 100
+72 |  | 95 | 98 | 100
+73 |  | 98 | 101 | 95.66
+74 |  | 101 | 104 | 79
+75 |  | 104 | 107 | 100
+76 |  | 107 | 110 | 99
+77 |  | 110 | 113 | 100
+78 |  | 113 | 116 | 100
+79 | UKBH-3 | 0 | 2 | 0
+80 |  | 2 | 5 | 0
+81 |  | 5 | 8 | 0
+82 |  | 8 | 11 | 0
+83 |  | 11 | 14 | 0
+84 |  | 14 | 17 | 0
+85 |  | 17 | 20 | 0
+86 |  | 20 | 23 | 0
+87 |  | 23 | 26 | 32.666
+88 |  | 26 | 29 | 98.66
+89 |  | 29 | 32 | 100
+90 |  | 32 | 35 | 99.66
+91 |  | 35 | 38 | 100
+92 |  | 38 | 41 | 100
+93 |  | 41 | 44 | 97.33
+94 |  | 44 | 47 | 100
+95 |  | 47 | 50 | 99.33
+96 |  | 50 | 53 | 100
+97 |  | 53 | 56 | 98
+98 |  | 56 | 58.9 | 100
+99 |  | 58.932 | 62 | 99.0323
+100 |  | 62 | 64.95 | 98.644
+101 |  | 64.95 | 67.95 | 100
+102 |  | 67.95 | 71 | 99.672
+103 |  | 71 | 73.95 | 100
+104 |  | 73.95 | 77 | 100
+105 |  | 77 | 80 | 100
+106 |  | 80 | 82.95 | 100
+107 |  | 82.95 | 86 | 100
+108 |  | 86 | 89 | 100
+109 |  | 89 | 92 | 99.33
+110 |  | 92 | 95 | 100
+111 |  | 95 | 97.95 | 100
+112 |  | 97.95 | 101 | 99.344
+113 |  | 101 | 104 | 99.667
+114 |  | 104 | 106.9 | 98.62
+115 |  | 106.9 | 110 | 99.354
+116 |  | 110 | 113 | 100
+117 |  | 113 | 116 | 98
+118 |  | 116 | 119 | 100
+119 |  | 119 | 122 | 100
+120 |  | 122 | 125 | 100
+121 |  | 125 | 128 | 100
+122 | UKBH-4  | 0 | 2 | 0
+123 |  | 2 | 5 | 0
+124 |  | 5 | 8 | 0
+125 |  | 8 | 11 | 0
+126 |  | 11 | 14 | 0
+127 |  | 14 | 17 | 0
+128 |  | 17 | 20 | 0
+129 |  | 20 | 23 | 0
+130 |  | 23 | 26 | 0
+131 |  | 26 | 29 | 21.66
+132 |  | 29 | 32 | 21
+133 |  | 32 | 35 | 36.6
+134 |  | 35 | 38 | 24
+135 |  | 38 | 41 | 0
+136 |  | 41 | 44 | 17.66
+137 |  | 44 | 47 | 47
+138 |  | 47 | 50 | 65.33
+139 |  | 50 | 53 | 36.6
+140 |  | 53 | 56 | 52.33
+141 |  | 56 | 59 | 38.6
+142 |  | 59 | 62 | 75.33
+143 |  | 62 | 65 | 20
+144 |  | 65 | 68 | 80
+145 |  | 68 | 71 | 99
+146 |  | 71 | 74 | 100
+147 |  | 74 | 77 | 94.6
+148 |  | 77 | 80 | 100
+149 |  | 80 | 83 | 100
+150 |  | 83 | 86 | 100
+151 |  | 86 | 89 | 100
+152 |  | 89 | 92 | 100
+153 |  | 92 | 95 | 100
+154 |  | 95 | 98 | 100
+155 |  | 98 | 101 | 100
+156 |  | 101 | 104 | 100
+157 |  | 104 | 107 | 100
+158 |  | 107 | 110 | 100
+159 |  | 110 | 113 | 100
+160 |  | 113 | 116 | 100
+161 |  | 116 | 119 | 100
+162 |  | 119 | 122 | 100
+163 |  | 122 | 125 | 100
+164 |  | 125 | 128 | 100
+165 |  | 128 | 131 | 100
+166 |  | 131 | 134 | 100
+167 |  | 134 | 137 | 100
+168 |  | 137 | 140 | 98
+169 |  | 140 | 143 | 100
+170 |  | 143 | 146 | 100
+171 |  | 146 | 149 | 100
+172 |  | 149 | 152 | 100
+173 |  | 152 | 155 | 100
+174 |  | 155 | 158 | 100
+175 |  | 158 | 160.95 | 98.98
+176 |  | 160.95 | 163.95 | 99.33
+177 |  | 163.95 | 167 | 100
+178 |  | 170 | 173 | 100
+179 |  | 173 | 176 | 100
+180 |  | 176 | 179 | 100
+181 |  | 179 | 182 | 100
+182 |  | 182 | 185 | 100
+183 |  | 185 | 188 | 100
+184 |  | 188 | 191 | 100
+185 |  | 191 | 194 | 100
+186 |  | 194 | 197 | 98.33
+187 |  | 197 | 200 | 100
+188 |  | 200 | 203 | 100
+189 |  | 203 | 206 | 100
+190 |  | 206 | 209 | 100
+191 |  | 209 | 212 | 100
+192 |  | 212 | 215 | 100
+193 |  | 215 | 218 | 100
+194 |  | 218 | 221 | 100
+195 |  | 221 | 224 | 100
+196 |  | 224 | 227 | 100
+197 |  | 227 | 230 | 100
+198 |  | 230 | 233 | 100
+199 |  | 233 | 236 | 99.33
+200 |  | 236 | 239 | 100
+201 |  | 239 | 242 | 100
+202 |  | 242 | 245 | 100
+203 |  | 245 | 248 | 100
+204 |  | 248 | 251 | 100
+205 |  | 251 | 254 | 100
+206 | UKBH-5  | 0 | 2 | 0
+207 |  | 2 | 5 | 0
+208 |  | 5 | 8 | 0
+209 |  | 8 | 11 | 0
+210 |  | 11 | 14 | 0
+211 |  | 14 | 17 | 0
+212 |  | 17 | 20 | 0
+213 |  | 20 | 23 | 0
+214 |  | 23 | 26 | 0
+215 |  | 26 | 29 | 0
+216 |  | 29 | 32 | 0
+217 |  | 32 | 35 | 10
+218 |  | 35 | 38 | 0
+219 |  | 38 | 41 | 23.66
+220 |  | 41 | 44 | 39.66
+221 |  | 44 | 47 | 19.33
+222 |  | 47 | 50 | 51
+223 |  | 50 | 53 | 91.33
+224 |  | 53 | 56 | 95
+225 |  | 56 | 59 | 88.66
+226 |  | 59 | 62 | 85.66
+227 |  | 62 | 65 | 86.66
+228 |  | 65 | 68 | 100
+229 |  | 68 | 71 | 92.33
+230 |  | 71 | 74 | 99
+231 |  | 74 | 77 | 100
+232 |  | 77 | 80 | 100
+233 |  | 80 | 83 | 100
+234 |  | 83 | 86 | 99.33
+235 |  | 86 | 89 | 99.66
+236 |  | 89 | 92 | 98
+237 |  | 92 | 95 | 95.66
+238 |  | 95 | 98 | 100
+239 |  | 98 | 101 | 100
+240 |  | 101 | 104 | 100
+241 |  | 104 | 107 | 100
+242 |  | 107 | 110 | 100
+243 |  | 110 | 113 | 99.33
+244 |  | 113 | 116 | 100
+245 |  | 116 | 119 | 100
+246 |  | 119 | 122 | 99.33
+247 |  | 122 | 125 | 100
+248 |  | 125 | 128 | 100
+249 |  | 128 | 131 | 100
+250 |  | 131 | 134 | 98.66
+251 |  | 134 | 137 | 100
+252 |  | 137 | 140 | 100
+253 |  | 140 | 143 | 99
+254 |  | 143 | 146 | 100
+255 |  | 146 | 149 | 100
+256 |  | 149 | 152 | 99
+257 |  | 152 | 155 | 100
+258 |  | 155 | 158 | 100
+259 |  | 158 | 160.9 | 100
+260 |  | 160.9 | 164 | 100
+261 |  | 164 | 167 | 100
+262 |  | 167 | 170 | 100
+263 |  | 170 | 173 | 100
+264 |  | 173 | 176 | 97.6667
+265 |  | 176 | 179 | 100
+266 |  | 179 | 182 | 100
+267 |  | 182 | 185 | 100
+268 |  | 185 | 188 | 100
+269 |  | 188 | 191 | 99
+270 |  | 191 | 194 | 100
+271 |  | 194 | 197.1 | 98.66
+272 |  | 197.1 | 200 | 100
+273 | UKBH-6  | 0 | 2 | 0
+274 |  | 2 | 5 | 0
+275 |  | 5 | 8 | 0
+276 |  | 8 | 11 | 0
+277 |  | 11 | 14 | 0
+278 |  | 14 | 17 | 0
+279 |  | 17 | 20 | 0
+280 |  | 20 | 23 | 0
+281 |  | 23 | 26 | 0
+282 |  | 26 | 29 | 0
+283 |  | 29 | 32 | 0
+284 |  | 32 | 35 | 0
+285 |  | 35 | 38 | 0
+286 |  | 38 | 41 | 0
+287 |  | 41 | 44 | 0
+288 |  | 44 | 47 | 36.33
+289 |  | 47 | 50 | 51.33
+290 |  | 50 | 53 | 100
+291 |  | 53 | 56 | 100
+292 |  | 56 | 59 | 100
+293 |  | 59 | 62 | 100
+294 |  | 62 | 65 | 100
+295 |  | 65 | 68 | 99
+296 |  | 68 | 71 | 100
+297 |  | 71 | 74 | 100
+298 |  | 74 | 77 | 100
+299 |  | 77 | 80 | 100
+300 |  | 80 | 83 | 100
+301 |  | 83 | 86 | 100
+302 |  | 86 | 89 | 100
+303 |  | 89 | 92 | 100
+304 |  | 92 | 95 | 100
+305 |  | 95 | 98 | 100
+306 |  | 98 | 101 | 100
+307 |  | 101 | 104 | 100
+308 |  | 104 | 107 | 100
+309 |  | 107 | 110 | 100
+310 |  | 110 | 113 | 98.3334
+311 |  | 113 | 116 | 100
+312 |  | 116 | 118.9 | 100
+313 |  | 118.9 | 121.95 | 100
+314 |  | 121.95 | 125 | 100
+315 |  | 125 | 128 | 99.33
+316 |  | 128 | 131 | 100
+317 |  | 131 | 134 | 100
+318 |  | 134 | 137 | 100
+319 |  | 137 | 140 | 100
+320 |  | 140 | 143 | 99.33
+321 |  | 143 | 146 | 100
+322 |  | 146 | 149 | 100
+323 |  | 149 | 152 | 100
+324 |  | 152 | 155 | 100
+325 |  | 155 | 158 | 100
+326 |  | 158 | 161 | 100
+327 |  | 161 | 164 | 100
+328 |  | 164 | 167 | 100
+329 |  | 167 | 170 | 100
+330 |  | 170 | 173 | 100
+331 |  | 173 | 176 | 100
+332 |  | 176 | 179 | 100
+333 |  | 179 | 182 | 100
+334 |  | 182 | 185 | 98.33
+335 |  | 185 | 188 | 100
+336 |  | 188 | 191 | 100
+337 |  | 191 | 194 | 100
+338 |  | 194 | 197 | 100
+339 |  | 197 | 200 | 100
+340 |  | 200 | 203 | 99
+341 |  | 203 | 206 | 100
+342 |  | 206 | 209 | 100
+343 |  | 209 | 212 | 100
+344 |  | 212 | 215 | 100
+345 |  | 215 | 218 | 100
+346 |  | 218 | 221 | 99.33
+347 |  | 221 | 224 | 100
+348 |  | 224 | 227 | 100
+349 |  | 227 | 230 | 100
+350 |  | 230 | 233 | 99.33
+351 |  | 233 | 236 | 98.3
+352 |  | 236 | 239 | 99.33
+353 |  | 239 | 242 | 100
+354 |  | 242 | 245 | 100
+355 |  | 245 | 248 | 100
+356 |  | 248 | 251 | 100
+357 |  | 251 | 253.9 | 100
+358 |  | 253.9 | 256.1 | 100
+359 |  | 256.1 | 257 | 100
+360 |  | 257 | 260 | 100
+
+######## SHEET: Table-12 (7x5) ########
+Table-12
+Sr No | Borehole No | Total drilled depth  | Casing | Reported mineralization is
+1 |  UKBH-1 | 113.95 m;  | 19.50 m  | (i) 83.00-86.00 m  (ii) 92.00-107.00 m 
+2 |  UKBH-2 |  116.00 m;  |  27.00 m  | (i) 100.45-102.50 m   (ii) 106.00-116.00 m 
+3 |  UKBH-3  | 128.00 m;  |  27.00 m  | (i) 32.00-56.00 m (ii) 113.00-123.78 m (iii)123.78-127.43 m 
+4 |  UKBH-5  |  200.00 m;  |  51.00 m  | (i) 71.00-131.00 m (ii) 196.92-198.79 m 
+5 | UKBH-6  | 260.00 m;  |  44.00 m  | (i) 98.00-116.00 m  (ii) 253.25-253.95 m 
+
+######## SHEET: Table-13 (39x7) ########
+Borehole deviation test and methodology
+Sr No | Borehole No | No deviation | FROM | TO | ANGLE MEASURED | ACTUAL ANGLE
+1 | UKBH-1 | No deviation was observed in this borehole. | 0 | 30 | 71° | 65°
+2 |  |  | 30 | 60 | 71° | 65°
+3 |  |  | 60 | 90 | 71° | 65°
+4 |  |  | 90 | 113.35 | 71° | 65°
+5 | UKBH-2 | Deviation of -1.50 to 30 was observed in this borehole. | 0 | 30 | 70° | 63.5°
+6 |  |  | 30 | 60 | 70° | 63.5°
+7 |  |  | 60 | 90 | 71° | 65°
+8 |  |  | 90 | 116 | 74° | 68°
+9 | UKBH-3 | : Deviation of -2.50 was observed in this borehole. | 0 | 30 | 69° | 62.5°
+10 |  |  | 30 | 60 | 69° | 62.5°
+11 |  |  | 60 | 90 | 69° | 62.5°
+12 |  |  | 90 | 116 | 69° | 62.5°
+13 | UKBH-4 | Deviation of -30 to 30 was observed in this borehole. | 0 | 30 | 68° | 62°
+14 |  |  | 30 | 60 | 68° | 62°
+15 |  |  | 60 | 90 | 69° | 62.5°
+16 |  |  | 90 | 120 | 69° | 62.5°
+17 |  |  | 120 | 150 | 69° | 62.5°
+18 |  |  | 150 | 180 | 70° | 63.5°
+19 |  |  | 180 | 210 | 70° | 63.5°
+20 |  |  | 210 | 240 | 71° | 65°
+21 |  |  | 240 | 254 | 74° | 68°
+22 | UKBH-5 |  Deviation of 10 to 30 was observed in this borehole | 0 | 30 | 72° | 66°
+23 |  |  | 30 | 60 | 72° | 66°
+24 |  |  | 60 | 90 | 72° | 66°
+25 |  |  | 90 | 120 | 72° | 66°
+26 |  |  | 120 | 150 | 72° | 66°
+27 |  |  | 150 | 180 | 74° | 68°
+28 |  |  | 180 | 200 | 74° | 68°
+29 | UKBH-6 | Deviation of -2.50 to -30was observed in this borehole | 0 | 30 | 68° | 62°
+30 |  |  | 30 | 60 | 68° | 62°
+31 |  |  | 60 | 90 | 68° | 62°
+32 |  |  | 90 | 120 | 69° | 62.5°
+33 |  |  | 120 | 150 | 70° | 63.5°
+34 |  |  | 150 | 180 | 70° | 63.5°
+35 |  |  | 180 | 210 | 70° | 63.5°
+36 |  |  | 210 | 240 | 71° | 65°
+37 |  |  | 240 | 254 | 71° | 65°
+
+######## SHEET: Table-14 (8x6) ########
+Depth of intersection of mineralization in Western Ukwa Block
+Sr No | Sectio n Line | BH | Total Drill Depth in meter | Mineralized Zone (MZ) in meter | Thickness of MZ in meter
+1 | AB | UKBH-1 | 113.35 m | 83.0 -83.15m | 0.15m
+2 |  | UKBH-5 | 200 m | 196.92-198.79m | 1.87m
+3 | CD | UKBH-2 | 116 m | 100.45-102.50 | 2.05m
+4 |  | UKBH-4 | 254 m | 251.70-253.5 m | 1.80m
+5 | EF | UKBH-3 | 128 m | 123.75-127.425 | 3.645m
+6 |  | UKBH-6 | 260 m | 253.25-253.95 | 0.70m
+
+######## SHEET: Table-15 (7x4) ########
+Table-15
+Sr No | %Mn | Average Sp. Gravity | Effective Sp. gravity
+1 | 25-30 | 3.86 | 3.47
+2 | 30-35 | 3.72 | 3.34
+3 | 35-40 | 3.95 | 3.55
+4 | 40-45 | 4.36 | 3.92
+5 | 45-50 | 4.37 | 3.93
+
+######## SHEET: Table-16 (111x10) ########
+Data obtained after analysis is described in tabular form. RQD value of only core samples after weathered horizon is mentioned below (Run with ore horizon is marked in bold).
+Sr No | UKBH-1 |  |  | UKBH-2 |  |  | UKBH-3
+ | From | To | RQD | From | To | RQD | From | To | RQD
+1 | 14 | 17 | 0 | 20 | 23 | 3.33 | 23 | 26 | 0
+2 | 17 | 20 | 23 | 23 | 26 | 16 | 26 | 29 | 58.66
+3 | 20 | 23 | 0 | 26 | 29 | 47 | 29 | 32 | 62
+4 | 23 | 26 | 38 | 29 | 32 | 26.66 | 32 | 35 | 42.666
+5 | 26 | 29 | 44.86 | 32 | 35 | 3.3 | 35 | 38 | 60.33
+6 | 29 | 32 | 50 | 35 | 38 | 11 | 38 | 41 | 68
+7 | 32 | 35 | 68.04 | 38 | 41 | 70.33 | 41 | 44 | 71
+8 | 35 | 38 | 51.3851 | 41 | 44 | 64.33 | 44 | 47 | 75
+9 | 38 | 41 | 47.7 | 44 | 47 | 76.33 | 47 | 50 | 82.33
+10 | 41 | 44 | 80.33 | 47 | 50 | 86.33 | 50 | 53 | 95.333
+11 | 44 | 47 | 78.668 | 50 | 53 | 93.66 | 53 | 56 | 82
+12 | 47 | 50 | 65.331 | 53 | 56 | 95 | 56 | 58.9 | 90.344
+13 | 50 | 53 | 73.07 | 56 | 59 | 91.66 | 58.932 | 62 | 95.1612
+14 | 53 | 56 | 68.384 | 59 | 62 | 95 | 62 | 64.95 | 92.203
+15 | 56 | 59 | 47.297 | 62 | 65 | 53.66 | 64.95 | 67.95 | 90.33
+16 | 59 | 62 | 84.4333 | 65 | 68 | 91 | 67.95 | 71 | 96.7213
+17 | 62 | 65 | 69.566 | 68 | 71 | 93 | 71 | 73.95 | 84.4067
+18 | 65 | 68 | 85.714 | 71 | 73.95 | 97.96 | 73.95 | 77 | 95.57
+19 | 68 | 71 | 75.233 | 73.95 | 76.95 | 94 | 77 | 80 | 95
+20 | 71 | 74 | 90.166 | 76.95 | 79.95 | 82.33 | 80 | 82.95 | 89.491
+21 | 74 | 77 | 81.543 | 76.95 | 82.95 | 77 | 82.95 | 86 | 100
+22 | 77 | 80 | 93.93 | 82.95 | 85.95 | 90 | 86 | 89 | 98
+23 | 80 | 83 | 92.33 | 85.95 | 89 | 81.63 | 89 | 92 | 95.66
+24 | 83 | 86 | 7.66 | 89 | 92 | 95 | 92 | 95 | 90.666
+25 | 86 | 89 | 0 | 92 | 95 | 64 | 95 | 97.95 | 97.2881
+26 | 89 | 92 | 0 | 95 | 98 | 71.66 | 97.95 | 101 | 96.0655
+27 | 92 | 95 | 94 | 98 | 101 | 74 | 101 | 104 | 90
+28 | 95 | 98 | 78 | 101 | 104 | 33.33 | 104 | 106.9 | 87.931
+29 | 98 | 101 | 89 | 104 | 107 | 91 | 106.9 | 110 | 86.7741
+30 | 101 | 103.95 | 100 | 107 | 110 | 95.66 | 110 | 113 | 96.667
+31 | 103.95 | 107 | 89.836 | 110 | 113 | 87 | 113 | 116 | 72.666
+32 | 107 | 109.95 | 95.593 | 113 | 116 | 100 | 116 | 119 | 32
+33 | 109.95 | 112.95 | 97 |  |  |  | 119 | 122 | 38.666
+34 | 112.95 | 113.95 | 100 |  |  |  | 122 | 125 | 92.666
+35 |  |  |  |  |  |  | 125 | 128 | 88.66
+36 | UKBH-4 |  |  | UKBH-5 |  |  | UKBH-6
+37 | From | To | RQD | From | To | RQD | From | To | RQD
+38 | 41 | 44 | 0 | 50 | 53 | 17 | 50 | 53 | 12.66
+39 | 44 | 47 | 0 | 53 | 56 | 45.33 | 53 | 56 | 51.33
+40 | 47 | 50 | 0 | 56 | 59 | 32.33 | 56 | 59 | 97
+41 | 50 | 53 | 0 | 59 | 62 | 25.66 | 59 | 62 | 96.67
+42 | 53 | 56 | 0 | 62 | 65 | 10.66 | 62 | 65 | 88.66
+43 | 56 | 59 | 0 | 65 | 68 | 50 | 65 | 68 | 93
+44 | 59 | 62 | 0 | 68 | 71 | 43 | 68 | 71 | 100
+45 | 62 | 65 | 7 | 71 | 74 | 47 | 71 | 74 | 70.33
+46 | 65 | 68 | 11.66 | 74 | 77 | 34 | 74 | 77 | 93
+47 | 68 | 71 | 36 | 77 | 80 | 34 | 77 | 80 | 94.333
+48 | 71 | 74 | 74.33 | 80 | 83 | 42.33 | 80 | 83 | 91.6667
+49 | 74 | 77 | 75.66 | 83 | 86 | 31 | 83 | 86 | 95.6667
+50 | 77 | 80 | 97.66 | 86 | 89 | 62.333 | 86 | 89 | 98
+51 | 80 | 83 | 95.33 | 89 | 92 | 29 | 89 | 92 | 97.3334
+52 | 83 | 86 | 89 | 92 | 95 | 59 | 92 | 95 | 94.6667
+53 | 86 | 89 | 57 | 95 | 98 | 83.66 | 95 | 98 | 95
+54 | 89 | 92 | 86 | 98 | 101 | 85.66 | 98 | 101 | 91
+55 | 92 | 95 | 92 | 101 | 104 | 86 | 101 | 104 | 82
+56 | 95 | 98 | 93 | 104 | 107 | 96 | 104 | 107 | 92.333
+57 | 98 | 101 | 59 | 107 | 110 | 88 | 107 | 110 | 98
+58 | 101 | 104 | 87.66 | 110 | 113 | 94.33 | 110 | 113 | 80.667
+59 | 104 | 107 | 98.66 | 113 | 116 | 96.33 | 113 | 116 | 91.66
+60 | 107 | 110 | 91.33 | 116 | 119 | 91 | 116 | 118.9 | 87.93
+61 | 110 | 113 | 92 | 119 | 122 | 98.66 | 118.9 | 121.95 | 94.09
+62 | 113 | 116 | 97 | 122 | 125 | 95 | 121.95 | 125 | 88.85
+63 | 116 | 119 | 90.66 | 125 | 128 | 98.33 | 125 | 128 | 60.2
+64 | 119 | 122 | 97.33 | 128 | 131 | 92 | 128 | 131 | 79.66
+65 | 122 | 125 | 96.33 | 131 | 134 | 100 | 131 | 134 | 80
+66 | 125 | 128 | 94.66 | 134 | 137 | 98.6666 | 134 | 137 | 89.33
+67 | 128 | 131 | 96 | 137 | 140 | 98.33 | 137 | 140 | 93.66
+68 | 131 | 134 | 90 | 140 | 143 | 92.33 | 140 | 143 | 86.91
+69 | 134 | 137 | 95.33 | 143 | 146 | 96.33 | 143 | 146 | 94.33
+70 | 137 | 140 | 93 | 146 | 149 | 96.33 | 146 | 149 | 96.66
+71 | 140 | 143 | 86 | 149 | 152 | 31 | 149 | 152 | 92
+72 | 143 | 146 | 91.66 | 152 | 155 | 95.66 | 152 | 155 | 89.33
+73 | 146 | 149 | 98.66 | 155 | 158 | 98 | 155 | 158 | 33
+74 | 149 | 152 | 94.66 | 158 | 160.9 | 94.333 | 158 | 161 | 68.12
+75 | 152 | 155 | 98 | 160.9 | 164 | 98.387 | 161 | 164 | 93
+76 | 155 | 158 | 90.66 | 164 | 167 | 93.79 | 164 | 167 | 77.66
+77 | 158 | 160.95 | 94.23 | 167 | 170 | 98 | 167 | 170 | 100
+78 | 160.95 | 163.95 | 78 | 170 | 173 | 100 | 170 | 173 | 98.33
+79 | 163.95 | 167 | 96.66 | 173 | 176 | 97 | 173 | 176 | 100
+80 | 170 | 173 | 97.66 | 176 | 179 | 99 | 176 | 179 | 99
+81 | 173 | 176 | 97 | 179 | 182 | 95.666 | 179 | 182 | 94.33
+82 | 176 | 179 | 96 | 182 | 185 | 100 | 182 | 185 | 93.89
+83 | 179 | 182 | 97.99 | 185 | 188 | 94.33 | 185 | 188 | 100
+84 | 182 | 185 | 98.33 | 188 | 191 | 92.25 | 188 | 191 | 94.66
+85 | 185 | 188 | 98.66 | 191 | 194 | 89.33 | 191 | 194 | 92
+86 | 188 | 191 | 94 | 194 | 197.1 | 90.87 | 194 | 197 | 93.66
+87 | 191 | 194 | 98.66 | 197.1 | 200 | 70 | 197 | 200 | 96
+88 | 194 | 197 | 96.61 |  |  |  | 200 | 203 | 91.58
+89 | 197 | 200 | 92 |  |  |  | 203 | 206 | 96.33
+90 | 200 | 203 | 98.33 |  |  |  | 206 | 209 | 96.33
+91 | 203 | 206 | 94.66 |  |  |  | 209 | 212 | 96
+92 | 206 | 209 | 93.33 |  |  |  | 212 | 215 | 100
+93 | 209 | 212 | 73 |  |  |  | 215 | 218 | 100
+94 | 212 | 215 | 90 |  |  |  | 218 | 221 | 96.97
+95 | 215 | 218 | 93.33 |  |  |  | 221 | 224 | 98
+96 | 218 | 221 | 87 |  |  |  | 224 | 227 | '      95.33
+97 | 221 | 224 | 87 |  |  |  | 227 | 230 | i     98.66
+98 | 224 | 227 | 92 |  |  |  | 230 | 233 | 94.63
+99 | 227 | 230 > | 87 |  |  |  | 233 | 236 | .     77.28
+100 | 230 | 233 | 100 |  |  |  | 236 | 239 | '      79.19
+101 | 233 | 236 | 100 |  |  |  | 239 | 242 | . 81
+102 | 236 | 239 | 100 |  |  |  | 242 | 245 | 74
+103 | 239 | 242^ | 100 |  |  |  | 245 | 248 | : 81
+104 | 242 | 245 | 85 |  |  |  | 248 | 251 | 87.66
+105 | 245 | 248 | 40.33 |  |  |  | 251 | 253.9    79.65
+106 | 248 | 251 | 79.33 |  |  |  | 253.9 | 256.1     100
+107 | 251 | 254 | 49 |  |  |  | 256.1 | 257 | ' 100
+ |  |  |  |  |  |  | 257 | 260 | i       100
+
+######## SHEET: Table-17 (11x7) ########
+Table 12.1 Depth of intersection of mineralization in Western Ukwa Block
+Depth of intersection of mineralization in Western Ukwa Block
+Sr No | Section Line | BH No | Total DrillDepth in meter | Mineralized  Zone (MZ) in meter | Actual thickness of ore | Description
+1 | AB | UKBH-1 | 113.35 m | 83.0 -83.15m | 0.15m | Core recovery = 0% during
+2 |  |  |  |  |  | initial  drilling.  Mn  ore  of 0.15m      was      recovered during the re drilling at 83 m,   core   recovery   =70% during    re    drilling.    Ore horizon         is         highly brecciated.
+3 |  | UKBH-5 | 200 m | 196.92-198.79m | 0.40m | Mn  ore  horizon  of  1.42m was       recovered,       core recovery = 75.93%, 0.45 m was  collected  in  powdery form.       Brecciation       is observed. Ore horizon here is  represented  by  Mn  ore interbanded      with      Mn quartzite  and  traversed  by calcite and quartz vein.
+4 | CD | UKBH-2 | 116 m | 100.45-102.50 | 1.40m | Mn  ore  horizon  of  1.43m was       recovered,       core recovery  =  69.756%,  core loss  is 0.62m.  Lost  core  is collected  in  powdery  form from   sludge   of   drilling. Ore    horizon    is    massive here  interbanded  with  Mn quartzite.
+5 |  | UKBH-4 | 254 m | 251.70-253.5 m | 1.20m | Core    recovery   is   100% with   Mn   bands   varying from <1mm to 16cm thick
+6 |  |  |  |  |  | bands.      Brecciation      is observed. Ore horizon here is  represented  by  Mn  ore interbanded      with      Mn quartzite  and  traversed  by calcite and quartz vein.
+7 | EF | UKBH-3 | 128 m | 123.75-127.425 | 2.4m | Core   recovery   is   100% with   Mn   bands   varying from <1mm to 11cm thick bands.        Evidence        of faulting   (small  scale   and oblique          slip)         and brecciation    is    observed. Ore horizon is traversed by silica veins. Yellowish and red  coloured  (Fe  bearing) oxidised        mineral        is observed.
+8 |  | UKBH-6 | 260 m | 253.25-253.95 | 0.20m | Core   recovery   is   100% with   Mn   bands   varying from <1mm to  5  cm thick bands.      Brecciation      is observed.   Ore   horizon  is here   represented   by   Mn quartzite with Mn ore. Ore horizon   is   traversed    by silica veins. Yellowish and red  coloured  (Fe  bearing) oxidised        mineral        is observed.
+
+######## SHEET: Table-18 (31x18) ########
+Table 12.2 Gross resource (ore + waste) of material estimated by cross section method.
+Sr No | Secti on Line | B.H.No | Angle of lode with core axis | App. Thickne ss along borehole (in m) | True Thickne ss Calculat ed (in m) | Lode RL  Upper (m) | Low er(m ) | Dip length | DIP RL(m) Upper | Lower | Strike Length (in m) | Mn (in%) | Specific Gravity used based on weighted average of block | Volume(m^ 3) | Tonnage | Category
+1 | W-1 | GSU-30 | 70° | 1.55 | 1.4565 | 562 | 560.5 | 123 | 577 | 545 | 52.5 | 37.7 | 3.55 | 9405.349 | 33388.98806 | Indicated
+2 |  |  |  |  |  |  |  | 44 | 590 | 577 | 52.5 | 37.7 | 3.55 | 3364.515 | 11944.02825 | Inferred
+3 | W-1 | GSU-31 | 75° | 1.45 | 1.4005 | 529.5 | 528 | 196.5 | 545 | 467 | 52.5 | 34.13 | 3.55 | 14447.9081 3 | 51290.07384 | Indicated
+4 | W-1 | UKH-7 | 65° | 0.75 | 0.67973 | 404.5 | 403 | 266 | 467 | 341.5 | 52.5 | 33.91 | 3.55 | 9492.42945 | 33698.12455 | Indicated
+5 |  |  |  |  |  |  |  | 20 | 341.5 | 332 | 52.5 | 33.91 | 3.55 | 713.7165 | 2533.693575 | Inferred
+6 | W-2 | UKH-4 | 59° | 2 | 1.71433 | 411.5 | 410 | 182 | 460 | 361 | 87.5 | 36.91 | 3.55 | 27300.7052 5 | 96917.50364 | Indicated
+7 |  |  |  |  |  |  |  | 20 | 361 | 351 | 87.5 | 36.91 | 3.55 | 3000.0775 | 10650.27513 | Inferred
+8 | W-2 | GUG-2 | 70° | 1.31 | 1.2309 | 510.5 | 509. 5 | 182 | 541.5 | 460 | 87.5 | 40.63 | 3.55 | 19602.0825 | 69587.39288 | Indicated
+9 | W-2 | GSU-29 | 72° | 0.9 | 0.8559 | 578.3 | 577. 5 | 142 | 590 | 541.5 | 87.5 | 39.1 | 3.55 | 10634.5575 | 37752.67913 | Indicated
+10 | C-D | UKBH- 4 | 70° | 1.8 | 1.6914 | 369 | 367. 5 | 217 | 439 | 296.5 | 141.5 | 29.9035 | 3.55 | 51935.2827 | 184370.2536 | Indicated
+11 |  |  |  |  |  |  |  | 20 | 296.5 | 284 | 141.5 | 29.9035 | 3.55 | 4786.662 | 16992.6501 | Inferred
+12 | C-D | UKBH- 2 | 85° | 2.05 | 2.04219 | 511.5 | 509. 5 | 217 | 580 | 439 | 141.5 | 33.6151 | 3.55 | 62706.4650 5 | 222607.9509 | Indicated
+13 |  |  |  |  |  |  |  | 15 | 590 | 580 | 141.5 | 33.6151 | 3.55 | 4334.54827 5 | 15387.64638 | Inferred
+14 | W-3 | UKH- 14 | 54° | 5.4 | 4.36869 | 386.5 | 382. 5 | 60 | 404 | 365 | 108.5 | 37.82 | 3.55 | 28440.1719 | 100962.6102 | Indicated
+15 |  |  |  |  |  |  |  | 20 | 365 | 352 | 108.5 | 37.82 | 3.55 | 9480.0573 | 33654.20342 | Inferred
+16 | W-3 | UKH-3 | 54° | 2.9 | 2.346149 | 425.5 | 423 | 60 | 441 | 404 | 108.5 | 43.63 | 3.55 | 15273.4299 | 54220.67646 | Indicated
+17
+18 | W-3 | GSU-27 | 65° | 3.05 | 2.76423 | 505 | 502 | 165.5 | 528 | 441 | 140.5 | 34.36 | 3.55 | 64275.9491 3 | 228179.6194 | Indicated
+19 | W-3 | GSU-26 | 65° | 1.25 | 1.132884 | 554.5 | 553 | 111 | 577.5 | 528 | 140.5 | 45.85 | 3.55 | 17667.8924 2 | 62721.0181 | Indicated
+20 |  |  |  |  |  |  |  | 32 | 590 | 577.5 | 140.5 | 45.85 | 3.55 | 5093.44646 4 | 18081.73495 | Inferred
+21 | E-F | UKBH- 3 | 75° | 3.645 | 3.520799 | 488.5 | 485. 5 | 238 | 546 | 428 | 134 | 27.9785 | 3.55 | 112285.321 7 | 398612.8921 | Indicated
+22 |  |  |  |  |  |  |  | 92 | 590 | 546 | 134 | 27.9785 | 3.55 | 43404.4100 7 | 154085.6558 | Inferred
+23 | W-4 | UKH- 16 | 60° | 1.2 | 1.03923 | 393.5 | 392. 5 | 82 | 414 | 371.5 | 70 | 38.81 | 3.55 | 5965.1802 | 21176.38971 | Indicated
+24 |  |  |  |  |  |  |  | 20 | 371.5 | 361 | 70 | 38.81 | 3.55 | 1454.922 | 5164.9731 | Inferred
+25 | W-4 | GSU-34 | 60° | 2.42 | 2.09578 | 437 | 434. 5 | 82 | 455 | 414 | 70 | 41 | 3.55 | 12029.7772 | 42705.70906 | Indicated
+26 | W-4 | GSU-24 | 60° | 1.85 | 1.602146 | 478 | 476. 5 | 83 | 498 | 455 | 140 | 35.84 | 3.55 | 18616.9365 2 | 66090.12465 | Indicated
+27 | W-4 | GSU-21 | 60° | 2.6 | 2.251666 | 539 | 536. 5 | 187.5 | 590 | 498 | 140 | 38.27 | 3.55 | 59106.2325 | 209827.1254 | Indicated
+28 |  |  |  |  |  |  |  |  |  |  |  |  |  | Total = | 2182603.992
+29 | Total tonnage is 2182603.992 tonne or 2.182 million tonne at 35.138% of Mn
+
+######## SHEET: Table-19 (31x20) ########
+Table 12.3 Gross resource of material (ore + waste) estimated by LV section method.
+Sr No | Section Line | B.H.No | App. Thick ness | Angle of lode with core axis | Horizo ntal Width | Lode RL |  | Dip lengt h | DIP RL (m) |  | Differenc e in Dip RL | Strike Lengt h | Mn (in%) | Specific Gravity used based on weighted average of block | Volume | Tonnage | Category
+1 |  |  |  |  |  | Upper | Lower |  | Upper | Lowe r
+2 | W-1 | GSU -30 | 1.55 | 70° | 5 | 562 | 560.5 | 123 | 577 | 545 | 32 | 52.5 | 37.7 | 3.55 | 8400 | 29820 | Indicated
+3 |  |  |  |  |  |  |  | 44 | 590 | 577 | 13 | 52.5 | 37.7 | 3.55 | 3412.5 | 12114.375 | Inferred.
+4 | W-1 | GSU -31 | 1.45 | 75° | 3 | 529.5 | 528 | 196.5 | 545 | 467 | 78 | 52.5 | 34.13 | 3.55 | 12285 | 43611.75 | Indicated
+5 | W-1 | UK H-7 | 0.75 | 65° | 3 | 404.5 | 403 | 266 | 467 | 341.5 | 125.5 | 52.5 | 33.91 | 3.55 | 19766.25 | 70170.187 5 | Indicated
+6 |  |  |  |  |  |  |  | 20 | 341.5 | 332 | 9.5 | 52.5 | 33.91 | 3.55 | 1496.25 | 5311.6875 | Inferred.
+7 | W-2 | UK H-4 | 2 | 59° | 3 | 411.5 | 410 | 182 | 460 | 361 | 99 | 87.5 | 36.91 | 3.55 | 25987.5 | 92255.625 | Indicated
+8 |  |  |  |  |  |  |  | 20 | 361 | 351 | 10 | 87.5 | 36.91 | 3.55 | 2625 | 9318.75 | Inferred.
+9 | W-2 | GU G-2 | 1.31 | 70° | 3 | 510.5 | 509.5 | 182 | 541.5 | 460 | 81.5 | 87.5 | 40.63 | 3.55 | 21393.75 | 75947.812 5 | Indicated
+10 | W-2 | GSU -29 | 0.9 | 72° | 3 | 578.3 | 577.5 | 142 | 590 | 541.5 | 48.5 | 87.5 | 39.1 | 3.55 | 12731.25 | 45195.937 5 | Indicated
+11 | C-D | UK BH- 4 | 1.8 | 70° | 3 | 369 | 367.5 | 217 | 439 | 296.5 | 142.5 | 141.5 | 29.903 5 | 3.55 | 60491.25 | 214743.93 75 | Indicated
+12 |  |  |  |  |  |  |  | 20 | 296.5 | 284 | 12.5 | 141.5 | 29.903 5 | 3.55 | 5306.25 | 18837.187 5 | Inferred.
+13 | C-D | UK BH- 2 | 2.05 | 85° | 3 | 511.5 | 509.5 | 217 | 580 | 439 | 141 | 141.5 | 33.615 1 | 3.55 | 59854.5 | 212483.47 5 | Indicated
+14 |  |  |  |  |  |  |  | 15 | 590 | 580 | 10 | 141.5 | 33.615 | 3.55 | 4245 | 15069.75 | Inferred. | 37.82
+15 | W-3 | UKBH-14 | 5.4 | 54° | 5 | 386.5 | 382.5 | 60 | 404 | 365 | 39 | 108.5 | 37.82 | 3.55 | 21157.5 | 75109.125 | Indicated | 37.82
+ |  |  |  |  |  |  |  | 20 | 365 | 352 | 13 | 108.5 | 37.82 | 3.55 | 7052.5 | 25036.375 | Inferred. | 43.63
+16 | W-3 | UKH-3 | 2.9 | 54° | 4 | 425.5 | 423 | 60 | 441 | 404 | 37 | 108.5 | 43.63 | 3.55 | 16058 | 57005.9 | Indicated | 34.36
+17 | W-3 | GSU -27 | 3.05 | 65° | 4 | 505 | 502 | 165.5 | 528 | 441 | 87 | 140.5 | 34.36 | 3.55 | 48894 | 173573.7 | Indicated | 45.85
+18 | W-3 | GSU -26 | 1.25 | 65° | 3 | 554.5 | 553 | 111 | 577.5 | 528 | 49.5 | 140.5 | 45.85 | 3.55 | 20864.25 | 74068.087 5 | Indicated | 45.85
+ |  |  |  |  |  |  |  | 32 | 590 | 577.5 | 12.5 | 140.5 | 45.85 | 3.55 | 5268.75 | 18704.062 5 | Inferred. | 27.978 5
+19 | E-F | UK BH- 3 | 3.645 | 75° | 6 | 488.5 | 485.5 | 238 | 546 | 428 | 118 | 134 | 27.978 5 | 3.55 | 94872 | 336795.6 | Indicated | 27.978 5
+ |  |  |  |  |  |  |  | 92 | 590 | 546 | 44 | 134 | 27.978 5 | 3.55 | 35376 | 125584.8 | Inferred. | 38.81
+20 | W-4 | UK H-16 | 1.2 | 60° | 2 | 393.5 | 392.5 | 82 | 414 | 371.5 | 42.5 | 70 | 38.81 | 3.55 | 5950 | 21122.5 | Indicated | 38.81
+ |  |  |  |  |  |  |  | 20 | 371.5 | 361 | 10.5 | 70 | 38.81 | 3.55 | 1470 | 5218.5 | Inferred. | 41
+21 | W-4 | GSU -34 | 2.42 | 60° | 3 | 437 | 434.5 | 82 | 455 | 414 | 41 | 70 | 41 | 3.55 | 8610 | 30565.5 | Indicated | 35.84
+22 | W-4 | GSU -24 | 1.85 | 60° | 2 | 478 | 476.5 | 83 | 498 | 455 | 43 | 140 | 35.84 | 3.55 | 12040 | 42742 | Indicated | 38.27
+23 | W-4 | GSU -21 | 2.6 | 60° | 4 | 539 | 536.5 | 187.5 | 590 | 498 | 92 | 140 | 38.27 | 3.55 | 51520 | 182896 | Indicated
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Total = | 2013302.6 25
+Total tonnage is 2013302.625 tonne or 2.013 million tonne at 35.138% of Mn
+
+######## SHEET: Annexure I (22x13) ########
+Chemical analytical results of Bed Rock Samples
+Sr No | Reference No | SiO2 (%) | Fe2O3 (%) | TiO2 (%) | P2O5 (%) | MnO  (%) | Cu (mg/Kg) | Pb (mg/Kg) | Zn (mg/Kg) | Co (mg/Kg) | Ni (mg/Kg) | Cr (mg/Kg)
+1 | SK/BRS/1 /FS/16- 17 | 84.69 | 2.77 | <0.1 | 0.22 | 6.97 | 70 | 40 | 80 | 70 | 30 | 40
+2 | SK/BRS/ 2/FS/16- 17 | 87.94 | 2.23 | <0.1 | 0.11 | 1.9 | 55 | 10 | 20 | 15 | 15 | 35
+3 | SK/BRS/ 3/FS/16- 17 | 65.72 | 4.98 | 0.18 | 1.79 | 5.45 | 395 | 35 | 75 | 35 | 35 | 40
+4 | SK/BRS/4 /FS/16- 17 | 6.07 | 1.93 | <0.1 | <0.01 | 72.62 | 10 | 15 | 20 | 30 | 30 | 10
+5 | SK/BRS/5 /FS/16- 17 | 39.34 | 22.91 | 0.82 | 1.25 | 4.02 | 105 | 30 | 310 | 45 | 135 | 40
+6 | SK/BRS/ 6/FS/16- 17 | 33.02 | 15.94 | 0.63 | 0.76 | 27.35 | 140 | 35 | 120 | 65 | 90 | 110
+7 | SK/BRS/ 7/FS/16- 17 | 36.64 | 15.78 | 0.69 | 0.82 | 22.08 | 150 | 50 | 110 | 75 | 110 | 120
+8 | SK/BRS/ 8/FS/16- 17 | 53.31 | 8.74 | 1.25 | 0.23 | 13.42 | 145 | 65 | 130 | 55 | 95 | 110
+9 | SK/BRS/ 9/FS/16- 17 | 55.4 | 8.91 | 1.38 | 0.26 | 7.32 | 105 | 40 | 110 | 50 | 95 | 120
+10 | SK/BRS/ 10/FS/16-17 | 39.19 | 7.63 | <0.1 | 1.72 | 33.46 | 0.001 | 430 | 500 | 70 | 110 | 30
+11 | SK/BRS/ 11/FS/16-17 | 20.72 | 19.57 | 0.34 | 3.51 | 32.02 | 240 | 170 | 145 | 110 | 140 | 50
+12 | SK/BRS/ 12/FS/16-17 | 17.05 | 15.52 | 0.35 | 2.05 | 39.85 | 270 | 155 | 260 | 100 | 120 | 70
+13 | SK/BRS/ 13/FS/16-17 | 35.27 | 9.51 | 0.31 | 2.04 | 29.75 | 440 | 155 | 400 | 60 | 165 | 70
+14 | SK/BRS/14 /FS/16-17 | 30.23 | 20.28 | 0.41 | 2.54 | 26.2 | 320 | 310 | 215 | 85 | 100 | 85
+15 | SK/BRS/ 15/FS/16-17 | 24.97 | 18.27 | 0.12 | 3.85 | 26.14 | 850 | 800 | 100 | 55 | 100 | 100
+16 | SK/BRS/ 16/FS/16-17 | 11.69 | 8.88 | 0.04 | 0.76 | 51.8 | 75 | 65 | 155 | 110 | 120 | 85
+17 | SK/BRS/ 17/FS/16-17 | 36.15 | 9.8 | 0.17 | 1.62 | 28.38 | 290 | 195 | 135 | 85 | 90 | 170
+18 | SK/BRS/ 18/FS/16-17 | 41.49 | 6.59 | 0.06 | 1.19 | 29.04 | 300 | 95 | 85 | 80 | 90 | 130
+19 | SK/BRS/ 19/FS/16-17 | 39.33 | 5.22 | 0.14 | 0.75 | 31.76 | 110 | 40 | 100 | 65 | 80 | 245
+20 | SK/BRS/ 20/FS/16-17 | 35.19 | 7.78 | 0.19 | 1.29 | 26.7 | 225 | 140 | 75 | 95 | 80 | 150
+
+######## SHEET: Annexure II (54x12) ########
+Chemical analytical results of Core samples
+Sr No | Reference No | SiO2 (%) | Fe2O3  (%) | MnO (%) | P2O5 (%) | TiO2 (%) | Mn (%) |  | P(%) | Fe(%) | Si(%)
+1 | UKBH-1/CS/01/16-17# | 55.81 | 18.09 | 7.59# | 0.18 | 0.52 | 5.878# |  | 0.0774 | 12.663 | 26.0447
+2 | UKBH-2/CS/01/16-17 | 59.01 | 10.64 | 16.27 | 2.39 | 0.22 | 12.6 |  | 1.0277 | 7.448 | 27.538
+3 | UKBH-2/CS/02/16-17 | 39.63 | 8.97 | 17.81 | 2.56 | 0.51 | 13.793 |  | 1.1008 | 6.279 | 18.494
+4 | UKBH-2/CS/03/16-17* | 16.36 | 8.31 | 41.96 | 1.37 | 0.21 | 32.49* |  | 0.5891 | 5.817 | 7.63467
+5 | UKBH-2/CS/04/16-17* | 12.46 | 8.81 | 51.3 | 0.73 | 0.05 | 39.729* |  | 0.3139 | 6.167 | 5.81467
+6 | UKBH-2/CS/05/16-17* | 27.01 | 4.27 | 48.61 | 0.56 | 0.01 | 37.646* |  | 0.2408 | 2.989 | 12.6047
+7 | UKBH-2/CS/06/16-17* | 36.38 | 8.41 | 38.05 | 0.51 | 0.06 | 29.468* |  | 0.2193 | 5.887 | 16.9773
+8 | UKBH-2/CS/07/16-17* | 7.94 | 9.4 | 48.29 | 0.63 | 0.06 | 37.39* |  | 0.2709 | 6.58 | 3.70533
+9 | UKBH-2/CS/08/16-17* | 48.39 | 7.78 | 32.64 | 0.19 | 0.25 | 25.278* |  | 0.0817 | 5.446 | 22.582
+10 | UKBH-2/CS/09/16-17 | 46.04 | 17.92 | 10.87 | 0.17 | 1.03 | 6.522 |  | 0.0731 | 12.544 | 21.4853
+11 | UKBH-2/CS/10/16-17* | 36.67 | 9.55 | 41.47 | 0.2 | 0.28 | 32.116* |  | 0.086 | 6.685 | 17.1127
+12 | UKBH-3/CS/01/16-17 | 41.15 | 8.09 | 13.25 | 1.62 | 0.42 | 10.2616 |  | 0.6966 | 5.663 | 19.2033
+13 | UKBH-3/CS/02/16-17 | 38.41 | 8.21 | 17.38 | 2.08 | 0.21 | 13.4601 |  | 0.8944 | 5.747 | 17.9247
+14 | UKBH-3/CS/03/16-17 | 42.81 | 6.49 | 27.45 | 1.23 | 0.06 | 21.2589 |  | 0.5289 | 4.543 | 19.978
+15 | UKBH-3/CS/04/16-17 | 55.22 | 3.76 | 19.36 | 0.29 | 0.03 | 14.9935 |  | 0.1247 | 2.632 | 25.7693
+16 | UKBH-3/CS/05/16-17* | 22.3 | 8.56 | 40.05 | 1.02 | 0.04 | 31.0171* |  | 0.4386 | 5.992 | 10.4067
+17 | UKBH-3/CS/06/16-17* | 42.79 | 4.28 | 29.25 | 0.76 | 0.11 | 22.653* |  | 0.3268 | 2.996 | 19.9687
+18 | UKBH-3/CS/07/16-17* | 33.8 | 6.57 | 28.35 | 2.63 | 0.19 | 21.9559* |  | 1.1309 | 4.599 | 15.7733
+19 | UKBH-3/CS/08/16-17* | 25.46 | 7.67 | 39.47 | 2.39 | 0.18 | 30.5679* |  | 1.0277 | 5.369 | 11.8813
+20 | UKBH-3/CS/09/16-17* | 12.44 | 9.23 | 43.28 | 1.62 | 0.06 | 33.5186* |  | 0.6966 | 6.461 | 5.80533
+21 | UKBH-3/CS/10/16-17* | 29.75 | 8.04 | 37.19 | 0.79 | 0.12 | 28.8022* |  | 0.3397 | 5.628 | 13.8833
+22 | UKBH-3/CS/11/16-17* | 11.52 | 4.11 | 49.84 | 0.39 | 0.05 | 38.5991* |  | 0.1677 | 2.877 | 5.376
+23 | UKBH-3/CS/12/16-17* | 40.84 | 4.45 | 27.13 | 0.44 | 0.06 | 21.0111* |  | 0.1892 | 3.115 | 19.0587
+24 | UKBH-3/CS/13/16-17* | 17 | 3.99 | 44.86 | 0.3 | 0.02 | 34.7423* |  | 0.129 | 2.793 | 7.93333
+25 | UKBH-3/CS/14/16-17* | 23.07 | 6.01 | 29.98 | 0.56 | 0.04 | 23.2183* |  | 0.2408 | 4.207 | 10.766
+26 | UKBH-3/CS/15/16-17* | 22.39 | 4.62 | 30.61 | 0.67 | 0.01 | 23.7062* |  | 0.2881 | 3.234 | 10.4487
+27 | UKBH-3/CS/16/16-17 | 32.15 | 7.45 | 18.79 | 2.46 | 0.19 | 14.5521 |  | 1.0578 | 5.215 | 15.0033
+28 | UKBH-3/CS/17/16-17* | 17.08 | 4.54 | 31.35 | 0.66 | 0.05 | 24.2793* |  | 0.2838 | 3.178 | 7.97067
+29 | UKBH-3/CS/18/16-17 | 39.2 | 7.25 | 13.31 | 1.42 | 0.33 | 10.3081 |  | 0.6106 | 5.075 | 18.2933
+30 | UKBH-4/CS/01/16-17 | 28.98 | 10.12 | 23.64 | 1.88 | 0.26 | 18.3082 |  | 0.8084 | 7.084 | 13.524
+31 | UKBH-4/CS/02/16-17* | 41.48 | 5.08 | 31.13 | 0.59 | 0.13 | 24.1089* |  | 0.2537 | 3.556 | 19.3573
+32 | UKBH-4/CS/03/16-17* | 35.51 | 6.47 | 33.74 | 1.24 | 0.11 | 26.1303* |  | 0.5332 | 4.529 | 16.5713
+33 | UKBH-4/CS/04/16-17* | 17.03 | 6.32 | 43.38 | 1.18 | 0.04 | 33.5961* |  | 0.5074 | 4.424 | 7.94733
+34 | UKBH-4/CS/05/16-17* | 16.28 | 7.28 | 40.6 | 1.37 | 0.03 | 31.4431* |  | 0.5891 | 5.096 | 7.59733
+35 | UKBH-4/CS/06/16-17* | 16.68 | 4.92 | 43.45 | 0.71 | 0.03 | 33.6503* |  | 0.3053 | 3.444 | 7.784
+36 | UKBH-4/CS/07/16-17* | 17.64 | 4.2 | 38.22 | 0.72 | 0.03 | 29.5999* |  | 0.3096 | 2.94 | 8.232
+37 | UKBH-4/CS/08/16-17 | 20.57 | 8.69 | 22.94 | 0.87 | 0.22 | 17.7661 |  | 0.3741 | 6.083 | 9.59933
+38 | UKBH-4/CS/09/16-17 | 40.49 | 5.25 | 15.73 | 0.56 | 0.2 | 12.1823 |  | 0.2408 | 3.675 | 18.8953
+39 | UKBH-5/CS/01/16-17 | 42.62 | 8.59 | 21.63 | 1.62 | 0.26 | 16.7516 |  | 0.6966 | 6.013 | 19.8893
+40 | UKBH-5/CS/02/16-17 | 34.67 | 12.3 | 13.2 | 2.79 | 0.47 | 10.2229 |  | 1.1997 | 8.61 | 16.1793
+41 | UKBH-5/CS/03/16-17* | 37.31 | 9.86 | 27.73 | 1.5 | 0.17 | 21.4758* |  | 0.645 | 6.902 | 17.4113
+42 | UKBH-5/CS/04/16-17 | 29.07 | 11.14 | 21.78 | 2.42 | 0.23 | 16.8677 |  | 1.0406 | 7.798 | 13.566
+43 | UKBH-5/CS/05/16-17* | 27.33 | 7.47 | 31.4 | 1.13 | 0.08 | 24.318* |  | 0.4859 | 5.229 | 12.754
+44 | UKBH-5/CS/06/16-17 | 29.51 | 4.77 | 14.49 | 0.85 | 0.05 | 11.2219 |  | 0.3655 | 3.339 | 13.7713
+45 | UKBH-5/CS/07/16-17 | 40.7 | 10.64 | 6.52 | 0.37 | 0.49 | 5.04948 |  | 0.1591 | 7.448 | 18.9933
+46 | UKBH-5/CS/08/16-17 | 41.05 | 14.69 | 13.6 | 0.83 | 0.6 | 10.5327 |  | 0.3569 | 10.283 | 19.1567
+47 | UKBH-5/CS/09/16-17 | 39.97 | 14.68 | 14.18 | 1.21 | 0.54 | 10.9818 |  | 0.5203 | 10.276 | 18.6527
+48 | UKBH-6/CS/01/16-17 | 37.79 | 7.48 | 23.64 | 1.25 | 0.21 | 18.3082 |  | 0.5375 | 5.236 | 17.6353
+49 | UKBH-6/CS/02/16-17* | 36.55 | 6.37 | 30.18* | 1.02 | 0.07 | 23.3732* |  | 0.4386 | 4.459 | 17.0567
+50 | UKBH-6/CS/03/16-17 | 41.95 | 4.93 | 22.03 | 0.96 | 0.05 | 17.0614 |  | 0.4128 | 3.451 | 19.5767
+51 | UKBH-6/CS/04/16-17 | 54.82 | 5.18 | 1.47 | 0.28 | 0.37 | 1.13846 |  | 0.1204 | 3.626 | 25.5827
+# This value is diluted due to core loss so it will not be used in ore resource calculation. * This indicates ore in ore horizon which is being used for calculations of weighted average.
+
+######## SHEET: Annexure II(B) (8x6) ########
+Determination Of weighted average of Mn
+Sr No | Borehole Number | Si (in %) | P (in %) | Fe (in %) | Mn (in %)
+1 | UKBH-1 | 26.044663 | 0.0774 | 12.663 | 5.878
+2 | UKBH-2 | 12.347332 | 0.257385714 | 5.653 | 33.6151
+3 | UKBH-3 | 11.605998 | 0.438241667 | 4.204083333 | 27.9785
+4 | UKBH-4 | 11.248221 | 0.416383333 | 3.998166667 | 29.9035
+5 | UKBH-5 | 15.082665 | 0.56545 | 6.0655 | 23.0114
+6 | UKBH-6 | 17.0567 | 0.4386 | 4.459 | 23.3732
+
+######## SHEET: Annexure-III (17x10) ########
+Borehole details of previous works and weighted average used in resource estimation
+Sr No | Borehole Number and section line | Mn (in%) | Angle of drilling | Azimuth | Date of initiation | Date of completion | Depth of intersection of ore along borehole | Vertical level of intersection of ore | Level   of Borehole
+1 | *GSU- 30,W-1 | 37.7 | Vertical | ------- | 1978-05-11 00:00:00 | 1978-05-17 00:00:00 | 37.2 m | 37.2 m | First level
+2 | GSU-31, W-1 | 34.13 | Vertical | ------- | 1978-05-21 00:00:00 | 1978-05-28 00:00:00 | 68.6 m | 68.6 m | First Level
+3 | UKH-7, W-1 | 33.91 | 65° | S40°E | 1994-05-17 00:00:00 | 1994-06-20 00:00:00 | 208.3 m | 188.78 m | Third Level
+4 | *GSU- 29, W-2 | 39.1 | Vertical | ------- | 1978-05-04 00:00:00 | 1978-05-08 00:00:00 | 23.8 m | 23.8 m | First level
+5 | GUG-2, W-2 | 40.63 | Vertical | ---------- | 1972-05-10 00:00:00 | 1972-06-08 00:00:00 | 89.94 m | 89.94 m | Second Level
+6 | UKH-4, W-2 | 36.91 | Vertical | ---------- | 1994-02-13 00:00:00 | 1994-05-09 00:00:00 | 189.7 m | 189.7 m | Third Level
+7 | *GSU- 26, W-3 | 45.85 | Vertical | ---------- | 1978-04-09 00:00:00 | 1978-04-18 00:00:00 | 48.85 m | 48.85 m | First Level
+8 | GSU-27, W-3 | 34.36 | Vertical | ---------- | 1978-04-24 00:00:00 | 1978-05-11 00:00:00 | 96.6 m | 96.6 m | Second Level
+9 | UKH-3, W-3 | 43.63 | 65° | S40°E | 1994-01-25 00:00:00 | 1994-03-24 00:00:00 | 183.40 m | 166.21 m | Third Level
+10 | UKH- 14,W-3 | 37.82 | 65° | S40°E | 1995-01-07 00:00:00 | 1995-03-05 00:00:00 | 221.8 m | 201.01 | Third Level
+11 | *GSU- 21, W-4 | 38.27 | Vertical | ---------- | 1978-02-09 00:00:00 | 1978-02-27 00:00:00 | 67.8 m | 67.8 m | First Level
+12 | GSU-24, W-4 | 35.84 | Vertical | ---------- | 1978-03-06 00:00:00 | 1978-04-01 00:00:00 | 125.15 m | 125.15 m | Second Level
+
+14 | GSU-34, W-4 | 41 | Vertical | ---------- | 1978-06-17 00:00:00 | 1978-07-19 00:00:00 | 164.68 m | 164.68 m | Third Level
+15 | UKH-16, W-4 | 38.81 | 65° | S40°E | 1995-02-26 00:00:00 | 1995-04-20 00:00:00 | 219.70 m | 199.11 m | Third Level
+
+######## SHEET: Annexure-III(B) (22x6) ########
+Annexure-III(B)
+Sr No | Section Line | B.H.No | True Thickness Calculated | Grade Of Mn | Weighted average of whole
+1 | W-1 | GSU-30 | 0.6 | 37.7 | 35.138
+2 | W-1 | GSU-31 | 0.27 | 34.13
+3 | W-1 | UKH-7 | 0.3 | 33.91
+4 | A-B | UKBH-5 | 0.402 | 23.0117
+5 | A-B | UKBH-1 | 0.14488 | -------
+6 | W-2 | UKH-4 | 0.85 | 36.91
+7 | W-2 | GUG-2 | 0.62 | 40.63
+8 | W-2 | GSU-29 | 0.39 | 39.1
+9 | C-D | UKBH-4 | 1.26 | 29.9035
+10 | C-D | UKBH-2 | 1.4 | 33.6151
+11 | W-3 | UKH-14 | 1.54 | 37.82
+12 | W-3 | UKH-3 | 1.01 | 43.63
+13 | W-3 | GSU-27 | 0.93 | 34.36
+14 | W-3 | GSU-26 | 0.73 | 45.85
+15 | E-F | UKBH-6 | 0.2 | 23.3732
+16 | E-F | UKBH-3 | 2.41 | 27.9785
+17 | W-4 | UKH-16 | 0.3 | 38.81
+18 | W-4 | GSU-34 | 1.76 | 41
+19 | W-4 | GSU-24 | 0.95 | 35.84
+20 | W-4 | GSU-21 | 1.53 | 38.27
+
+######## SHEET: ANNEXURE-IV (108x11) ########
+SUMMARISED LITHOLOGS OF PREVIOUS BOREHOLES IN UKWA MANGANESE DEPOSIT-WESTERN BLOCK 
+Sr No | BOREHOLE NO | Location |  R.L at Collar |  Date of commencement |  Date of completion |  Total Depth | Depth along BH in meters From | Depth along BH in meters To | Summarized Lithology | Details of ore horizon
+1 | UKH-3 |  Western Block, Section Line No. W-3.  |  599.484m |  25/01/1994 |  24/03/1994.  |  205.25m | 0 | 3.2 | Light yellow clayey soil.
+3 |  |  |  |  |  |  | 3.2 | 17.2 | Laterized garnetiferous mica schist.
+4 |  |  |  |  |  |  | 17.2 | 39.92 | Weathered garnetiferous muscovite schist.
+5 |  |  |  |  |  |  | 39.92 | 40.9 | Milky white quartz vein.
+6 |  |  |  |  |  |  | 40.9 | 61.65 | Garnetiferous muscovite schist.
+7 |  |  |  |  |  |  | 61.65 | 87.85 | Interbanded sequence of garnetiferous quartz muscovite schist and quartzite.
+8 |  |  |  |  |  |  | 87.85 | 180.15 | Quartz  sericite  muscovite  schist  with  rare garnets.
+9 |  |  |  |  |  |  | 180.15 | 183.4 | Quartz sericite schist/phyllite.
+10 |  |  |  |  |  |  | 183.4 | 186.3 | Ore    Horizon:    Interbanded    sequence    of manganiferous   quartzite   and   Mn   ore   at places    traversed    by    quartzo-feldspathic veins,  individual  ore  bands  <1  to  14  cm thick. | 1)   Core recovery in ore horizon: 94%. 2)   Cumulative     true     thickness     of manganese ore bands: 1.01m. 3)   Cumulative  true  thickness  of  waste rock: 1.89m.
+11
+12 |  |  |  |  |  |  | 186.3 | 192.35 | Muscovite-calcite schist.
+13 |  |  |  |  |  |  | 192.35 | 194.75 | Calcareous phyllite with irregular bands and patches of granitic material.
+14 |  |  |  |  |  |  | 194.75 | 205.25 | Augen   gneiss   with   angular   to   rounded fragments  of K-granite and pegmatite along with enclaves of biotite schist.
+15 |  UKH-4  |  Western Block, Section Line No. W-2.  |  602.489m |  13/02/1994.  |  09/05/1994.  |  209.5m | 0 | 4 | Yellow silty soil.
+16 |  |  |  |  |  |  | 4 | 40 | Partly Laterized garnetiferous mica schist.
+17 |  |  |  |  |  |  | 40 | 65.65 | Garnetiferous quartz-muscovite schist.
+18 |  |  |  |  |  |  | 65.65 | 102.65 | Interbanded     sequence     of     garnetiferous quartz-muscovite schist and quartzite.
+19 |  |  |  |  |  |  | 102.65 | 129.9 | Garnetiferous    quartz    sericite    muscovite schist.
+20 |  |  |  |  |  |  | 129.9 | 152.95 | Phyllite.
+21 |  |  |  |  |  |  | 152.95 | 181.2 | Garnetiferous quartz-sericite-muscovite
+22 |  |  |  |  |  |  |  |  | schist.
+23 |  |  |  |  |  |  | 181.2 | 189.7 | Sericite phyllite.
+24 |  |  |  |  |  |  | 189.7 | 191.7 | Ore   horizon:   Interbanded   manganiferous quartzite   and   Mn   ore   traversed   by   thin quartz-carbonate      veinlets,      ore      partly brecciated, individual ore bands <1 to 10 cm thick. | 1)   Core recovery in ore horizon: 100%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.85m. 3)   Cumulative  true  thickness  of  waste rock: 0.85m.
+25 |  |  |  |  |  |  | 191.7 | 196.35 | Muscovite calcite schist.
+26 |  |  |  |  |  |  | 196.35 | 203 | Sericite phyllite.
+27 |  |  |  |  |  |  | 203 | 209.5 | Augen   gneiss   traversed   by   quartz   and pegmatite veins.
+28 |  UKH-7  |  Western Block, Section Line No. W-1.  | 601.668m.  |  17/05/1994.  |  20/06/1994 |  220.45m | 0 | 2 | Yellow silty soil.
+29 |  |  |  |  |  |  | 2 | 53.8 | Partly    laterized    weathered    garnetiferous muscovite schist.
+30 |  |  |  |  |  |  | 53.8 | 69.4 | Garnetiferous Muscovite schist.
+31 |  |  |  |  |  |  | 69.4 | 105.4 | Interbanded  garnetiferous  quartz-muscovite schist and quartzite.
+32 |  |  |  |  |  |  | 105.4 | 198.65 | Garnetiferous sericite muscovite schist.
+33 |  |  |  |  |  |  | 198.65 | 208.3 | Muscovite schist.
+34 |  |  |  |  |  |  | 208.3 | 209.05 | Ore   horizon:   Interbanded   manganiferous quartzite   and   Mn   ore   traversed   by   thin quartz-carbonate      veinlets,      ore      partly brecciated, individual ore bands <1 to 10 cm thick. | 1)   Core recovery in ore horizon: 100%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.30m. 3)   Cumulative  true  thickness  of  waste rock: 0.45m.
+35 |  |  |  |  |  |  | 209.05 | 213.75 | Muscovite calcite schist.
+36 |  |  |  |  |  |  | 213.75 | 216 | Sericite phyllite.
+37 |  |  |  |  |  |  | 216 | 220.45 | Augen gneiss traversed by pegmatite veins.
+38 | UKH-14 |  Western Block, Section Line No. W-3.  |  598.709m |  07/01/1995 |  05/03/1995.  |  243.65m | 0 | 3 | Dark grey coloured clayey soil.
+39 |  |  |  |  |  |  | 3 | 56 | Weathered garnetiferous mica schist.
+40 |  |  |  |  |  |  | 56 | 91.05 | Garnetiferous quartz muscovite schist.
+41 |  |  |  |  |  |  | 91.05 | 110.75 | Interbanded   quartz   muscovite   schist   and quartzite.
+42 |  |  |  |  |  |  | 110.75 | 219.1 | Garnetiferous quartz muscovite schist.
+43 |  |  |  |  |  |  | 219.1 | 221.8 | Quartz sericite muscovite schist.
+44 |  |  |  |  |  |  | 221.8 | 227.2 | Ore   horizon:   Interbanded   manganiferous quartzite   and   Mn   ore   traversed   by   thin quartz-carbonate      veinlets,      ore      partly brecciated, individual ore bands <1 to 18 cm thick. | 1)   Core recovery in ore horizon:100%                       2)   Cumulative     true     thickness     of manganese ore bands: 1.54m. 3)   Cumulative  true  thickness  of  waste rock: 3.86m.
+45
+46 |  |  |  |  |  |  | 227.2 | 235.8 | Sericite    schist    downward    grading    into sericite-calcite and chlorite-sericite schist.
+47 |  |  |  |  |  |  | 235.8 | 243.65 | Augen  gneiss  traversed  by  thin  quartz  and pegmatite veins.
+48 |  UKH-16  |  Western Block, Section Line No. W-4.  |  601.176m |  26/02/1995 |  20/04/1995 | 245.20m.  | 0 | 6 | Dark grey to yellowish, clayey soil
+49 |  |  |  |  |  |  | 6 | 50.85 | Weathered garnetiferous mica schist.
+50 |  |  |  |  |  |  | 50.85 | 100.5 | Garnetiferous quartz muscovite schist.
+51 |  |  |  |  |  |  | 100.5 | 130 | Banded      garnetiferous      quartz-muscovite schist.
+52 |  |  |  |  |  |  | 130 | 215.75 | Garnetiferous quartz muscovite schist.
+53 |  |  |  |  |  |  | 215.75 | 219.7 | Quartz sericite muscovite schist.
+54 |  |  |  |  |  |  | 219.7 | 220.9 | Ore    horizon:    Interbanded    sequence    of manganiferous     quartzite    and    Mn     ore traversed  by  thin  quartz-carbonate  veinlets, brecciated,  Single  Mn  ore  band  of  30  cm thick. | 1)   Core recovery in ore horizon: 99%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.30m.                           3)   Cumulative  true  thickness  of  waste rock: 0.90m.
+55
+56 |  |  |  |  |  |  | 220.9 | 225 | Muscovite calcite schist
+57 |  |  |  |  |  |  | 225 | 230.2 | Chlorite-sericite schist/phyllite.
+58 |  |  |  |  |  |  | 230.2 | 245.2 | Augen gneiss with enclaves of biotite schist and   fragments   of   quartz   and   pegmatite traversed by quartz and pegmatite veins.
+59 |  GSU-21  |  Western Block, Section Line No. W-4.  |  607.17m |  09/02/1978 | 1978-02-27 00:00:00 |  71.60m | 0 | 12 | Sericitic soil.
+60 |  |  |  |  |  |  | 12 | 23.8 | Weathered sericite schist with muscovite.
+61 |  |  |  |  |  |  | 23.8 | 24.75 | Vein quartz.
+62 |  |  |  |  |  |  | 24.75 | 67.8 | Quartz muscovite schist.
+63 |  |  |  |  |  |  | 67.8 | 70.4 | Ore horizon. | 1)   Core recovery in ore horizon: 94%. 2)   Cumulative     true     thickness     of manganese ore bands: 1.53m. 3)   Cumulative  true  thickness  of  waste rock: 0.72m.
+64 |  |  |  |  |  |  | 70.4 | 71.6 | Muscovite calcite schist.
+65 |  GSU-24  |  Western Block, Section Line No. W-4.  |  604.10m |  06/03/1978.  |  01/04/1978.  |  129.85m | 0 | 18.75 | Laterite and quartz vein.
+66 |  |  |  |  |  |  | 18.75 | 29.15 | Weathered muscovite schist with laterite.
+67 |  |  |  |  |  |  | 29.15 | 29.2 | Vein quartz.
+68 |  |  |  |  |  |  | 29.2 | 125.15 | Weathered muscovite schist.
+69 |  |  |  |  |  |  | 125.15 | 127 | Weathered muscovite schist and ore horizon. | 1)   Core recovery in ore horizon: 97%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.095m. 3)   Cumulative  true  thickness  of  waste rock: 0.065m.
+70 |  |  |  |  |  |  | 127 | 129.85 | Muscovite calcite schist.
+71 |  GSU-26  |  Western Block, Section Line No. W-3.  |  602.99m.  |  09/04/1978.  |  18/04/1978.  |  54m.  | 0 | 24.35 | Clay.
+72 |  |  |  |  |  |  | 24.35 | 48.85 | Weathered quartz muscovite schist.
+73 |  |  |  |  |  |  | 48.85 | 50.1 | Ore horizon. | 1)   Core recovery in ore horizon: 65%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.73m. 3)   Cumulative  true  thickness  of  waste rock: 0.40m.
+74 |  |  |  |  |  |  | 50.1 | 50.3 | Sericite schist.
+75 |  |  |  |  |  |  | 50.3 | 54 | Clay.
+76 |  GSU-27  |  Western Block, Section Line No. W-3.  | : 602.19m.  | 24/04/1978.  |  11/05/1978.  |  101m.  | 0 | 29.85 | Sericitic soil.
+77 |  |  |  |  |  |  | 29.85 | 37.05 | Weathered quartz muscovite schist.
+78 |  |  |  |  |  |  | 37.05 | 96.6 | Quartz muscovite schist.
+79 |  |  |  |  |  |  | 96.6 | 99.65 | Ore horizon. | 1)   Core recovery in ore horizon: 89%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.93m.
+80 |  |  |  |  |  |  |  |  |  | 3)   Cumulative  true  thickness  of  waste rock: 1.83m.
+81 |  |  |  |  |  |  | 99.65 | 101 | Muscovite calcite schist.
+82 |  GSU-29  |  Block, Section Line No. W-2.  |  601.77m.  |  04/05/1978 |  08/05/1978 | 28.50m | 0 | 6.1 | Soil with sand.
+83 |  |  |  |  |  |  | 6.1 | 23.8 | Weathered muscovite schist.
+84 |  |  |  |  |  |  | 23.8 | 24.7 | Ore horizon. | 1)   Core recovery in ore horizon: 68%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.39m. 3)   Cumulative  true  thickness  of  waste rock: 0.48m.
+85 |  |  |  |  |  |  | 24.7 | 26.15 | Clay.
+86 |  |  |  |  |  |  | 26.15 | 28.5 | Quartz muscovite schist.
+87 |  GSU-30  |  Western Block, Section Line No. W-1.  |  599.68m.  | 11/05/1978.  |  17/05/1978.  |  43.0m | 0 | 16.5 | Coarse sand with muscovite schist.
+88 |  |  |  |  |  |  | 16.5 | 16.6 | Vein quartz.
+89 |  |  |  |  |  |  | 16.6 | 37.2 | Quartz muscovite schist.
+90 |  |  |  |  |  |  | 37.2 | 38.75 | Ore horizon. | 1)   Core recovery in ore horizon: 82%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.60m. 3)   Cumulative  true  thickness  of  waste rock: 0.86m.
+91 |  |  |  |  |  |  | 38.75 | 43 | Clay.
+92 |  GSU-31  |  Western Block, Section Line No. W-1.  | 598.83m |  21/05/1978.  |  28/05/1978 |  71.05m.  | 0 | 14 | Sandy soil.
+93 |  |  |  |  |  |  | 14 | 19.75 | Vein quartz and muscovite schist.
+94 |  |  |  |  |  |  | 19.75 | 68.6 | Weathered quartz muscovite schist.
+95 |  |  |  |  |  |  | 68.6 | 70.05 | Ore horizon. | 1)   Core recovery in ore horizon: 72%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.27m. 3)   Cumulative  true  thickness  of  waste rock: 1.13m.
+96 |  |  |  |  |  |  | 70.05 | 71.05 | Sand mixed with ore.
+97 |  GSU-34  |  Western Block, Section Line No. W-4.  |  601.74m |  17/06/1978 |  19/07/1978 |  169.80m.  | 0 | 26 | Laterite soil.
+98 |  |  |  |  |  |  | 26 | 28.7 | Vein quartz.
+99 |  |  |  |  |  |  | 28.7 | 164.68 | quartz muscovite schist.
+100 |  |  |  |  |  |  | 164.68 | 167.1 | Ore horizon. | 1)   Core recovery in ore horizon: 97%. 2)   Cumulative     true     thickness     of manganese ore bands: 1.41m. 3)   Cumulative  true  thickness  of  waste rock: 0.42m.
+101 |  |  |  |  |  |  | 167.1 | 169.8 | Muscovite calcite schist.
+102 |  GUG-2  |  Western Block, Section Line No. W-2.  |  600.81m.  |  10/05/1972 |  08/06/1972 |  105.90m | 0 | 21 | Soil and subsoil.
+103 |  |  |  |  |  |  | 21 | 89.94 | Phyllite/mica  schist,  weathered  on  top  with thin   bands   and   disseminations   of   altered garnet.
+104 |  |  |  |  |  |  | 89.94 | 91.25 | Ore horizon. | 1)   Core recovery in ore horizon: 54%. 2)   Cumulative     true     thickness     of manganese ore bands: 0.62m. 3)   Cumulative  true  thickness  of  waste rock: 0.59m.
+105 |  |  |  |  |  |  | 91.25 | 92.15 | Caving neither core nor sludge recovered.
+106 |  |  |  |  |  |  | 92.15 | 100.2 | Quartzite felspathic and sericitic.
+107 |  |  |  |  |  |  | 100.2 | 105.9 | Medium and fine grained biotite gneiss.
+
+######## SHEET: Annexure-V (12x19) ########
+Analytical Results of PCS samples
+Sr No | Reference No. | SiO2 (%) | Al2O3 (%) | Fe2O 3 (%) | CaO (%) | MgO (%) | Na2O (%) | K2O (%) | TiO2 (%) | P2O5 (%) | MnO (%) | LOI (%) | Ba (mg/ Kg) | Nb (mg/ Kg) | Rb (mg/ Kg) | Sr (mg/ Kg) | Y (mg/ Kg) | Zr (mg/ Kg)
+1 | SK/PCS/1 /FS/16-17 | 33.79 | 7.26 | 16.06 | 2.63 | 2.29 | 0.17 | 1.08 | 0.63 | 0.71 | 26.75 | 6.28 | 6767 | 6 | 34 | 394 | 28 | 64
+2 | SK/PCS/2 /FS/16-17 | 36.35 | 7.47 | 15.93 | 3.2 | 2.59 | 0.18 | 1.25 | 0.69 | 0.79 | 22.4 | 6.75 | 8102 | 7 | 40 | 482 | 30 | 71
+3 | SK/PCS/3 /FS/16-17 | 44.45 | 11.89 | 15.37 | 1.27 | 1.22 | <0.05 | 1.73 | 0.97 | 0.15 | 15.02 | 7.05 | 7032 | 9 | 64 | 634 | 29 | 133
+4 | SK/PCS/4/F S/16-17 | 46.72 | 16.51 | 16.01 | 1.44 | 1.59 | <0.05 | 1.95 | 1.31 | 0.18 | 6.73 | 6.96 | 5497 | 13 | 102 | 431 | 33 | 201
+5 | SK/PCS/5 /FS/16-17 | 40.58 | 4.03 | 7.67 | 0.76 | <0.1 | 0.07 | 1.44 | 0.09 | 1.87 | 32.72 | 6.83 | 1767 1 | <5 | 36 | 496 | 59 | 22
+6 | SK/PCS/6 /FS/16-17 | 19.23 | 12.6 | 13.87 | 0.95 | <0.1 | 0.1 | 1.54 | 0.28 | 3.81 | 36.04 | 8.75 | 2437 3 | <5 | 58 | 1120 | 61 | 58
+7 | SK/PCS/ 7/FS/16-17 | 17.1 | 13.82 | 12.57 | 0.89 | <0.1 | 0.11 | 1.89 | 0.35 | 2.24 | 39.76 | 7.75 | 2283 7 | 6 | 52 | 877 | 70 | 57
+8 | SK/PCS/ 8/FS/16-17 | 34.71 | 6.59 | 9.37 | 1.41 | 0.49 | 0.3 | 1.21 | 0.31 | 2.07 | 29.06 | 8.63 | 1759 9 | <5 | 37 | 602 | 63 | 37
+9 | SK/PCS/9 /FS/16-17 | 42.79 | 5.5 | 15.1 | 0.86 | <0.1 | <0.05 | 1.17 | 0.25 | 1.9 | 25.22 | 5.82 | 1167 0 | <5 | 43 | 856 | 53 | 46
+10 | SK/PCS/ 10/FS/16-17 | 21.33 | 9.84 | 17.06 | 0.97 | <0.1 | <0.05 | 0.98 | 0.19 | 5.87 | 24.08 | 9.87 | 3990 0 | <5 | 37 | 1012 | 79 | 50
+
+######## SHEET: Annexure-VI (12x17) ########
+Analytical Results of REE Samples
+Sr No | Reference No | La (mg/ kg) | Ce (mg/k g) | Pr (mg/kg ) | Nd (mg/k g) | Eu (mg/kg ) | Sm (mg/kg ) | Gd (mg/kg ) | Tb (mg/kg ) | Dy (mg/kg ) | Ho (mg/kg ) | Er (mg/kg) |  | Tm (mg/k g) | Yb (mg/kg ) | Lu (mg/kg)
+1 | SK/REE/1/FS/16-17 | 95.11 | 162.48 | 15.93 | 48.86 | 2.11 | 5.43 | 4.26 | 0.39 | 1.39 | 0.21 | 0.46 |  | 0.07 | 0.41 | 0.06
+2 | SK/REE/2 /FS/16-17 | 11.52 | 21.83 | 2.5 | 8.34 | 0.38 | 2.38 | 2.29 | 0.61 | 4.23 | 0.78 | 2.56 |  | 0.4 | 2.88 | 0.42
+3 | SK/REE/ 3/FS/16-17 | 186.52 | 366.24 | 38.61 | 123.36 | 5.49 | 26.56 | 12.24 | 1.48 | 6.45 | 1.08 | 2.82 |  | 0.44 | 2.72 | 0.47
+4 | SK/REE/ 4/FS/16-17 | 26.96 | 47.84 | 5.28 | 18.32 | 1.03 | 4.13 | 2.73 | 0.43 | 2.28 | 0.37 | 1.03 |  | 0.16 | 1.22 | 0.2
+5 | SK/REE/5 /FS/16-17 | 318.92 | 503.68 | 51.45 | 161.33 | 3.63 | 19.1 | 15.77 | 1.88 | 8.07 | 1.29 | 3.3 |  | 0.48 | 2.82 | 0.41
+6 | SK/REE/6 /FS/16-17 | 125 | 216.85 | 25.6 | 83.05 | 1.81 | 11.88 | 8.73 | 1.3 | 6.52 | 1.09 | 3.14 |  | 0.5 | 3.49 | 0.55
+7 | SK/REE/ 7/FS/16-17 | 15.2 | 30.86 | 3.41 | 13.58 | 0.86 | 3.54 | 2.8 | 0.53 | 3.16 | 0.62 | 1.74 |  | 0.25 | 1.34 | 0.21
+8 | SK/REE/ 8/FS/16-17 | 48.76 | 117.01 | 12.01 | 46.77 | 2.84 | 12.47 | 9.68 | 1.73 | 10.46 | 2.1 | 6.26 |  | 0.91 | 5.48 | 0.81
+9 | SK/REE/9 /FS/16-17 | 2.87 | 8.72 | 0.6 | 2.35 | 0.15 | 0.58 | 0.45 | 0.09 | 0.6 | 0.11 | 0.26 |  | 0.05 | 0.29 | 0.05
+10 | SK/REE/ 10/FS/16-17 | 1.65 | 4.48 | 0.33 | 1.55 | 0.24 | 0.99 | 0.39 | 0.06 | 0.39 | 0.07 | 0.2 |  | 0.03 | 0.19 | 0.02
+
+######## SHEET: Annexure-VII (7x16) ########
+Analytical Results of Water samples
+Sr No | Reference No | V (µg/K g) | Cr (µg/K g) | Mn (µg/K g) | Fe (µg/K g) | Co (µg/K g) | Ni (µg/K g) | Cu (µg/K g) | Zn (µg/K g) | As (µg/K g) | Ag (µg/K g) | Pb (µg/K g) | Cd (µg/K g) | Bi (µg/K g) | Hg (μg/K g)
+1 | 64C/5/SK/UKW1/FS2 016-17 | <5 | <4 | 7.43 | 178.7 | 0.09 | <1 | <0.5 | 22.22 | <1 | 1.89 | <0.5 | <0.01 | 0.045 | <1
+2 | 64C/5/SK/UKW2/FS2 016-17 | <5 | <4 | 265.24 | 145.82 | 0.22 | <1 | <0.5 | 2 | <1 | 0.87 | <0.5 | <0.01 | <0.02 | <1
+3 | 64C/5/SK/UKW3/FS2 016-17 | <5 | <4 | 7.17 | 125.44 | 0.05 | <1 | 0.71 | 66.49 | <1 | 1.97 | <0.5 | <0.01 | <0.02 | <1
+4 | 64C/5/SK/UKW4/FS2 016-17 | <5 | <4 | 0.94 | 391.99 | 0.15 | 1.6 | <0.5 | 24.14 | <1 | 1.58 | <0.5 | <0.01 | <0.02 | <1
+5 | 64C/5/SK/UKW5/FS2 016-17 | <5 | 52.95 | <0.5 | <100 | <0.05 | <1 | <0.5 | 4.75 | 1.18 | 1.89 | <0.5 | <0.01 | <0.02 | <1
+
+######## SHEET: ANNEXURE-VIII (135x13) ########
+ANALYTICAL RESULTS OF PREVIOUS BOREHOLES IN UKWA MANGANESE DEPOSIT-WESTERN BLOCK (Source- Choudhary et al; 1979; Khan et al;1993-96
+Sr No | Borehole No | Drillin g Run | % Cor e Rec | Sample No. | Depth along boreholes m. | Sample d length cm. | Lithology | % Mn | % Fe | % Sio2 | % P | Cumulative length of the sample (cm)
+1 |  GSU-21 | 67.35- 67.90 | 100 | Not sampled | 67.35-67.80 67.80.67.90 | - | Sericite schist Manganiferous quartzite
+2 |  | 67.90- 68.30 | 92.5 | l/GSU-21 | 67.94-68.02 68.10-68.22 | 7 3 | Quartzite with patch of Mn Quartzite with patch of Mn | 24.92 | 3 | 30.45 | 0.427 | 10
+3 |  |  |  | 2/GSU-2I Not sampled Not sampled Not sampled Not sampled | 68.27-68.30 67.90-67.94 68.02-0.06 68.06-68.10 68.22-68.27 | - | Mn ore with quartzite Quartzite Scricite schist Quartzite with thin Mn band Quartzite | 35.35 - - - - | 10.95 - - - - | 16.88 - - - - | 0.475 - - - - | 3 - - - -
+4 |  | 68.30- 69.00 | 93 | 3/GSU-21 | 63.30-68.35 68.43-68.49 68.65-68.71 | 4 6 6 | Mn ore with quartz vein Mn ore with quartz vein Mn ore with quartz vein | 42 | 6.1 | 16.5 | 0.212 | 16
+5 |  |  |  | 4/GSU-21 | 68.71-68.84 | 12 | Mn ore with quartz vein | 39.6 | 6.1 | 14 | 0.285 | 12
+6 |  |  |  | 5/GSU-21 Not sampled Not sampled | 68.84-69.00 68.35-68.43 68.49-68.65 | 15 - - | Mn ore +quartz vein +quartzitc Quartzite Quartzite with thin Mn ores | 36.8 - - | 6.1 - - | 18.2 - - | 0.448 - - | 15 - -
+7 |  | 69.00- 69.30 | 100 | 67GSU-21 | 69.00-69.17 | 17 | Mn ore with Calcite and quartz | 39.15 | 5.2 | 21 | 0.227 | 17
+8 |  |  |  | 7/GSU-21 | 69.17-69.30 | 13 | Mn ore with calcite and quartz | 45.3 | 5 | 17 | 0.119 | 13
+9 |  | 69.30- 69.95 | 95 | 8/GSU-21 | 69.30-69.35 69.47-69.60 | 5 12 | Mn ore with calcite & quartzite Mn ore with calcite & | 36.1 | 3.7 | 30.9 | 0.123 | 17
+10 |  |  |  |  |  |  | intercalation
+11 |  |  |  | 9/GSU-21 | 69.37-69.47 69.38-69.95 | 10 11 | Mn ore with calcite and quartzite band, do- |  | 2.95 | 31.3 | 0.097 | 21
+12 |  |  |  | 10/GSU-21 Not sampled | 69.60-69.93 69.73-69.83 69.35-69.37 | 13 10 - | Mn ore with calcite and quartz intercalation Quartzite | 40.3 - - | 4.8 - - | 16.3 - - | 0.147 - - | 23 - -
+13 |  | 69.95- 70.40 | 88 | 11/GSU-21 | 69.95-70.04 | 8 | Mn ore with calcite | 42.7 | 4.3 | 10.3 | 0.162 | 8
+14 |  |  |  | 12/GSU-21 | 70.09-70.18 | 8 | Mn ore with calcite | 31.8 | 2.4 | 9 | 0.059 | 8
+15 |  GSU-24  | 124.20- 125.70 | 94 | Not sampled | 124.20-125.15 | - | Sericite schist |  |  | ' )
+16 |  |  |  | l/GSU-24 Not sampled Not sampled Not sampled | 125.35-125.37 125.50-125.52 125.61-125.65 125.68-125.70 125.15-125.35 125.37-125.50 125.52-125.61 125.65-125.68 | 2 1 4 2 - - - - | Mn ore with calcite Mn ore with calcite Mn ore with calcite Mn ore with calcite Quartzite Quartzite Quartzite Quartzite | 31.2 - - - - - | 4.6 - - - - - | 30.46 - - - - - | 0.317 - - - - | 09 - - - - -
+17 |  | 125.70- 125.95 | 100 | 2/GSU-24 | 125.73-125.74 125.77-125.78 125.80-125.83 125.84-125.86 125.93-125.95 | 1 1 3 2 2 | Mn ore Mn ore Mn ore with quartzite Mn ore with quartzite Mn ore | 30 | 6.3 | 25.04 | 0.277 | 9
+18 |  |  |  | 3/GSU-24 Not sampled Not sampled Not sampled  Not sampled Not sampled | 125.86-125.93 125.70-125.73 125.74-125.77 125.78-125.80                 125.83-125.84 | 7 - - - | Quartzite with Mn association Quartzite Quartzite  Quartzite Quartzite Mn ore with quartz          |  | - | - | - | -
+19
+20 |  | 125.95- 126.40 | 100 | 4/GSU-24 | 125.96-126.00 126.01-126.02 126.05-126.06 126.08-126.20 | 4 1 1 12 | Mn ore -do- Mn ore with quartzite and calcite Mn ore with calcite quartz | 40.72 | 5.5 | 18.3 | 0.162 | 18
+21 |  |  |  | 5/GSU-24 Not sampled Not sampled Not sampled Not sampled Not sampled | 126.20-126.40 125.95-125.96 126.00-126.01 126.02-126.05 126.06-126.08 | 20 - - - - | Mn ore with quartzite & calcite Quartzite Quartzite Quartzite Quartzite | 34.84 | 4.3 | 23 | 0.212 | -
+22 |  | 126.40- 126.60 j | 100 | 6/GSU-24 | 126.40-126.60 | 20 | Mn ore with quartzite calcite | 37.73 | 4.3 | 16.8 | 0.199 | 20
+23 |  | 126.60- 126.75 | 100 | 7/GSU-24 | 126.60-126.75 | 15 | Mn ore with quartzite calcite | 35.13 | 5.2 | 26.8 | 0.134 | 15
+24 |  | 126.75- 127.00 | 92 | 8/GSU-24 | 126.75-126.30 126.97-126.99 | 5 2 | Mn ore with calcite+quartzite Mn ore | 38.53 | 4.4 | 18.9 | 0.267 | 7
+25 |  |  |  | 9/GSU-24 Not sampled Not sampled Not sampled | 126.85-126.96 126.80-126.85 126.96-126.97 126.99-127.00 | 10 - - - | Mn ore with quartzite +calcite Quartzite Quartzite Calcite | 34.33 | 13.8 | 11.1 | 0.247 | 10
+26 |  | 125.70- 125.95 | 100 | 2/GSU-24 | 125.73-125.74 125.77-125.78 125.80-125.83 125.84-125.86 125.93-125.95 | 1 1 3 2 2 | Mn ore Mn ore Mn ore with quartzite Mn ore with quartzite Mn ore | 30 | 6.3 | 25.04 | 0.277 | 9
+27 |  GSU-26  | 48.80- 49.80 | 84 | Not sampled | 48.80-48.82 | 1 | Schist |  | - | - | - | -
+28
+29 |  |  |  | l/GSU-26 | 48.82-48.90 | 8 | Manganiferous quartzite | 6.4 | - | - | - | -
+30 |  |  |  | 2/GSU-26 | 48.90-49.00 | 10 | Mn ore | 40.12 | 6.5 | 17.4 | 0.246 | 10
+31 |  |  |  | 3/GSU-26 | 49.00-49.30 | 22 | Mn ore | 49.1 | 8.5 | 1.5 | 0.189 | 22
+32 |  |  |  | 4/GSU-26 | 49.30-49.40 | 10 | Mn ore powder | 44.73 | 13.1 | 1.5 | 0.213 | 10
+33 |  | 49.40- 49.80 | 75 | 5/GSU-26 | 49.40-49.57 | 15 | Mnore | 44.8 | 10.6 | 3.47 | 0.259 | 15
+34 |  |  |  | 67GSU-26 | 49.57-49.65 | 5 | Quartzite | 2.7 | - | - | - | -
+35 |  |  |  | 7/GSU-26 | 49.65-49.80 | 10 | Mn ore with quartzite | 47 | 6.8 | 5.31 | 0.215 | 10
+36 |  | 49.80- 50.10 | 50 | 8/GSU-26 | 49.80-49.90 | 5 | Mn ore | 48.1 | 5.2 | 4.3 | 0.194 | 5
+37 |  |  |  | 9/GSU-26 | 49.90-50.10 | 10 | Mn ore with quartzite | 43.4 | 6.4 | 13.2 | 0.182 | 10
+38 |  GSU-27  | 96.70- 97.15 | 100 | Not sampled | 96.70-96.71 |  | Quartzite
+39
+40 |  |  |  | l/GSU-27 | 96.71-96.72 | 1 | Mn ore | 38.5 | 5.6 | 22 | 0.333 | 8
+41 |  |  |  |  | 96.74-96.76 | 2 | Mn ore
+42 |  |  |  |  | 96.80-96.81 | 1 | Mn ore with quartz vein
+43 |  |  |  |  | 96.84-96.88 | 4 | Mn ore with quartz vein
+44 |  |  |  | 2/GSU-27 | 96.89-96.95 | 6 | Mn ore | 36.9 | 6 | 23.25 | 0.244 | 15
+45 |  |  |  |  | 96.97-96.99 | 2 | Mn ore with quartz vein
+46 |  |  |  |  | 97.00-92.03 | 3 | Mn ore with quartz vein
+47 |  |  |  |  | 97.07-97.11 | 4 | Mriore
+48 |  |  |  |  | 96.72-96.74 | - | Quartzite
+49 |  |  |  | Not sampled | 96.76-96.80 | - | Quartzite
+50 |  |  |  |  | 96.81-96.84 | - | Quartzite
+51 |  |  |  |  | 96.88-96.09 | - | Quartzite
+52 |  |  |  |  | 96.95-96.97 | - | Quartzite
+53 |  |  |  |  | 96.99-97.00 | - | Quartzite
+54 |  |  |  |  | 97.03-97.07 | - | Quartzite
+55 |  |  |  |  | 97.11-97.15 | - | Quartzite
+56 |  | 97.15- 97.35 | 85 | 3/GSU-27 | 97.17-97.10 | 1 | Mn ore with quartz vein | 34.6 | 4.2 | 24.64 | 0.494 | 5
+57 |  |  |  |  | 97.20-97.22 | 1 | Mnore
+58 |  |  |  |  | 97.26-97.27 | 1 | Mn ore with quartz vein
+59 |  |  |  |  | 97.27-97.30 | 2 | Mn ore with quartz vein
+60 |  |  |  |  | 97.15-97.17 | - | Quartzite
+61 |  |  |  | Not | 97.19-97.20 | - | Quartzite
+62 |  | 97.35- 97.75 | 50 | sampled Not sampled | 97.22-97.26 97.30-97.35 97.35-97.75 | - | Quartz vein Quartz vein & pegmatite egmatite
+63 |  | 97.75- 98.35 | 93 | 4/GSU-27 | 98.20-98.35 98.35-98.50 | 11 - | Mn ore with quartz vein Quartz vein | 25.15 | 12 | 27.68 | 0.315 | 11
+64 |  | 98.35- 98.75 | 100 | 5/GSU-27, | 98.50-98.65 | 15 | Mn ore soft | 44.2 | 5.6 | 12.27 | 0.181 | 15
+65 |  |  |  | 6/GSU-27. | 98.65-98.75 | 10 | Mnore | 50.45 | 5.7 | 7.3 | 0.132 | 10
+66 |  | 98.75- 99.15 | 62 | 7/GSU-27. | 98.75-98.95. | 13 | Mn ore powder with silliceous | 7.6 | - | - | - | -
+67 |  |  |  | 8/GSU-27 | 98.95-99.15 | 12 | Mn ore powder with silliceous | 18.29 | - | - | - | -
+68 |  | 99.15- 99.55 | 87 | 9/GSU-27. | 99.15-99.35 | 18 | Mn ore powder with siliceous | 26.5 | 8.4 | 34.5 | 0.181 | 18
+69 |  |  |  | 10/GSU-27 | 99.35.99.55, | 17 | Mn ore powder with siliceous matter | 28.45 | 8.1 | 21.4 | 0.402 | 17
+70 |  | 99.55-99.65 | 100 | ll/GSU-27 | 99.55-99.65. | 10 | Mn ore powder with calcite and calcite and siliceous matter | 22.85 | 6.3 | 27.7 | 0.623 | 10
+71
+72 |  GSU-29  | 23.00- 23.85 | 100 | l/GSU-29 | 23.80-23.85 | 5 | Manganifcrous quartzite | 13.74 | - | - | - | -
+73 |  | 23.85- 24.15 | 100 | 2/GSU-29 | 23.85-23.90 | 5 | Manganifcrous quartzite | 3.4 | - | - | - | -
+74 |  |  |  |  | 23.97-24.05 | 8 | Manganifcrous quartzite
+75 |  |  |  | 3/GSU-29 | 23.90-23.97 | 7 | Mn ore with quartzite | 43.28 | 7.1 | 10 | 0.431 | 7
+76 |  |  |  | 4/GSU-29 | 23.95-24.15 | 10 | Mn ore with sillica | 19.73 |  | • |  | .
+77 |  | 24.14- 24.45 | 100 | 5/GSU-29 | 24.15-24.22 | 7 | Mn ore with quartz | 32.82 | 7.5 | 27.5 | 0.734 | 7
+78 |  |  |  | 6/GSU-29 | 24.22-24.35 | 13 | Mn ore with quartz | 38 | 7.1 | 22 | 0.473 | 13
+79 |  |  |  | 7/GSU-29 | 24.35-24.45 | 10 | Mn ore with silica | 15.4 | • | - | • | -
+80 |  | 24.45- 24.70 | 100 | 8/GSU-29 | 24.45-25.58 | 13 | mn ore with quartzite | 41.35 | 9.7 | 11 | 0.501 | 13
+81 |  |  |  | 9/GSU-29 | 24.50-24.70 | 12 | Mn ore and quartzite | 17.23 | - | - | - | -
+82 |  |  |  |  |  |  | powder
+83 |  GSU-30  | 37.80- 38.25 | 77 | Not | 37.80-37.83 | - | Limonite | - | - | - | - | -
+84 |  |  |  | sampled
+85 |  |  |  | l/GSU-30 | 37.83-37.93 | 8 | Mn ore with quartzite and | 48.15 | 17.8 | 6.3 | 0.56 | 14
+86 |  |  |  |  | 38.01-38.08 | 6 | limonite
+87 |  |  |  |  |  |  | Mn ore with quartzite and limonite
+88 |  |  |  | 2/GSU-30 | 37.93-38.01 | 7 | Mn ore with quartzite and limonite | 43.3 | 12.3 | 5.2 | 0.465 | 12
+89 |  |  |  |  | 38.08-38.15 | 5
+90 |  |  |  |  |  |  | Mn ore with quartzite limonite
+91 |  |  |  | 3/GSU-30 | 38.15-38.25 | 8 | Mn ore with silicon powder | 26.04 | 19.6 | 19 | 0.714 | 8
+92 |  | 38.25- 38.75 | 66 | 4/GSU-30 | 38.25-38-29 38.33-38.35 38.35-38.37 | 3 1 1 | Mn ore with quartzite Mn ore with quartzite Mn orewith quartzite | 47.82 | 6 | 3.9 | 0.438 | 5
+93 |  |  |  | 5/GSU-30 | 3829-38.33 38.40-38.42 38.47-38.49 38.53-38.54 | 3 2 2 1 | Manganiferous quartzite Manganiferous quartzite Maganiferous quartzite Maganiferous quartzite | 9.6
+94 |  |  |  | 67GSU-30 | 38.37-38.40 38.43-38.47 | 2 3 | Mn ore Mn ore | 48.51 | 6.6 | 4.8 | 0.313 | 5
+95 |  |  |  | 7/GSU-30 | 38.49-38.50 38.50-38.53 30.54-38.58 | 1 2 3 | mn ore with silica mn ore with silica mn ore with silica | 46.13 | 6 | 2.59 | 0.767 | 6
+96 |  |  |  | 8/GSU-30 | 38.50-38.05 | 10 | mn ore with silica | 30.28 | 12 | 21.63 | 0.568 | 10
+97 | GSU-31  | 68.60- 69.30 | 100 | Not sampled | 68.60-69.30 | - | Manganiferous quartzite
+98 |  | 69.30- 69.85 | 45 | l/GSU-31 | 69.30-69.34 | 2 | Mn ore | 48.87 | 8.2 | 0.7 | 0.24 | 2
+99 |  |  |  | 2/GSU-31 | 69.36-69.51 | 6 | Mn ore with silica powder | 24.72 | 10.1 | 32.8 | 0.142 | 6
+100 |  |  |  | 3/GSU-31 | 69.64-69.70 | 3 | Mn ore with quartzite | 51.55 | 6.1 | 3.4 | 0.146 | 3
+101 |  |  |  | 4/GSU-31 Not sampled | 69.70-69.85 69.34-69.36 69.51-69.64 | 7 | Mn ore with silica Quartzite Quartzite | 25.91 | 10.7 | 30.1 | 0.146 | 7
+102 |  | 69.85- 70.05 | 50 | 5/GSU-31 | 69.85-69.95 | 5 | Mn ore | 49.9 | 5.3 | 2.06 | 0.275 | 5
+103 |  |  |  | 6/GSU-31 | 69.95-70.05 | 5 | Mn ore with silica | 24.77 | 10.7 | 32.94 | 0.157 | 5
+104 |  | 70.05- 70.30 | 100 | 7/GSU-31 | 70.05-70.30 | 25 | Mn ore with schist (powdery) | 21.21 | 9.9 | 39.04 | 0.163 | 25
+105 |  | 70.30- 70.55 |  | Not sampled | 70.30-70.55 | - | Clay | - | - | - | • | -
+106 |  GSU-34  | 164.38- 165.00 | 100 | Not sampled | 16438-164.53 | -
+107 |  |  |  | l/GSU-34 | 164.53-164.54 164.56-164.59 164.69-164.74 164.76-164.77 164.80-164.81 164.81-164.86 | 1 3 5 1 1 5 | Manganiferous quartzite Mn ore with quartzite & schist Mn ore with quartzite & schist Mn ore with quartzite & schist Mn ore with quartzite & schist | 46.81 | 6.4 | 6.4 | 0.172 | 16
+108 |  |  |  | 2/GSU-34 | 164.63-164.69 164.79-164.80 | 6 1 | Mn ore with quartzite & schist Mn ore with quartzite & schist | 41.84 | 4.8 | 16.4 | 0.118 | 7
+109 |  |  |  | 3/GSU-34 Not sampled | 164.74-164.76 164.77-164.78 164.86-164.94 164.96-164.99 164.54-164.56 164.59-164.63 164.78-164.79 164.94-164.96 164.99-165.00 | 2 1 8 3 - - - - - | Mn ore with quartzite Mn ore with quartzite Mn ore with  quartzite calcite Mn ore with quartzite calcite Quartzite Manganiferous quartzite Maganiferous quartzite Maganiferous quartzite Manganiferous quartzite | 28.4 | 7.3 | 36.1 | 0.325 | 14
+110 |  | 165.00- 165.45 | 100 | 4/GSU-34 | 165.00-165.02 165.10-165.16 165.36-165.41 | 2 6 5 | Mn ore with quartzite Mn ore with quartzite Mn ore with quartzite | 32.8 | 10 | 17.1 | 0.458 | 13
+111
+112 |  |  |  | 5/GSU-34 | 165.02-165.12 165.16-165.19 165.41-165.45 | 8 3 4 | Mn ore with quartzitc+calcitc Mn ore with quartzite+calcite Mn ore with quartzite + calcite | 48.1 | 3.9 | 8.4 | 0.1 | 15
+113 |  |  |  | 6/GSU-34 | 165.19-165.36 | 17 | Mn ore with quartz, quartzite and calcite | 38.3 | 7.1 | 14.8 | 0.216 | 17
+114 |  | 165.45- 166.10 | 100 | 7/GSU-34 | 165.48-165.55 | 7 | Manganiferous quartzite | 14.6 | - | - | - | -
+115 |  |  |  | 8/GSU-34 | 165.55-165.75 | 20 | Mn ore with quartzite calcite and quartz | 41.1 | 5 | 19.2 | 0.189 | 20
+116 |  |  |  | 9/GSU-34 | 165.45-165.48 | 3 | Mn ore and calcite and quartz | 49.4 | 5.3 | 0.9 | 0.162 | 15
+117 |  |  |  |  | 165.78-165.84 165.90-165.93 166.07-166.10 | 6 3 3 | Mn ore and calcite and quartz Mn ore and calcite and quartz Mn ore and calcite and quartz | 43.4 | 4.2 | 15.9 | 0.082 | 9
+118 |  |  |  | 10/GSU-34 | 165.75-165.78 165.84-165.90 | 3,6 | Mn ore + quartz and calcite do
+119 |  |  |  | 11/GSU-34 | 165.93-166.07 | 14 | Mn ore with quartzite calcite | 33.63 | 5.1 | 17.1 | 0.18 | 14
+120 |  | 166.10- 166.40 |  | Not sampled | 166.10-166.11 | - | Mangniferous quartzite
+121 |  |  |  | 12/GSU-34 | 166.11-166.24 | 12 | Mn ore with quartzite calcite | 49.6 | 5 | 10.3 | 0.12 | 12
+122 |  |  |  | 13/GSU-34 | 166.24-166.40 | 15 | Mn ore with quartzite calcite | 47.7 | 5.2 | 9.5 | 0.25 | 15
+123 |  | 166.40- 166.65 | 100 | 14/GSU-34 | 166.40-166.54 | 14 | Calcite quartzite with Mn ore | 31.7 | 3.6 | 20.9 | 0.21 | 14
+124 |  |  |  | 15/GSU-34 | 166.54-166.65 | 11 | Mn ore with calcite and quartzite | 47.91 | 5.3 | 8 | 0.11 | 11
+125 |  | 166.65- 166.80 | 100 | 16/GSU-34 | 166.65-166.66 | 1 | Mn ore with quartzite | 16.8 | - | - | - | -
+126 |  |  |  |  | 166.70-166.72 | 2 | Mn ore with quartzite
+127 |  |  |  |  | 166.73-166.74 | 1 | Mn ore with quartzite
+128 |  |  |  |  | 166.79-166.80 | 1 | Mn ore with quartzite
+129 |  |  |  | 17/GSU-34 | 166.66-166.70 | 4 | Mn ore with quartzite | 34.93 | 8.6 | 10.7 | 0.45 | 10
+130 |  |  |  |  | 166.72-166.73 | 1 | Calcite
+131 |  |  |  |  | 166.74-166.79 | 5 | Mn ore
+132 |  | 166.80- 167.10 | 73 | 18/GSU-34 | 166.80-167.10 | 22 | Mangniferous quartzite and schist | 11.5 | - | - | -
+133 |  | 167.10- 169.80 | 100 | Not sampled | 167.10-169.80 | - | Quartzite with Jasper and schist
+
+######## SHEET: ANNEXURE-VIII(B) (41x13) ########
+ANNEXURE-VIII(B)
+Sr No | Borehole No | S No | From | To | True Width of horizon | Description of samples | Sp Gravity | Mn (%) | Fe(%) | SiO2 (%) | P(%) | Remarks
+1 | UKH-3 | UKH- 3/M1 | 183.62 | 183.88 | 0.13 | Mn ore | 4.08 | 40.32 | 6.14 | 14.48 | 0.73 | UKH-3/M1
+2 |  | M2 | 183.88 | 184.3 | 0.16 | Mnore | 4.14 | 40.99 | 7.81 | 13.04 | 0.48 | M2
+3 |  | M3 | 184.3 | 184.56 | 0.13 | Mn ore | 4.15 | 41.49 | 11.17 | 10.12 | 0.69 | M3
+4 |  | M4 | 184.56 | 184.79 | 0.15 | Mn ore | 4.3 | 50.16 | 7.81 | 8.49 | 0.28 | M4
+5 |  | M5 | 184.56 | 184.79 | 0.15 | Mn ore | 5.3 | 50.66 | 7.81 | 7.19 | 0.37 | M5
+6 |  | M5 | 184.79 | 185.25 | 0.16 | Mn ore | 4.33 | 47.66 | 6.7 | 9.5 | 0.33 | M5
+7 |  | M6 | 185.25 | 185.43 | 0.16 | Mn ore | 4.03 | 50.16 | 5.58 | 10.04 | 0.26 | M6
+8 |  | M7 | 185.43 | 186 | 0.12 | Mn ore | 3.75 | 30.82 | 11.72 | 12.31 | 0.61 | M7
+9 |  |  |  |  | 1.01 | Total Mn ore | 4.11 | 43.63 | 7.98 | 11.06 | 0.48
+10 |  | Q1 | 183.4 | 186.3 | 1.9 | Mn ore +Q | 2.74 | 19.98 | 7.26 | 29.57 | 0.63 | Q1
+11 | UKH-4 | UKH- 4/M1 | 189.7 | 190.05 | 0.15 | Mnore+QV | 4.11 | 35.8 | 7.54 | 14.7 | 0.92 | UKH-4/M1
+12 |  | M2 | 190.05 | 190.45 | 0.15 | Mn ore+CC3 vein | 4.03 | 35.7 | 7.26 | 9.56 | 0.74 | M2
+13 |  | M3 | 190.45 | 190.68 | 0.14 | Mn ore+QCO3 vein | 4.21 | 36.74 | 6.7 | 10.1 | 0.58 | M3
+14 |  | M4 | 190.68 | 190.83 | 0.13 | Mn ore+brecciatedCO3 | 4.27 | 45.85 | 5.86 | 10.72 | 0.45 | M4
+15 |  | M7 Check Sample | 190.68 | 190.83 | 0.13 | Mn ore+brecciatedCO3 | 4.27 | 36.82 | 7.26 | 11 | 0.32 | M7 Check Sample
+16 |  | M5 | 190.83 | 191.08 | 0.13 | Mn ore+QCO3 vein | 4.3 | 38.62 | 6.98 | 8.26 | 0.54 | M5
+17 |  | M6 | 191.08 | 191.48 | 0.15 | Mn ore+Q vein | 4.21 | 30.14 | 6 | 27.84 | 0.65 | M6
+18 |  |  |  |  | 0.85 | Total Mn ore | 4.19 | 36.91 | 6.74 | 13.75 | 0.66
+19 |  | Q1 | 189.7 | 191.7 | 1.15 | MnQ | 2.76 | 15.07 | 4.32 | 36.36 | 0.96 | Q1
+20 | UKH-7 | UKH- 7/M1 | 208.3 | 209.05 | 0.3 | Mn ore+QCO3 vein | 4.24 | 33.91 | 7.54 | 14.36 | 0.62 | UKH-7/M1
+21 |  | M2 | 208.3 | 209.05 | 0.3 | Mn ore+QCO3 vein | -do- | 41.16 | 6.7 | 14.94 | 0.37 | M2
+22 |  | Q1 | 208.3 | 209.05 | 0.45 | MnQ | 2.81 | 13.5 | 3.91 | 42.92 | 0.87 | Q1
+23 |  UKH-14 | UKH- 14/M1 | 221.8 | 222.6 | 0.08 | Mn ore & MnQ | 3.97 | 37.82           7.54        8.99          0.64 (for composite sample)
+24 |  | M2 | 222.7 | 222.9 | 0.15 | Mn Q+CQ3 vein | 3.97
+25 |  | M3 | 223.4 | 224.15 | 0.15 | Banded Mn ore | 4.39
+26 |  | M4 | 224.15 | 224.35 | 0.15 | Banded Mn ore | 4.38
+27 |  | M5 | 224.35 | 224.45 | 0.09 | Banded Mn ore | 4.48
+28 |  | M6 | 224.8 | 225.03 | 0.11 | Banded Mn ore CQ3 | 4.12
+29 |  | M7 | 225.03 | 225.4 | 0.11 | Banded Mn ore CO3 | 3.9
+30 |  | M8 | 225.4 | 225.55 | 0.15 | Banded Mn ore CO3 | 4.15
+31 |  | M9 | 225.55 | 226.35 | 0.15 | Banded Mn ore QCO3 | 3.8
+32 |  | M10 | 226.35 | 226.55 | 0.15 | Mn ore QCO3. | 4.13
+33 |  | M11 | 226.55 | 227 | 0.15 | Mn ore CO3 | 4.03
+34 |  | M12 | 227 | 227.2 | 0.1 | Mn ore CO3 | 3.95
+35 |  | Q1 | 221.8 | 227.2 | 3.86 | MnQ with Mn ore & C03 | 2.95
+36 |  UKH-16 | UKH- | 220.5 | 220.65 | 0.15 | Mn ore traverse by C03 veins | 4.27
+37 |  | 16/M1 |  |  |  |  |  | 38.81        6.98        14.74        0.75 (for composite sample)
+38 |  | M2 | 220.65 | 220.8 | 0.15 | Mn ore traverse by CO3 veins | 4.39
+39 |  | Q1 | 219.7 | 220.9 | 0.9 | MnQ + CO3 veins | 2.79
+
+######## SHEET: ANNEXURE-IX (18x13) ########
+GROSS RESOURCE ESTIMATION (Ore+waste) based on previous works IN UKWA MANGANESE DEPOSIT-WESTERN BLOCK 
+Sr No  | Section Line | B.H. No. | Strike length (m) | Upper level (RL) m | Level of Intersection (RL) m | Lower Level (RL) m | Difference (m) | Dip of Ore horizon | Correction factor | Dip length (m) | Thickn ess (m) | Volume (m3)
+1 | W-l | GSU-30 | 142.5 | 600 | 562 | 546 | 54 | 20 | 2.92 | 157.68 | 1.46 | 32805.324
+2 |  | GSU-31 | 142.5 | 546 | 530 | 467 | 79 | 15 | 3.86 | 304.94 | 1.4 | 60835.53
+3 |  | UKH-7 | 142.5 | 567 | 405 | 405 | 62 | 25 | 2.37 | 146.94 | 0.75 | 15704.212
+4 | W-2 | GSU-29 | 230 | 600 | 578 | 544 | 56 | 15 | 3.86 | 216.16 | 0.87 | 43353.6
+5 |  | GUG-2 | 230 | 544 | 511 | 460 | 84 | 20 | 2.92 | 245.28 | 1.6 | 90263
+6 |  | UKH-4 | 230 | 460 | 410 | 410 | 50 | 31 | 1.92 | 96 | 1.7 | 37536
+7 | W-3 | GSU-26 | 255 | 600 | 554 | 530 | 70 | 25 | 2.37 | 165.9 | 1.13 | 47804.1
+8 |  | GSU-27 | 255 | 530 | 406 | 468 | 62 | 25 | 2.37 | 146.94 | 2.76 | 103416
+9 |  | UKH-3 | 255 | 468 | 430 | 412 | 56 | 34 | 1.79 | 100.24 | 2.9 | 74127.5
+10 |  | UKH-14 | 255 | 412 | 395 | 395 | 17 | 34 | 1.79 | 30.43 | 5.4 | 41902.1
+11 | W-4 | GSU-21 | 183.75 | 600 | 539 | 509 | 91 | 30 | 2 | 182 | 2.25 | 75245.625
+12 |  | GSU-24 | 183.75 | 509 | 479 | 458 | 51 | 30 | 2 | 102 | 1.6 | 29988
+13 |  | GSU-34 | 183.75 | 458 | 437 | 416 | 42 | 30 | 2 | 84 | 2.18 | 33648.3
+14 |  | UKH-16 | 183.75 | 416 | 395 | 395 | 21 | 30 | 2 | 42 | 1.2 | 9261
+15 |  |  |  |  |  |  |  |  |  |  | Total= | 695890.291
+Total Gross Resource thus estimated is 695890.291*3.92= 2727889.941 or  2.727 million tonne
+
+######## SHEET: Table 2 (8x15) ########
+Probable  category for partial area of western block used in current FSP 2016 -17
+Sr No | Section Line | B.H. No. | Strike length (m) | Upper level (RL) m | Lower Level (RL) m | Difference (m) |  | Dip of Ore horizon | Correction factor | Dip length (m) | Thickn ess (m) | Volume (m3)
+1 | W-l | UKH-7 | 142.5 | 405 | 374 | 31 |  | 25 | 3.37 | 73.47 | 0.75 | 7852.106
+2 | W-2 | UKH-4 | 230 | 410 | 385 | 25 |  | 31 | 1.92 | 48 | 1.7 | 18768
+3 | W-3 | UKH-14 | 255 | 395 | 386 | 9 |  | 34 | 1.73 | 16.11 | 5.4 | 22183.47
+4 | W-4 | UKH-16 | 183.75 | 395 | 384 | 11 |  | 30 | 2 | 22 | 1.2 | 4851
+5 |  |  |  |  |  |  |  |  |  |  | Total= | 53654.576
+6 | Total Gross Resource thus estimated is 53654.576*3.92= 210325.93 or  0.21  million tonne

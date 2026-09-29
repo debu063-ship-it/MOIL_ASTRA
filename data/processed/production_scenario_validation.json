@@ -1,0 +1,141 @@
+{
+  "gap": 5,
+  "status": "COMPLETE_SYNTHETIC_SCENARIO",
+  "rows": 1452,
+  "mines": 11,
+  "months": 132,
+  "fiscal_years": [
+    "FY2015-16",
+    "FY2016-17",
+    "FY2017-18",
+    "FY2018-19",
+    "FY2019-20",
+    "FY2020-21",
+    "FY2021-22",
+    "FY2022-23",
+    "FY2023-24",
+    "FY2024-25",
+    "FY2025-26"
+  ],
+  "random_seed": 260929,
+  "all_rows_provenance": "SYNTHETIC",
+  "annual_validation": [
+    {
+      "fiscal_year": "FY2015-16",
+      "scenario_actual_tonnes": 1031999.99,
+      "scenario_plan_tonnes": 1083600.02,
+      "company_total_anchor_tonnes": 1032000.0,
+      "actual_vs_anchor_pct": -9.689922489644599e-07,
+      "calibrated_to": "FY2015-16 MOIL production 10.32 lakh t"
+    },
+    {
+      "fiscal_year": "FY2016-17",
+      "scenario_actual_tonnes": 1070571.43,
+      "scenario_plan_tonnes": 1124099.94,
+      "company_total_anchor_tonnes": 1070571.4285714286,
+      "actual_vs_anchor_pct": 1.3344007309835403e-07,
+      "calibrated_to": "interpolated"
+    },
+    {
+      "fiscal_year": "FY2017-18",
+      "scenario_actual_tonnes": 1109142.85,
+      "scenario_plan_tonnes": 1164600.05,
+      "company_total_anchor_tonnes": 1109142.857142857,
+      "actual_vs_anchor_pct": -6.439979218132699e-07,
+      "calibrated_to": "interpolated"
+    },
+    {
+      "fiscal_year": "FY2018-19",
+      "scenario_actual_tonnes": 1147714.3,
+      "scenario_plan_tonnes": 1205099.94,
+      "company_total_anchor_tonnes": 1147714.2857142857,
+      "actual_vs_anchor_pct": 1.2447099895294194e-06,
+      "calibrated_to": "interpolated"
+    },
+    {
+      "fiscal_year": "FY2019-20",
+      "scenario_actual_tonnes": 1186285.66,
+      "scenario_plan_tonnes": 1245600.07,
+      "company_total_anchor_tonnes": 1186285.7142857143,
+      "actual_vs_anchor_pct": -4.576107909676828e-06,
+      "calibrated_to": "interpolated"
+    },
+    {
+      "fiscal_year": "FY2020-21",
+      "scenario_actual_tonnes": 1224857.1,
+      "scenario_plan_tonnes": 1286100.0,
+      "company_total_anchor_tonnes": 1224857.142857143,
+      "actual_vs_anchor_pct": -3.4989503154486362e-06,
+      "calibrated_to": "interpolated"
+    },
+    {
+      "fiscal_year": "FY2021-22",
+      "scenario_actual_tonnes": 1263428.56,
+      "scenario_plan_tonnes": 1326599.99,
+      "company_total_anchor_tonnes": 1263428.5714285714,
+      "actual_vs_anchor_pct": -9.045680590590596e-07,
+      "calibrated_to": "interpolated"
+    },
+    {
+      "fiscal_year": "FY2022-23",
+      "scenario_actual_tonnes": 1302000.01,
+      "scenario_plan_tonnes": 1367100.02,
+      "company_total_anchor_tonnes": 1302000.0,
+      "actual_vs_anchor_pct": 7.680491558612309e-07,
+      "calibrated_to": "FY2022-23 MOIL production 13.02 lakh t"
+    },
+    {
+      "fiscal_year": "FY2023-24",
+      "scenario_actual_tonnes": 1756111.77,
+      "scenario_plan_tonnes": 1843917.41,
+      "company_total_anchor_tonnes": 1756111.8145514757,
+      "actual_vs_anchor_pct": -2.536938439960903e-06,
+      "calibrated_to": "FY2023-24 implied from FY2024-25 and reported 2.67% growth"
+    },
+    {
+      "fiscal_year": "FY2024-25",
+      "scenario_actual_tonnes": 1802999.95,
+      "scenario_plan_tonnes": 1893150.0,
+      "company_total_anchor_tonnes": 1803000.0,
+      "actual_vs_anchor_pct": -2.773155853941549e-06,
+      "calibrated_to": "FY2024-25 MOIL production 18.03 lakh t"
+    },
+    {
+      "fiscal_year": "FY2025-26",
+      "scenario_actual_tonnes": 1906999.97,
+      "scenario_plan_tonnes": 2002350.05,
+      "company_total_anchor_tonnes": 1907000.0,
+      "actual_vs_anchor_pct": -1.573151548397466e-06,
+      "calibrated_to": "FY2025-26 provisional MOIL production 19.07 lakh t"
+    }
+  ],
+  "source_anchors": {
+    "2016": {
+      "tonnes": 1032000,
+      "label": "FY2015-16 MOIL production 10.32 lakh t",
+      "source_ref": "docs/production_data_sources.md, real figures table, retrieved 2026-09-29"
+    },
+    "2023": {
+      "tonnes": 1302000,
+      "label": "FY2022-23 MOIL production 13.02 lakh t",
+      "source_ref": "MOIL Annual Report 2022-23, Production section; https://moil.nic.in/userfiles/file/InvRel/Financials/Annual_Report_2022-23.pdf; retrieved 2026-09-29"
+    },
+    "2024": {
+      "tonnes": 1756111.8145514757,
+      "label": "FY2023-24 implied from FY2024-25 and reported 2.67% growth",
+      "source_ref": "MOIL Annual Report 2024-25, Production section; https://moil.nic.in/userfiles/Annual_Report_2024_25.pdf; retrieved 2026-09-29"
+    },
+    "2025": {
+      "tonnes": 1803000,
+      "label": "FY2024-25 MOIL production 18.03 lakh t",
+      "source_ref": "MOIL Annual Report 2024-25, Production section; https://moil.nic.in/userfiles/Annual_Report_2024_25.pdf; retrieved 2026-09-29"
+    },
+    "2026": {
+      "tonnes": 1907000,
+      "label": "FY2025-26 provisional MOIL production 19.07 lakh t",
+      "source_ref": "MOIL provisional production disclosure for March 2026; https://moil.nic.in/userfiles/file/InvRel/Disclosure%20and%20events/Mar_2026.pdf; retrieved 2026-09-29"
+    }
+  },
+  "method": "Synthetic mine allocation using documented scenario shares; monthly weather weights use observed Open-Meteo daily precipitation by nearest available station. Each synthetic fiscal-year aggregate is scaled to a public MOIL company production anchor when available, or linearly interpolated between anchors; mine targets are 5% above each scenario actual allocation. Monthly actuals include rain sensitivity, random noise, and injected disruption events, then are normalized to the annual mine allocation. No row is a real mine-wise production observation.",
+  "output": "data\\synthetic\\production_scenario.csv"
+}

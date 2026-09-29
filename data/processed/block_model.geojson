@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "name": "empty_block_model",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "metadata": {
+    "note": "Illustrative, based on sparse data; not a resource estimate. No blocks generated: source assays are available for 13 Gudma and Western Ukwa holes, but complete downhole XYZ traces and mine lease polygons are unavailable.",
+    "status": "BLOCKED_NO_3D_HOLE_TRACES_OR_LEASE_POLYGONS",
+    "provenance": "DERIVED",
+    "target_crs": "EPSG:32644; projected grid coordinates are required when inputs become available"
+  },
+  "features": []
+}
