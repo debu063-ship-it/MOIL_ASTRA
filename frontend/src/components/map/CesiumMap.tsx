@@ -17,8 +17,13 @@ import { baselineSimulation } from '@/lib/simulate';
 import { SourceBadge } from '@/components/ui/Badge';
 import { Sparkles, Eye, Navigation, AlertTriangle, Box } from 'lucide-react';
 
-// 1. Read token from import.meta.env.VITE_CESIUM_ION_TOKEN (not NEXT_PUBLIC_...)
-const ionToken = import.meta.env.VITE_CESIUM_ION_TOKEN;
+// 1. Read token: runtime injection (window.__MOIL_ENV__, used in deployed
+//    builds) wins over build-time import.meta.env (local frontend/.env).
+interface MoilRuntimeEnv {
+  cesiumIonToken?: string;
+}
+const runtimeEnv = (window as unknown as { __MOIL_ENV__?: MoilRuntimeEnv }).__MOIL_ENV__;
+const ionToken = runtimeEnv?.cesiumIonToken || import.meta.env.VITE_CESIUM_ION_TOKEN;
 Cesium.Ion.defaultAccessToken = ionToken || '';
 
 const isTokenConfigured = Boolean(

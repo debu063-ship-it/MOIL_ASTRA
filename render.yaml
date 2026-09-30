@@ -1,0 +1,19 @@
+# Render blueprint — MOIL ASTRA single-service deploy.
+# Render reads this file and pre-fills the service creation form:
+#   Dashboard → New + → Blueprint → pick this repo → Apply.
+# The Cesium token is set as a secret env var in the Render dashboard —
+# never committed to git.
+services:
+  - type: web
+    name: moil-astra
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/v1/health
+    autoDeploy: true
+    envVars:
+      - key: VITE_CESIUM_ION_TOKEN
+        sync: false
+      - key: MOIL_DB
+        value: /tmp/moil_dashboard.db
+    # Free plan instances sleep after ~15 min idle; first request cold-starts
+    # in ~1-2 min (model files reload from disk).
