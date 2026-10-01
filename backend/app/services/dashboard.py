@@ -128,11 +128,13 @@ def production_for_mine(mine: str | None = None) -> dict:
     m = ops[ops.mine == sel]
     target_monthly = float(m.planned_tonnes.tail(12).mean())
     hist = m.tail(24)
-    monthly = []
+    monthly: list = []
+    _ts: list = []  # parallel timestamps so quarterly rollup needs no string parsing
     for r in hist.itertuples():
         ratio = r.shortfall_tonnes / r.planned_tonnes
         actual = None if r.month >= pd.Timestamp("2025-08-01") else float(r.actual_tonnes)
         forecast = float(r.actual_tonnes) if actual is not None else float(r.planned_tonnes * (1 - ratio))
+        _ts.append(r.month)
         monthly.append({
             "month": r.month.strftime("%b %y"),
             "target": float(r.planned_tonnes), "actual": actual,
@@ -143,6 +145,7 @@ def production_for_mine(mine: str | None = None) -> dict:
     try:
         from .forecast import next_month_forecast
         nmf = next_month_forecast(sel)
+        _ts.append(pd.Timestamp(nmf["month"] + "-01"))
         monthly.append({
             "month": nmf["month"], "target": nmf["planned_tonnes"], "actual": None,
             "forecast": round(nmf["planned_tonnes"] * (1 - nmf["predicted_shortfall_ratio"])),
@@ -152,6 +155,28 @@ def production_for_mine(mine: str | None = None) -> dict:
     except Exception:
         pass
     last = m.iloc[-1]
+    # quarterly rollup (target vs actual/projected) built from timestamps, so
+    # history rows ("Jan 24") and the ISO next-month forecast ("2026-03")
+    # aggregate uniformly. "actual" only lands if every month in the quarter
+    # is observed; otherwise the frontend falls back to "forecast".
+    qmap: dict = {}
+    for i, r2 in enumerate(monthly):
+        ts = _ts[i]
+        key = (ts.year, (ts.month - 1) // 3 + 1)
+        q = qmap.setdefault(key, {"target": 0.0, "actual": 0.0,
+                                  "forecast": 0.0, "n_actual": 0, "n": 0})
+        q["target"] += r2["target"]
+        q["forecast"] += r2["actual"] if r2["actual"] is not None else r2["forecast"]
+        if r2["actual"] is not None:
+            q["actual"] += r2["actual"]
+            q["n_actual"] += 1
+        q["n"] += 1
+    quarterly = [{
+        "quarter": f"Q{qn} '{str(yr)[2:]}",
+        "target": round(q["target"]),
+        "actual": round(q["actual"]) if q["n_actual"] == q["n"] else None,
+        "forecast": round(q["forecast"]),
+    } for (yr, qn), q in sorted(qmap.items())]
     short_t = float(last.shortfall_tonnes)
     # latest ops drivers for the what-if UI sliders (baseline scenario state)
     latest_drivers = {
@@ -180,7 +205,7 @@ def production_for_mine(mine: str | None = None) -> dict:
             "riskScore": risk_score,
             "latestDrivers": latest_drivers,
         },
-        "monthly": monthly, "quarterly": [],
+        "monthly": monthly, "quarterly": quarterly,
         "shortfallDrivers": drivers,
     }
 

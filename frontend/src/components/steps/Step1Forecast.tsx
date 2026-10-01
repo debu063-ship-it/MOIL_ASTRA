@@ -47,6 +47,13 @@ export const Step1Forecast: React.FC<Step1Props> = ({ production, mine, onNext }
   const lowerCI = monthly.map(m => m.lowerCI);
   const upperDiff = monthly.map(m => m.upperCI - m.lowerCI);
   const targets = monthly.map(m => m.target);
+  // Data-driven y-axis floor: a hardcoded min pushed every line below the
+  // visible axis area for low-tonnage mines (chart rendered "empty").
+  const seriesVals = [...targets, ...actuals, ...forecasts, ...lowerCI]
+    .filter((v): v is number => v != null && isFinite(v));
+  const yMin = seriesVals.length
+    ? Math.max(0, Math.floor((Math.min(...seriesVals) * 0.92) / 1000) * 1000)
+    : 0;
 
   const monthlyOption = {
     backgroundColor: 'transparent',
@@ -90,7 +97,7 @@ export const Step1Forecast: React.FC<Step1Props> = ({ production, mine, onNext }
     yAxis: {
       type: 'value',
       name: 'MT',
-      min: 30000,
+      min: yMin,
       axisLine: { lineStyle: { color: 'rgba(15, 23, 42, 0.12)' } },
       splitLine: { lineStyle: { color: 'rgba(15, 23, 42, 0.07)' } },
       axisLabel: { color: '#64748b', fontSize: 10, formatter: (val: number) => `${val / 1000}k` }
