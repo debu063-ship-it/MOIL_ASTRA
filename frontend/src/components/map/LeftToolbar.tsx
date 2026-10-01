@@ -81,22 +81,22 @@ export const LeftToolbar: React.FC = () => {
           >
             <Compass className="w-4 h-4" />
           </button>
-
-          <div className="h-[1px] bg-white/10 w-full" />
-
-          <button
-            onClick={toggleUnderground}
-            title="Underground mapping — X-ray surface, real ore blocks & borehole depths"
-            aria-pressed={underground}
-            className={`w-8 h-8 rounded-lg flex items-center justify-center transition-colors ${
-              underground
-                ? 'bg-sky-500/25 text-sky-300 ring-1 ring-sky-400/60'
-                : 'text-slate-300 hover:text-white hover:bg-white/10'
-            }`}
-          >
-            <Box className={`w-4 h-4 ${underground ? 'drop-shadow-[0_0_4px_rgba(56,189,248,0.8)]' : ''}`} />
-          </button>
         </div>
+
+        {/* Underground mapping — labeled pill so judges can actually find it */}
+        <button
+          onClick={toggleUnderground}
+          title="Underground mapping — X-ray surface, real ore blocks & borehole depths"
+          aria-pressed={underground}
+          className={`flex items-center gap-2 h-9 px-3 rounded-xl border shadow-2xl backdrop-blur-md text-[11px] font-semibold tracking-wider transition-colors ${
+            underground
+              ? 'bg-sky-500/25 border-sky-400/60 text-sky-200'
+              : 'bg-[#0f172a]/90 border-white/10 text-slate-200 hover:text-white hover:bg-white/10'
+          }`}
+        >
+          <Box className={`w-4 h-4 ${underground ? 'text-sky-300 drop-shadow-[0_0_4px_rgba(56,189,248,0.8)]' : ''}`} />
+          UNDERGROUND
+        </button>
       </aside>
 
       {/* 2. Lower Left Zoom (+ / -) Control Buttons (matching screenshot bottom left) */}
