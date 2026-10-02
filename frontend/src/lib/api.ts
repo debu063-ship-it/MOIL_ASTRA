@@ -12,7 +12,11 @@ import {
  * All data comes from the FastAPI backend (backend/app).
  * No static demo JSON is used anywhere in the app.
  */
-export const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8600/api/v1';
+// Dev serves the API on :8600; the built app is served BY FastAPI (single
+// origin), so a relative base is always correct in production builds — a
+// baked-in localhost URL is what blanked zones/production on the deploy.
+export const API_BASE = import.meta.env.VITE_API_BASE ||
+  (import.meta.env.PROD ? '/api/v1' : 'http://127.0.0.1:8600/api/v1');
 
 export async function fetchJson<T>(url: string): Promise<T> {
   const res = await fetch(url);
